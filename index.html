@@ -60,6 +60,9 @@
         nav a { margin-left: 20px; text-decoration: none; color: #333; }
         .hero { text-align: center; padding: 60px 0; }
         .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin: 40px 0; }
+        /* trust-grid */
+        .trust-grid { display:grid; grid-template-columns: 1fr; gap: 12px; }
+        @media (min-width: 860px) { .trust-grid { grid-template-columns: 1fr 1fr; } }
         .product-card { border: 1px solid #ddd; padding: 20px; border-radius: 12px; overflow: hidden; }
         .product-card img { width: 100%; height: 160px; object-fit: cover; border-radius: 10px; border: 1px solid #eee; background:#fafafa; margin-bottom: 12px; }
         footer { text-align: center; padding: 30px 0; margin-top: 60px; border-top: 1px solid #eee; }
@@ -186,27 +189,27 @@
 
         <section>
             <h3>Trust & proof</h3>
-            <p>Quick links to capability, QC process, and reference gallery.</p>
-            <div class="products" style="margin: 16px 0;">
-                <div class="product-card">
-                    <h4 style="margin:0 0 8px;">Projects</h4>
-                    <p style="margin:0;">Reference gallery (product-only images).</p>
-                    <a href="/projects.html">View Projects →</a>
+            <p>Capability and documentation links for faster buying decisions.</p>
+            <div class="trust-grid" style="margin: 14px 0;">
+                <div style="border:1px solid #e9e9e9; border-radius: 14px; padding: 16px;">
+                    <strong>Projects</strong>
+                    <div style="color:#666; margin-top:6px;">Reference gallery (product-only images).</div>
+                    <div style="margin-top:10px;"><a href="/projects.html">View Projects →</a></div>
                 </div>
-                <div class="product-card">
-                    <h4 style="margin:0 0 8px;">Factory</h4>
-                    <p style="margin:0;">What we manufacture + OEM/ODM support.</p>
-                    <a href="/factory.html">Factory Overview →</a>
+                <div style="border:1px solid #e9e9e9; border-radius: 14px; padding: 16px;">
+                    <strong>Factory</strong>
+                    <div style="color:#666; margin-top:6px;">What we manufacture + OEM/ODM support.</div>
+                    <div style="margin-top:10px;"><a href="/factory.html">Factory Overview →</a></div>
                 </div>
-                <div class="product-card">
-                    <h4 style="margin:0 0 8px;">Quality</h4>
-                    <p style="margin:0;">Confirmation process and shipment checks.</p>
-                    <a href="/quality.html">Quality Control →</a>
+                <div style="border:1px solid #e9e9e9; border-radius: 14px; padding: 16px;">
+                    <strong>Quality control</strong>
+                    <div style="color:#666; margin-top:6px;">Confirmation process and shipment checks.</div>
+                    <div style="margin-top:10px;"><a href="/quality.html">QC Process →</a></div>
                 </div>
-                <div class="product-card">
-                    <h4 style="margin:0 0 8px;">Certificates</h4>
-                    <p style="margin:0;">Market requirements checklist.</p>
-                    <a href="/certificates.html">Certificates →</a>
+                <div style="border:1px solid #e9e9e9; border-radius: 14px; padding: 16px;">
+                    <strong>Certificates</strong>
+                    <div style="color:#666; margin-top:6px;">Market requirements checklist (CE / NFRC / AS2047...).</div>
+                    <div style="margin-top:10px;"><a href="/certificates.html">Requirements →</a></div>
                 </div>
             </div>
         </section>
