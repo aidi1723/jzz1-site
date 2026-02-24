@@ -128,3 +128,6 @@ footer {
   flex-wrap: wrap;
   margin-top: 10px;
 }
+
+ol { padding-left: 18px; margin: 10px 0; }
+li { margin: 6px 0; }
