@@ -61,6 +61,13 @@ nav a {
   white-space: nowrap;
 }
 
+nav a.nav-active {
+  color: #111;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+}
+
 nav a:first-child { margin-left: 0; }
 
 .hero {
