@@ -1,0 +1,44 @@
+/* Quote helper chips + copy button (minimal, fits existing style). */
+
+.quote-helper {
+  display: grid;
+  gap: 10px;
+}
+
+.quote-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  border: 1px solid var(--border);
+  background: #fff;
+  color: #333;
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.chip:hover {
+  border-color: #cfcfcf;
+}
+
+.chip--on {
+  border-color: #111;
+  background: #111;
+  color: #fff;
+}
+
+.quote-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.quote-status {
+  color: var(--muted);
+  font-size: 13px;
+}
