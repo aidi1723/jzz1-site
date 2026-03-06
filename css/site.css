@@ -111,6 +111,22 @@ footer {
 }
 
 
+.badges {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.badge {
+  font-size: 13px;
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: #333;
+  background: #fff;
+}
+
 .btn {
   display: inline-block;
   padding: 11px 14px;
