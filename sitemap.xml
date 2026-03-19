@@ -3,12 +3,10 @@
   <url><loc>https://www.jzz1.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://www.jzz1.com/contact.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.jzz1.com/languages.html</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
-
   <url><loc>https://www.jzz1.com/projects.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.jzz1.com/factory.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://www.jzz1.com/quality.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://www.jzz1.com/certificates.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-
   <url><loc>https://www.jzz1.com/products/windows.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.jzz1.com/products/thermal-break-aluminum-windows.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.jzz1.com/products/sliding-aluminum-windows.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -21,9 +19,19 @@
   <url><loc>https://www.jzz1.com/products/railings.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.jzz1.com/products/aluminum-balcony-railings.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.jzz1.com/products/sunrooms.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.jzz1.com/oem-aluminum-window-supplier.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.jzz1.com/guides/how-to-buy-aluminum-windows-from-china.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.jzz1.com/oem-aluminum-window-supplier.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.jzz1.com/guides/how-to-buy-aluminum-windows-from-china.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.jzz1.com/guides/export-packing-for-aluminum-windows.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.jzz1.com/guides/how-to-send-drawings-for-quotation.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.jzz1.com/guides/thermal-break-vs-non-thermal-aluminum-windows.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.jzz1.com/guides/thermal-break-vs-non-thermal-aluminum-windows.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.jzz1.com/guides/aluminum-windows-for-villa-projects.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.jzz1.com/guides/sliding-vs-casement-aluminum-windows.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.jzz1.com/guides/aluminum-windows-for-distributors.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.jzz1.com/guides/aluminum-windows-for-contractors.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.jzz1.com/guides/aluminum-window-moq-and-lead-time.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.jzz1.com/guides/aluminum-window-export-packing-guide.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.jzz1.com/guides/how-to-buy-aluminum-doors-for-projects.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.jzz1.com/guides/how-to-order-custom-aluminum-profiles.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.jzz1.com/guides/how-to-choose-aluminum-railings-for-balconies.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.jzz1.com/guides/planning-an-aluminum-sunroom-project.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 </urlset>
