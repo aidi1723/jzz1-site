@@ -3,6 +3,9 @@
   <url><loc>https://www.jzz1.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://www.jzz1.com/contact.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.jzz1.com/languages.html</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://www.jzz1.com/spain.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.jzz1.com/italy.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.jzz1.com/france.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.jzz1.com/projects.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.jzz1.com/factory.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://www.jzz1.com/quality.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
