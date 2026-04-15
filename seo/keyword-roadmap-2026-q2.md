@@ -74,6 +74,41 @@ This roadmap is for ongoing weekly long-tail expansion. It is not a ranking guar
 - plastic steel profiles supplier china
 - upvc profile systems for distributors
 
+## Trend-Driven Keyword Pool
+
+These should be used as supporting weekly batches, FAQ expansions, and guide angles rather than forced into one page all at once.
+
+### Performance And Climate
+
+- impact rated windows and doors for hurricane zones
+- corrosion resistant aluminum window frames for coastal resorts
+- marine grade powder coated aluminum doors manufacturer
+- triple pane aluminum windows with low U-value targets
+- thermally broken aluminum sliding doors for passive house projects
+
+### Architectural Trends
+
+- ultra-slim frame minimalist aluminum casement windows China
+- invisible sill sliding glass door systems for luxury villas
+- large format moving glass wall systems for indoor-outdoor living
+- automatic motorized bi-fold doors for commercial storefronts
+- architectural black anodized aluminum window profiles wholesale
+
+### Procurement And Compliance
+
+- AS2047 standard windows and doors supplier for Australian market
+- NFRC certified aluminum window manufacturer for US commercial projects
+- CE marked commercial aluminum doors for EU distribution
+- custom aluminum window systems for multi-family residential projects
+- shop drawings and technical support for aluminum fenestration
+
+### AI-Style FAQ Queries
+
+- what is the ROI of upgrading to thermally broken aluminum windows
+- how to choose between aluminum and uPVC windows for high-humidity climates
+- are Chinese aluminum window manufacturers compliant with US energy codes
+- best sustainable building materials for LEED certified window installations
+
 ## Weekly Batch Plan
 
 ### Week 1
@@ -200,3 +235,7 @@ Recommended gap pages:
 - Add at least 2 contextual internal links from existing relevant pages.
 - Keep title, meta description, canonical, one `h1`, and FAQ schema aligned to the target keyword.
 - Request indexing in Google Search Console after deployment.
+
+## Related Operating File
+
+- See `/seo/product-weekly-longtail-matrix-2026-q2.md` for the per-product weekly batch of 5 long-tail keywords.
