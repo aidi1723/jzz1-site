@@ -191,6 +191,36 @@
 - `custom tooling for aluminum extrusion`
 - `glass gasket hardware specification guide`
 
+### 主词 + 配件词组合池
+
+这一组不是孤立的配件词，而是更接近真实 RFQ 的长尾组合：
+
+- Windows:
+  - `aluminum windows with low-e glass supplier`
+  - `thermal break aluminum windows with epdm gasket`
+  - `sliding aluminum windows with acoustic glass`
+  - `oem aluminum windows with project labels`
+- Doors:
+  - `aluminum doors with laminated glass and hardware`
+  - `custom aluminum entrance doors with multi point lock`
+  - `aluminum exterior doors with export packing`
+- Profiles:
+  - `aluminum window profiles with custom tooling`
+  - `custom aluminum profiles with gasket groove`
+  - `powder coated aluminum profiles with oem labels`
+- uPVC:
+  - `upvc windows with double glazing and hardware`
+  - `casement upvc windows with epdm sealing`
+  - `upvc window profiles with steel reinforcement`
+- Curtain Wall / Gates:
+  - `curtain wall systems with low-e glazing`
+  - `curtain wall profiles with custom tooling`
+  - `outdoor aluminum gates with lockset and export packing`
+
+更详细的组合图谱见：
+
+- `seo/product-component-longtail-combination-map-2026-q2.md`
+
 ## 4. 已经开始做的页面主线
 
 本轮已经启动或完成的页面：
@@ -216,6 +246,7 @@
   - `/knowledge-base/`
 - 配件与规格支撑页：
   - `/knowledge-base/window-and-door-glass-gasket-and-hardware-spec-guide.html`
+  - `/knowledge-base/custom-tooling-oem-label-and-export-packing-guide.html`
 - 印尼专题簇：
   - `/indonesia.html`
   - `/guides/indonesia-tropical-window-and-balcony-door-sourcing.html`
@@ -298,3 +329,4 @@
 - 如果要判断“哪些词先别做”，看第 2 节里的“暂时不建议优先做”
 - 如果要安排每周任务，直接看第 5 节并配合周任务文件执行
 - 如果要看全站产品型 SEO 评估，配合 `seo/full-product-seo-assessment-2026-q2.md`
+- 如果要看“主词 + 配件词”的具体组合优先级，配合 `seo/product-component-longtail-combination-map-2026-q2.md`
