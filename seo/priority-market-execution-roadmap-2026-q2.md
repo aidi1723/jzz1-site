@@ -132,10 +132,13 @@
 - `/guides/singapore-upvc-vs-aluminum-windows-for-condos.html`
 - `/knowledge-base/singapore-balcony-door-acoustic-spec-checklist.html`
 - `/guides/singapore-minimalist-sliding-doors-for-condos.html`
+- `/guides/singapore-condo-window-supplier-rfq-guide.html`
 - 关键词主线：
   - `singapore aluminum windows with low-e glass`
   - `singapore acoustic windows with epdm gasket`
   - `singapore condo windows supplier`
+  - `singapore aluminum windows supplier`
+  - `singapore acoustic window supplier`
   - `singapore upvc soundproof windows`
   - `singapore upvc windows with double glazing`
   - `singapore upvc vs aluminum windows for condos`
@@ -149,6 +152,7 @@
 - `/knowledge-base/malaysia-hotel-balcony-door-hardware-and-room-label-checklist.html`
 - `/guides/malaysia-commercial-window-and-balcony-door-rfq-guide.html`
 - `/knowledge-base/malaysia-tropical-coastal-window-spec-checklist.html`
+- `/guides/malaysia-hotel-window-and-door-supplier-guide.html`
 - 关键词主线：
   - `malaysia hotel balcony doors with laminated glass`
   - `malaysia balcony doors with hardware package`
@@ -156,6 +160,7 @@
   - `malaysia commercial windows supplier`
   - `malaysia balcony door supplier`
   - `malaysia hotel window and door supplier`
+  - `malaysia aluminum windows supplier`
   - `malaysia tropical coastal windows`
   - `malaysia tropical window spec checklist`
 
@@ -164,6 +169,7 @@
 - `/knowledge-base/indonesia-balcony-door-hardware-and-corrosion-checklist.html`
 - `/guides/indonesia-upvc-windows-for-villas-and-apartments.html`
 - `/guides/indonesia-apartment-window-package-rfq-guide.html`
+- `/guides/indonesia-commercial-window-supplier-project-guide.html`
 - `/guides/indonesia-curtain-wall-systems-for-commercial-facades.html`
 - `/knowledge-base/indonesia-mixed-window-and-door-rfq-checklist.html`
 - `/knowledge-base/indonesia-unitized-curtain-wall-rfq-checklist.html`
@@ -174,6 +180,7 @@
   - `indonesia upvc windows and doors supplier`
   - `indonesia upvc windows for villas and apartments`
   - `indonesia aluminum windows for apartments`
+  - `indonesia commercial window supplier`
   - `indonesia apartment window package`
   - `indonesia mixed window and door rfq`
   - `indonesia mixed window and door rfq checklist`
@@ -189,7 +196,7 @@
   - `upvc profiles with double glazing`
   - `upvc profile gasket and glazing faq`
 
-## 5. 下一批建议新增的缺口页
+## 5. Week 4 已执行的缺口页
 
 ### Singapore
 
@@ -225,7 +232,10 @@
 
 ### Week 4
 
-- 回到 windows / doors 产品页做内链补强和 GSC 复盘
+- 新加坡补 `condo window supplier rfq` Guide
+- 马来西亚补 `hotel window and door supplier` Guide
+- 印度尼西亚补 `commercial window supplier` Guide
+- 回到 `windows / doors / sliding windows` 产品页做 supplier-intent 内链补强
 
 ## 7. 成功信号怎么判断
 
