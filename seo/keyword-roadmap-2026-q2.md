@@ -44,6 +44,7 @@
 - `/guides/singapore-acoustic-sliding-doors-for-condo-projects.html`
 - `/guides/singapore-aluminum-windows-for-condo-projects.html`
 - `/guides/singapore-upvc-soundproof-windows-for-condos.html`
+- `/guides/singapore-upvc-vs-aluminum-windows-for-condos.html`
 - `/guides/singapore-balcony-railing-systems-for-condos.html`
 - `/knowledge-base/singapore-green-mark-and-acoustic-window-guide.html`
 - `/knowledge-base/singapore-window-acoustic-and-energy-spec-table.html`
@@ -109,14 +110,19 @@
 - `tropical balcony doors with coastal hardware`
 - `indonesia upvc windows and doors supplier`
 - `indonesia upvc windows for villas and apartments`
+- `indonesia curtain wall system supplier`
+- `commercial facade supplier indonesia`
+- `indonesia unitized curtain wall rfq checklist`
 
 已上线/本轮新增页面：
 
 - `/indonesia.html`
 - `/guides/indonesia-tropical-window-and-balcony-door-sourcing.html`
+- `/guides/indonesia-curtain-wall-systems-for-commercial-facades.html`
 - `/guides/indonesia-upvc-windows-for-villas-and-apartments.html`
 - `/knowledge-base/indonesia-tropical-coastal-window-guide.html`
 - `/knowledge-base/indonesia-balcony-door-hardware-and-corrosion-checklist.html`
+- `/knowledge-base/indonesia-unitized-curtain-wall-rfq-checklist.html`
 
 #### 值得继续做
 
@@ -191,6 +197,9 @@
 - `curtain wall profiles manufacturer`
 - `unitized curtain wall profiles by drawing`
 - `high-rise curtain wall system supplier`
+- `indonesia curtain wall system supplier`
+- `commercial facade supplier indonesia`
+- `indonesia unitized curtain wall rfq checklist`
 
 ### Outdoor Gates
 
