@@ -74,13 +74,13 @@
 
 ### Week 3
 
-- 新加坡补 supplier / minimalist 方向页面
-- 马来西亚补 tropical / coastal windows Knowledge Base
-- 印度尼西亚补 mixed window and door checklist
+- 新加坡补 `supplier / minimalist sliding` Guide
+- 马来西亚补 `tropical coastal window spec checklist` Knowledge Base
+- 印度尼西亚补 `mixed window and door rfq checklist` Knowledge Base
 
 ### Week 4
 
-- 回到核心产品页做内链和 GSC 复盘
+- 回到核心产品页做内链、转化入口和 GSC 复盘
 
 ### Week 5+
 
