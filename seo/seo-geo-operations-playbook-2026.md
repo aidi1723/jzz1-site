@@ -223,6 +223,24 @@ Knowledge Base 更适合做：
   - `Product` 页做最终承接和询盘转化
 - 这样更符合真实采购路径，也更容易避免低质量泛流量。
 
+### 主词 + 配件词组合规则
+
+- 高价值组合，优先遵循以下公式：
+  - `主产品词 + 影响报价的规格词`
+  - `主产品词 + 影响性能的部件词`
+  - `主产品词 + 影响执行交付的 OEM / packing / tooling 词`
+- 推荐示例：
+  - `aluminum windows with low-e glass`
+  - `thermal break aluminum windows with epdm gasket`
+  - `aluminum doors with laminated glass and hardware`
+  - `custom aluminum profiles with gasket groove`
+  - `oem aluminum windows with project labels`
+  - `custom tooling for aluminum window and door profiles`
+- 不推荐：
+  - 只有配件名、没有采购对象的词
+  - 词虽然长，但不符合真实 RFQ 逻辑的词
+  - 无法自然落入正文、FAQ、参数表的堆词组合
+
 ## 7. 每周运行节奏
 
 ### 周一
