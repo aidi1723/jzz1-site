@@ -80,7 +80,10 @@
 
 ### Week 4
 
-- 回到核心产品页做内链、转化入口和 GSC 复盘
+- 新加坡补 `condo window supplier rfq` Guide
+- 马来西亚补 `hotel window and door supplier` Guide
+- 印度尼西亚补 `commercial window supplier` Guide
+- 回到 `windows / doors / sliding windows` 三个产品页做 supplier-intent 内链补强
 
 ### Week 5+
 
@@ -109,8 +112,8 @@
 ### 组合 B：产品拉升
 
 - 1 个产品页补强
-- 1 个采购 Guide
-- 1 个 FAQ / Checklist
+- 1 个 supplier-intent / 采购 Guide
+- 1 次产品页到市场页的内链补强
 
 适合：
 

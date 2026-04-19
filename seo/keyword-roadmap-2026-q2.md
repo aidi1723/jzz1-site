@@ -41,6 +41,9 @@
 - `singapore balcony door supplier`
 - `singapore minimalist sliding doors`
 - `singapore slim frame sliding doors`
+- `singapore aluminum windows supplier`
+- `singapore condo windows supplier`
+- `singapore acoustic window supplier`
 
 已上线/已存在页面：
 
@@ -51,15 +54,15 @@
 - `/guides/singapore-upvc-vs-aluminum-windows-for-condos.html`
 - `/guides/singapore-balcony-railing-systems-for-condos.html`
 - `/guides/singapore-minimalist-sliding-doors-for-condos.html`
+- `/guides/singapore-condo-window-supplier-rfq-guide.html`
 - `/knowledge-base/singapore-balcony-door-acoustic-spec-checklist.html`
 - `/knowledge-base/singapore-green-mark-and-acoustic-window-guide.html`
 - `/knowledge-base/singapore-window-acoustic-and-energy-spec-table.html`
 
 #### 值得继续做
 
-- `singapore aluminum windows supplier`
-- `singapore condo windows supplier`
-- `singapore acoustic window supplier`
+- `singapore window supplier for high-rise projects`
+- `singapore slim frame window supplier`
 
 #### 暂时不建议优先做
 
@@ -83,12 +86,14 @@
 - `malaysia hotel window and door supplier`
 - `malaysia tropical coastal windows`
 - `malaysia tropical window spec checklist`
+- `malaysia aluminum windows supplier`
 
 已上线/已存在页面：
 
 - `/malaysia.html`
 - `/guides/malaysia-hotel-balcony-doors-for-hospitality-projects.html`
 - `/guides/malaysia-commercial-window-and-balcony-door-rfq-guide.html`
+- `/guides/malaysia-hotel-window-and-door-supplier-guide.html`
 - `/guides/malaysia-commercial-sunroom-enclosures.html`
 - `/knowledge-base/malaysia-tropical-coastal-window-spec-checklist.html`
 - `/knowledge-base/malaysia-hotel-balcony-door-and-tropical-glazing-faq.html`
@@ -96,7 +101,7 @@
 
 #### 值得继续做
 
-- `malaysia aluminum windows supplier`
+- `malaysia hotel balcony door supplier`
 - `malaysia commercial facade supplier`
 
 #### 暂时不建议优先做
@@ -125,12 +130,14 @@
 - `indonesia curtain wall system supplier`
 - `commercial facade supplier indonesia`
 - `indonesia unitized curtain wall rfq checklist`
+- `indonesia commercial window supplier`
 
 已上线/本轮新增页面：
 
 - `/indonesia.html`
 - `/guides/indonesia-tropical-window-and-balcony-door-sourcing.html`
 - `/guides/indonesia-apartment-window-package-rfq-guide.html`
+- `/guides/indonesia-commercial-window-supplier-project-guide.html`
 - `/guides/indonesia-curtain-wall-systems-for-commercial-facades.html`
 - `/guides/indonesia-upvc-windows-for-villas-and-apartments.html`
 - `/knowledge-base/indonesia-tropical-coastal-window-guide.html`
@@ -143,7 +150,6 @@
 - `indonesia balcony door supplier`
 - `indonesia coastal project windows`
 - `indonesia tropical sliding doors`
-- `indonesia commercial window supplier`
 
 #### 暂时不建议优先做
 
