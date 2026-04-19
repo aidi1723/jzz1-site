@@ -84,6 +84,14 @@
 - `architectural black anodized aluminum window profiles wholesale`
 - `ral color aluminum profiles supplier`
 
+### /products/aluminum-curtain-wall-systems.html
+
+- `aluminum curtain wall systems supplier`
+- `commercial facade supplier china`
+- `curtain wall profiles manufacturer`
+- `unitized curtain wall profiles by drawing`
+- `high-rise curtain wall system supplier`
+
 ### /products/railings.html
 
 - `aluminum railings supplier china`
@@ -108,6 +116,14 @@
 - `aluminum sunroom for distributors`
 - `large format moving glass wall systems for indoor-outdoor living`
 
+### /products/outdoor-aluminum-gates.html
+
+- `outdoor aluminum gates supplier`
+- `aluminum driveway gate manufacturer`
+- `villa entrance aluminum gate supplier`
+- `powder coated outdoor aluminum gates`
+- `custom aluminum gates by drawing`
+
 ### /products/upvc-windows-and-doors.html
 
 - `upvc windows and doors supplier china`
@@ -123,6 +139,14 @@
 - `upvc door profiles supplier`
 - `plastic steel profiles supplier china`
 - `upvc profile systems for distributors`
+
+### /knowledge-base/window-and-door-glass-gasket-and-hardware-spec-guide.html
+
+- `window and door glass options`
+- `low-e glass for aluminum windows`
+- `acoustic glass for sliding doors`
+- `epdm gasket for aluminum windows and doors`
+- `window and door hardware specification guide`
 
 ## 3. 第一梯队市场的配套支撑页
 
@@ -141,8 +165,9 @@
 
 - 性能与气候：`thermal break`、`coastal corrosion resistance`、`triple glazing`
 - 采购与标准：`AS2047`、`NFRC`、`shop drawings`
-- 场景型长尾：`hotel balcony doors`、`condo windows`、`apartment project windows`
+- 场景型长尾：`hotel balcony doors`、`condo windows`、`apartment project windows`、`commercial facade systems`、`villa entrance gates`
 - AI 搜索友好问句：`what is the ROI...`、`how to choose...`
+- 系统支撑词：`glass`、`gasket`、`hardware`、`oem labels`、`custom tooling`
 
 ## 5. 使用建议
 

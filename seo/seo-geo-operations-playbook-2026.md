@@ -27,6 +27,14 @@
 - 用参数、FAQ、标准、场景化内容增加页面“可引用性”
 - 让首页、产品页、市场页、Guide、Knowledge Base 形成闭环内链
 
+### 当前产品覆盖
+
+- 门窗主线：windows / doors / entrance doors / thermal break / sliding / casement
+- 型材主线：aluminum profiles / custom extrusion / powder coated profiles / upvc profiles
+- 户外围护：railings / balcony railings / sunrooms
+- 扩展产品：curtain wall systems / outdoor aluminum gates
+- 系统支撑：glass / gasket / hardware / OEM / custom tooling / packing labels
+
 ## 2. 权威数据与工具栈
 
 ### 官方绝对权威
@@ -97,6 +105,11 @@
 4. FAQ 区块
 5. FAQ Schema
 6. 指向 Guide / 市场页 / 标准页的内链
+
+补充原则：
+
+- 如果关键词代表完整采购对象，例如 `curtain wall systems`、`outdoor aluminum gates`、`custom aluminum extrusion profiles`，优先做独立产品页。
+- 如果关键词更像系统支撑项，例如 `glass`、`gasket`、`hardware`、`oem labels`，优先做 Knowledge Base 或 FAQ 支撑页，再回链到产品页。
 
 ### Guide 页模板
 
@@ -200,6 +213,15 @@ Knowledge Base 更适合做：
 - 有真实可见问答再上 `FAQPage`
 - 不做虚假评分、虚假评论类结构化数据
 - 优先做技术、参数、采购流程相关内容
+
+### 系统支撑词规则
+
+- `glass`、`gasket`、`hardware`、`tooling`、`OEM packing` 这类词，不要全部拆成独立产品页。
+- 优先用：
+  - `Knowledge Base` 做规格解释
+  - `Guide` 做采购流程
+  - `Product` 页做最终承接和询盘转化
+- 这样更符合真实采购路径，也更容易避免低质量泛流量。
 
 ## 7. 每周运行节奏
 
