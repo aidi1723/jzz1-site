@@ -21,12 +21,14 @@
 - 看 `Queries`
 - 看 `Pages`
 - 看 `Countries`
+- 对照 `seo/competitor-landscape-upvc-and-core-products-2026-q2.md` 复核本周候选词
 - 记录本周要打的 5 个关键词
 
 如果 GSC 数据还不够多，就优先看：
 
 - 当前站内哪些页面是空缺
 - 第一梯队市场哪些场景还没有专页
+- 当前候选词是“本地安装词”还是“项目采购词”
 
 ### 周二：确定本周页面
 
@@ -147,6 +149,7 @@
 
 - `Screaming Frog`
 - `Ahrefs` 或 `SEMrush`
+- 每周 1 次手动 SERP 竞品复核
 
 ### 本地检查
 
@@ -178,3 +181,4 @@ git diff --check
 - `seo/priority-market-execution-roadmap-2026-q2.md`
 - `seo/keyword-roadmap-2026-q2.md`
 - `seo/product-weekly-longtail-matrix-2026-q2.md`
+- `seo/competitor-landscape-upvc-and-core-products-2026-q2.md`
