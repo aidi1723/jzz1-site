@@ -1,254 +1,259 @@
-# JZZ1 SEO / GEO Operations Playbook 2026
+# JZZ1 SEO / GEO 运营手册 2026
 
-This file records the working rules, page patterns, audit checklist, and publishing process that have already been used on `www.jzz1.com`. It is intended as an internal reference for future weekly SEO and GEO work.
+这份文件是 `www.jzz1.com` 的 SEO / GEO 实操手册，目标不是写理论，而是让团队每周都能按照同一套规则做页面、做内链、做校验、做复盘。
 
-## 1. Current Site Strategy
+## 1. 当前站点策略
 
-### Domain and indexing rules
+### 域名与索引规则
 
-- Only use `https://www.jzz1.com/` as the canonical domain.
-- Do not optimize or promote the apex domain as a separate target.
-- Keep one canonical URL per intent page.
-- If a page is low-value, duplicate, or only for navigation support, use `noindex,follow` instead of letting it compete with core landing pages.
+- 统一使用 `https://www.jzz1.com/` 作为 canonical 域名
+- 不再把裸域或其他别名当成独立 SEO 目标
+- 一个搜索意图只对应一个主页面
+- 低价值、重复、仅导航用途页面，必要时使用 `noindex,follow`
 
-### Current page types already proven useful
+### 当前有效的页面类型
 
-- Core product pages: `products/`
-- Buying-intent guides: `guides/`
-- Technical FAQ pages: `knowledge-base/`
-- Trust and compliance pages: `technical-standards.html`, `certificates.html`
-- Country landing pages: `singapore.html`, `malaysia.html`, `philippines.html`, `vietnam.html`, `thailand.html`
+- 核心产品页：`products/`
+- 采购 Guide：`guides/`
+- 技术问答 / 参数页：`knowledge-base/`
+- 国家/市场页：`singapore.html`、`malaysia.html`、`indonesia.html`
+- 信任/标准页：`technical-standards.html`、`certificates.html`
+- Hub 页：首页、`guides/`、`knowledge-base/`、`sitemap.html`
 
-### Current optimization direction
+### 当前主线
 
-- Build around buyer-intent long-tail queries, not only broad category terms.
-- Combine `product + scenario`, `country + scenario`, and `standard + scenario`.
-- Add visible specification tables and FAQ blocks to increase factual density.
-- Use internal links to connect homepage, product hubs, guides, standards pages, and sitemaps.
-- Keep content practical, engineering-oriented, and RFQ-friendly.
+- 第一梯队市场优先：`Singapore`、`Malaysia`、`Indonesia`
+- 用买家采购意图驱动，而不是只追求泛大词
+- 用参数、FAQ、标准、场景化内容增加页面“可引用性”
+- 让首页、产品页、市场页、Guide、Knowledge Base 形成闭环内链
 
-## 2. Core SEO / GEO Rules
+## 2. 权威数据与工具栈
 
-### SEO rules
+### 官方绝对权威
 
-- One page should target one primary search intent.
-- Use natural keyword variants, not keyword stuffing.
-- Every important page must have:
-  - unique `<title>`
-  - unique `meta description`
-  - canonical pointing to `https://www.jzz1.com/...`
-  - `robots` rule that matches intent
-  - one clear `<h1>`
-- Every new strategic page must be linked from at least:
-  - one relevant product page or hub
-  - one guide or standards hub
-  - `sitemap.html`
-  - `sitemap.xml`
+#### Google Search Console
 
-### GEO rules
+用途：
 
-- Use a direct answer in the opening section when possible.
-- Put concrete numbers on the page:
-  - opening size
-  - glazing options
-  - profile depth
-  - hardware type
-  - wind load
-  - thermal values
-  - finishing options
-- Prefer comparison tables and specification tables over vague claims.
-- Add FAQ sections that match how buyers ask questions in Google, Gemini, Perplexity, and LinkedIn.
-- Keep brand and company facts consistent across pages.
-- Where appropriate, mention standards and testing logic such as `AS2047`, `NFRC`, `impact-rated`, `passive house`, `coastal powder coating`.
+- 看收录
+- 看查询词
+- 看国家分布
+- 看页面曝光 / 点击 / 平均排名
 
-## 3. Page Templates
+要求：
 
-### A. Product page template
+- 网站上线后必须绑定
+- 每次新增页面后提交 `sitemap.xml`
+- 每周复盘一次 `Queries`、`Pages`、`Countries`
 
-Each core product page should include:
+#### Google Lighthouse / Lighthouse CI
 
-1. Clear buyer-facing intro paragraph
-2. Use-case bullets or application sectors
-3. Technical parameter table
-4. Optional configuration or finish list
-5. Technical FAQ section
-6. FAQ schema
-7. Internal links to related guides and standards pages
+用途：
 
-Recommended parameter table fields:
+- Core Web Vitals
+- 技术 SEO 健康度
+- 页面可访问性与性能基线
 
-- Product type
-- Frame material / profile thickness
-- Glass options
-- Surface finish
-- Hardware options
-- Opening style
-- Typical application
-- Customization scope
-- Export support
+要求：
 
-### B. Guide page template
+- 发布前至少手动跑一次关键页
+- 如后续接 CI，可把 SEO 分数和 Performance 分数纳入上线门槛
 
-This is the preferred structure for long-tail ranking pages:
+### 行业标准工具
 
-1. Title targeting one intent
-2. Short introduction that states the scenario and buyer need
-3. Section for project requirements or local conditions
-4. Section for recommended product / specification logic
-5. Parameter table or RFQ checklist
-6. FAQ section
-7. CTA pointing back to the relevant product page or contact page
+#### Ahrefs / SEMrush
 
-Working guide formulas:
+用途：
+
+- 竞品关键词
+- 外链机会
+- 国家级别词库补充
+
+原则：
+
+- 有采购条件就接入
+- 没采购前，不把它们当唯一决策来源
+
+#### Screaming Frog
+
+用途：
+
+- 全站技术巡检
+- 死链、标题重复、重定向链、缺失 Meta
+
+频率：
+
+- 每月做一次技术审计
+
+## 3. 页面设计规则
+
+### 产品页模板
+
+每个核心产品页应包含：
+
+1. 明确采购对象和应用场景
+2. 技术参数表
+3. 可选配置或表面处理
+4. FAQ 区块
+5. FAQ Schema
+6. 指向 Guide / 市场页 / 标准页的内链
+
+### Guide 页模板
+
+Guide 页优先承接以下类型的搜索意图：
 
 - `product + scenario`
 - `country + product + scenario`
-- `standard + product + scenario`
 - `problem + solution`
+- `standard + scenario`
 
-Examples already used on the site:
+建议结构：
 
-- `Thailand coastal powder coated profiles`
-- `Singapore balcony railing systems`
-- `Malaysia commercial sunroom enclosures`
-- `AS2047 bifold doors for Australia housing projects`
-- `NFRC commercial windows for US projects`
+1. 主问题开场
+2. 当地项目条件 / 采购约束
+3. 推荐配置逻辑
+4. 参数表或 RFQ checklist
+5. FAQ
+6. 指向产品页或联系页的 CTA
 
-### C. Technical FAQ page template
+### Knowledge Base 页模板
 
-Use `knowledge-base/` pages for queries that are:
+Knowledge Base 更适合做：
 
-- highly specific
-- comparison-driven
-- problem-solving
-- good for AI citation
+- 技术型问答
+- 采购检查清单
+- 参数对照
+- AI 搜索更容易引用的直接答案页
 
-Recommended structure:
+建议结构：
 
-1. Short definition or direct answer
-2. 6 to 10 focused Q&A entries
-3. One or more simple comparison or parameter tables
-4. Links back to related product pages
-5. FAQ schema
+1. 先给直接答案
+2. 6-10 个短问答
+3. 参数表或对比表
+4. 指向产品页 / 市场页的回链
 
-## 4. Weekly Operating Rhythm
+## 4. 第一梯队市场规则
 
-### Minimum weekly target
+### Singapore
 
-- Publish or materially update 5 long-tail opportunities every week.
+重点方向：
 
-### Preferred operating order
+- acoustic
+- Green Mark / BCA 类讨论
+- condo / high-rise
+- slim-frame / minimalist systems
 
-1. Refresh one product page with better copy, parameters, and FAQs
-2. Publish 1 to 2 guide pages around that product
-3. Publish or expand one technical FAQ page
-4. Add links from related hubs
-5. Update `sitemap.html` and `sitemap.xml`
+### Malaysia
 
-### Product expansion rule
+重点方向：
 
-For each core product family, maintain a queue of at least 5 usable long-tail keywords:
+- hospitality
+- hotel balcony doors
+- tropical glazing
+- mixed-use / commercial supply
 
-- windows
-- doors
-- profiles
-- railings
-- sunrooms
-- uPVC windows and doors
-- uPVC profiles
+### Indonesia
 
-Use the roadmap files together with this playbook:
+重点方向：
 
-- `seo/keyword-roadmap-2026-q2.md`
-- `seo/product-weekly-longtail-matrix-2026-q2.md`
+- tropical climate
+- coastal durability
+- apartment / hotel balcony doors
+- mixed package RFQ
 
-## 5. Market Priorities
+### 第二梯队
 
-### Australia
+- `Philippines`
+- `Vietnam`
+- `Thailand`
 
-Focus terms:
+### 第三梯队
 
-- `AS2047`
-- energy efficiency
-- bifold doors
-- thermal break windows
-- housing projects
+- `Australia`
+- `USA / Canada`
+- `Europe`
 
-### USA / Canada
+第三梯队不是不做，而是先用标准页和长尾页承接，不作为 Q2 首页主线。
 
-Focus terms:
+## 5. 内链规则
 
-- `NFRC`
-- impact-rated / hurricane
-- passive house
-- commercial windows
-- coastal sliding doors
+- 每个新 Guide 至少链接回 1 个产品页
+- 每个产品页至少链接到 2 个对应 Guide 或市场页
+- 市场页必须链接到：
+  - 产品页
+  - Guide
+  - Knowledge Base
+  - Technical Standards
+- `sitemap.html` 和 `sitemap.xml` 是强制更新项，不是可选项
+- Anchor text 保持自然，不要机械重复完全相同关键词
 
-### Southeast Asia
+## 6. 结构化数据规则
 
-Focus by market:
+### 产品页
 
-- Singapore: acoustic, Green Mark, minimalist systems
-- Malaysia: hospitality, commercial enclosures, project supply
-- Thailand: coastal, heat control, corrosion resistance
-- Philippines: typhoon resistance, high wind pressure
-- Vietnam: industrial and high-end residential demand
+- 可用 `Product` schema
+- 有可见 FAQ 时再上 `FAQPage`
+- Schema 内容必须和页面可见内容一致
 
-## 6. Content Writing Rules
+### Guide / FAQ 页
 
-- Write for buyers, architects, contractors, developers, and distributors.
-- Avoid generic statements like `high quality` without proof or detail.
-- Prefer specific phrases like:
-  - `double glazed option`
-  - `powder coated finish for coastal conditions`
-  - `thermal break frame`
-  - `shop drawing support`
-  - `custom size and glazing configuration`
-- Keep tone practical and export-oriented.
-- Do not promise ranking outcomes.
-- Do not create multiple pages with nearly identical intent just to inflate page count.
+- 有真实可见问答再上 `FAQPage`
+- 不做虚假评分、虚假评论类结构化数据
+- 优先做技术、参数、采购流程相关内容
 
-## 7. Internal Linking Rules
+## 7. 每周运行节奏
 
-- Every new guide should link to at least one product page.
-- Product pages should link back to the most relevant long-tail guides.
-- Standards pages should surface standards-driven guides.
-- Country pages should link to locally relevant scenario pages.
-- Keep anchor text natural. Do not repeat one exact keyword on every link.
+### 周一
 
-## 8. Structured Data Rules
+- 看 GSC 的 Queries / Pages / Countries
+- 记录本周主推关键词
+- 决定本周要改哪个产品页、加哪个 Guide、补哪个 Knowledge Base
 
-### Product pages
+### 周二
 
-- Add `Product` schema where appropriate.
-- Add FAQ schema when the page contains visible FAQ content.
-- Keep schema aligned with visible page text.
+- 写页面 brief
+- 确认主关键词、页面意图、内链来源页
 
-### FAQ and guide pages
+### 周三
 
-- Use FAQ schema only when the questions and answers are visible on the page.
-- Avoid fake review or rating markup.
-- Prefer technical, informational, and business-useful structured content.
+- 完成正文、FAQ、参数表、Meta、Schema
 
-## 9. Audit Checklist Before Publishing
+### 周四
 
-For every new or updated SEO page, check:
+- 补内链
+- 更新 `sitemap.html` 和 `sitemap.xml`
+- 过 Lighthouse / 技术检查
 
-- unique title
-- unique meta description
-- canonical uses `https://www.jzz1.com/...`
-- correct robots rule
-- one H1 only
-- page is linked from a crawlable hub
-- page is added to `sitemap.html`
-- page is added to `sitemap.xml`
-- no broken internal links
-- visible FAQ content matches FAQ schema
-- parameter table is present if the page is product or engineering focused
+### 周五
 
-## 10. Local Validation Commands
+- 发布
+- 在 GSC 请求抓取
+- 记录本周改了哪些页面
+- 生成下一周候选关键词
 
-Run these commands from the publish repository:
+详见：
+
+- `seo/weekly-website-optimization-plan-2026-q2.md`
+- `seo/weekly-tasks/2026-04-19-week-1-priority-market-sprint.md`
+
+## 8. 发布前检查清单
+
+每个页面上线前必须检查：
+
+- Title 唯一
+- Meta Description 唯一
+- Canonical 正确
+- 只有 1 个 H1
+- Robots 设置正确
+- 页面可从 Hub 或相关页被正常发现
+- FAQ 可见内容和 FAQ Schema 一致
+- 工程类页面有参数表或 checklist
+- 已加入 `sitemap.html`
+- 已加入 `sitemap.xml`
+
+## 9. 本地校验命令
+
+从发布仓库运行：
 
 ```bash
 git status --short
@@ -256,37 +261,15 @@ xmllint --noout sitemap.xml
 git diff --check
 ```
 
-Use `git status -sb` to confirm whether local `HEAD` is ahead of or equal to `origin/main`.
+如果以后接 CI，可以额外加入：
 
-## 11. Publishing Process
+```bash
+lighthouse https://www.jzz1.com/ --only-categories=performance,seo,accessibility
+```
 
-1. Finish content edits
-2. Recheck links and metadata
-3. Validate `sitemap.xml`
-4. Confirm no whitespace or patch errors with `git diff --check`
-5. Commit with a clear message
-6. Push to `origin main`
-7. Confirm the local branch and `origin/main` point to the same commit
+## 10. 相关文件
 
-## 12. What Has Worked Best So Far
-
-- Expanding from generic product copy into technical and scenario pages
-- Adding parameter tables directly on product pages
-- Adding technical FAQ sections and FAQ schema
-- Building country-specific and standards-specific guide clusters
-- Keeping all important pages discoverable through HTML and XML sitemaps
-- Using `www` canonical consistency across the whole site
-
-## 13. Next Recommended Work
-
-- Continue publishing standards + scenario landing pages
-- Add more case-study style pages with real project constraints
-- Expand `projects.html` with crawlable text and internal links
-- Continue weekly long-tail batches for every core product family
-- Review underperforming pages and either improve, consolidate, or `noindex` them
-
-## 14. Notes
-
-- Indexing is never guaranteed. The goal is to improve crawlability, clarity, topical depth, and citation probability.
-- Ranking improvement usually comes from clusters, internal links, factual density, and consistent publishing rhythm rather than one isolated page.
-- This file should be updated whenever the workflow or page pattern changes materially.
+- `seo/keyword-roadmap-2026-q2.md`
+- `seo/product-weekly-longtail-matrix-2026-q2.md`
+- `seo/priority-market-execution-roadmap-2026-q2.md`
+- `seo/weekly-website-optimization-plan-2026-q2.md`
