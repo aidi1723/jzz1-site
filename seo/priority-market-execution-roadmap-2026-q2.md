@@ -128,10 +128,13 @@
 ### Singapore
 
 - `/guides/singapore-aluminum-windows-for-condo-projects.html`
+- `/guides/singapore-upvc-soundproof-windows-for-condos.html`
 - 关键词主线：
   - `singapore aluminum windows with low-e glass`
   - `singapore acoustic windows with epdm gasket`
   - `singapore condo windows supplier`
+  - `singapore upvc soundproof windows`
+  - `singapore upvc windows with double glazing`
 
 ### Malaysia
 
@@ -144,10 +147,21 @@
 ### Indonesia
 
 - `/knowledge-base/indonesia-balcony-door-hardware-and-corrosion-checklist.html`
+- `/guides/indonesia-upvc-windows-for-villas-and-apartments.html`
 - 关键词主线：
   - `indonesia balcony door hardware corrosion checklist`
   - `indonesia coastal windows with export packing`
   - `tropical balcony doors with coastal hardware`
+  - `indonesia upvc windows and doors supplier`
+  - `indonesia upvc windows for villas and apartments`
+
+### uPVC support page
+
+- `/knowledge-base/upvc-profile-steel-reinforcement-and-double-glazing-faq.html`
+- 关键词主线：
+  - `upvc window profiles with steel reinforcement`
+  - `upvc profiles with double glazing`
+  - `upvc profile gasket and glazing faq`
 
 ## 5. 下一批建议新增的缺口页
 

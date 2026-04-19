@@ -34,12 +34,16 @@
 - `singapore window acoustic and energy spec`
 - `singapore aluminum windows with low-e glass`
 - `singapore acoustic windows with epdm gasket`
+- `singapore upvc soundproof windows`
+- `singapore upvc windows with double glazing`
+- `singapore upvc vs aluminum windows for condos`
 
 已上线/已存在页面：
 
 - `/singapore.html`
 - `/guides/singapore-acoustic-sliding-doors-for-condo-projects.html`
 - `/guides/singapore-aluminum-windows-for-condo-projects.html`
+- `/guides/singapore-upvc-soundproof-windows-for-condos.html`
 - `/guides/singapore-balcony-railing-systems-for-condos.html`
 - `/knowledge-base/singapore-green-mark-and-acoustic-window-guide.html`
 - `/knowledge-base/singapore-window-acoustic-and-energy-spec-table.html`
@@ -103,11 +107,14 @@
 - `indonesia balcony door hardware corrosion checklist`
 - `indonesia coastal windows with export packing`
 - `tropical balcony doors with coastal hardware`
+- `indonesia upvc windows and doors supplier`
+- `indonesia upvc windows for villas and apartments`
 
 已上线/本轮新增页面：
 
 - `/indonesia.html`
 - `/guides/indonesia-tropical-window-and-balcony-door-sourcing.html`
+- `/guides/indonesia-upvc-windows-for-villas-and-apartments.html`
 - `/knowledge-base/indonesia-tropical-coastal-window-guide.html`
 - `/knowledge-base/indonesia-balcony-door-hardware-and-corrosion-checklist.html`
 
@@ -174,6 +181,8 @@
 - `upvc profiles supplier china`
 - `upvc windows for distributors`
 - `upvc vs aluminum windows`
+- `upvc window profiles with steel reinforcement`
+- `upvc profiles with double glazing`
 
 ### Curtain Wall Systems
 
