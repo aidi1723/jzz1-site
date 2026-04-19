@@ -68,15 +68,19 @@
 
 ### Week 2
 
-- 新加坡专题补强
+- 新加坡补 `balcony door acoustic spec` Knowledge Base
+- 马来西亚补 `commercial window and balcony door rfq` Guide
+- 印度尼西亚补 `apartment window package rfq` Guide
 
 ### Week 3
 
-- 马来西亚专题补强
+- 新加坡补 supplier / minimalist 方向页面
+- 马来西亚补 tropical / coastal windows Knowledge Base
+- 印度尼西亚补 mixed window and door checklist
 
 ### Week 4
 
-- 印尼专题继续扩展
+- 回到核心产品页做内链和 GSC 复盘
 
 ### Week 5+
 
