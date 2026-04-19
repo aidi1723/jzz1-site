@@ -164,6 +164,33 @@
 - `upvc windows for distributors`
 - `upvc vs aluminum windows`
 
+### Curtain Wall Systems
+
+- `aluminum curtain wall systems supplier`
+- `commercial facade supplier china`
+- `curtain wall profiles manufacturer`
+- `unitized curtain wall profiles by drawing`
+- `high-rise curtain wall system supplier`
+
+### Outdoor Gates
+
+- `outdoor aluminum gates supplier`
+- `aluminum driveway gate manufacturer`
+- `villa entrance aluminum gate supplier`
+- `powder coated outdoor aluminum gates`
+- `custom aluminum gates by drawing`
+
+### System Support And Components
+
+- `window and door glass options supplier`
+- `low-e glass for aluminum windows`
+- `acoustic glass for sliding doors`
+- `epdm gasket for aluminum windows and doors`
+- `window and door hardware supplier china`
+- `oem window and door packing labels`
+- `custom tooling for aluminum extrusion`
+- `glass gasket hardware specification guide`
+
 ## 4. 已经开始做的页面主线
 
 本轮已经启动或完成的页面：
@@ -172,15 +199,23 @@
 - 核心产品页：
   - `/products/windows.html`
   - `/products/doors.html`
+  - `/products/profiles.html`
+  - `/products/railings.html`
+  - `/products/sunrooms.html`
+  - `/products/aluminum-curtain-wall-systems.html`
+  - `/products/outdoor-aluminum-gates.html`
   - `/oem-aluminum-window-supplier.html`
 - Guide 补强页：
   - `/guides/how-to-buy-aluminum-windows-from-china.html`
   - `/guides/aluminum-windows-for-distributors.html`
+  - `/guides/how-to-order-custom-aluminum-profiles.html`
 - 技术与标准页：
   - `/technical-standards.html`
 - Hub 页：
   - `/guides/`
   - `/knowledge-base/`
+- 配件与规格支撑页：
+  - `/knowledge-base/window-and-door-glass-gasket-and-hardware-spec-guide.html`
 - 印尼专题簇：
   - `/indonesia.html`
   - `/guides/indonesia-tropical-window-and-balcony-door-sourcing.html`
@@ -238,7 +273,7 @@
 
 ### Week 5-8
 
-回到产品线，按 `windows / doors / profiles / railings / sunrooms / upvc` 做长期长尾滚动。
+回到产品线，按 `windows / doors / profiles / railings / sunrooms / upvc / curtain wall / outdoor gates / system support` 做长期长尾滚动。
 
 详见：
 
@@ -262,3 +297,4 @@
 - 如果要判断“哪些词值得继续做”，看第 2 节里的“值得继续做”
 - 如果要判断“哪些词先别做”，看第 2 节里的“暂时不建议优先做”
 - 如果要安排每周任务，直接看第 5 节并配合周任务文件执行
+- 如果要看全站产品型 SEO 评估，配合 `seo/full-product-seo-assessment-2026-q2.md`
