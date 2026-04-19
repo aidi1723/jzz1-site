@@ -40,6 +40,7 @@
 - `singapore balcony door acoustic spec checklist`
 - `singapore balcony door supplier`
 - `singapore minimalist sliding doors`
+- `singapore slim frame sliding doors`
 
 已上线/已存在页面：
 
@@ -49,6 +50,7 @@
 - `/guides/singapore-upvc-soundproof-windows-for-condos.html`
 - `/guides/singapore-upvc-vs-aluminum-windows-for-condos.html`
 - `/guides/singapore-balcony-railing-systems-for-condos.html`
+- `/guides/singapore-minimalist-sliding-doors-for-condos.html`
 - `/knowledge-base/singapore-balcony-door-acoustic-spec-checklist.html`
 - `/knowledge-base/singapore-green-mark-and-acoustic-window-guide.html`
 - `/knowledge-base/singapore-window-acoustic-and-energy-spec-table.html`
@@ -80,6 +82,7 @@
 - `malaysia balcony door supplier`
 - `malaysia hotel window and door supplier`
 - `malaysia tropical coastal windows`
+- `malaysia tropical window spec checklist`
 
 已上线/已存在页面：
 
@@ -87,6 +90,7 @@
 - `/guides/malaysia-hotel-balcony-doors-for-hospitality-projects.html`
 - `/guides/malaysia-commercial-window-and-balcony-door-rfq-guide.html`
 - `/guides/malaysia-commercial-sunroom-enclosures.html`
+- `/knowledge-base/malaysia-tropical-coastal-window-spec-checklist.html`
 - `/knowledge-base/malaysia-hotel-balcony-door-and-tropical-glazing-faq.html`
 - `/knowledge-base/malaysia-hotel-balcony-door-hardware-and-room-label-checklist.html`
 
@@ -117,6 +121,7 @@
 - `indonesia aluminum windows for apartments`
 - `indonesia apartment window package`
 - `indonesia mixed window and door rfq`
+- `indonesia mixed window and door rfq checklist`
 - `indonesia curtain wall system supplier`
 - `commercial facade supplier indonesia`
 - `indonesia unitized curtain wall rfq checklist`
@@ -130,6 +135,7 @@
 - `/guides/indonesia-upvc-windows-for-villas-and-apartments.html`
 - `/knowledge-base/indonesia-tropical-coastal-window-guide.html`
 - `/knowledge-base/indonesia-balcony-door-hardware-and-corrosion-checklist.html`
+- `/knowledge-base/indonesia-mixed-window-and-door-rfq-checklist.html`
 - `/knowledge-base/indonesia-unitized-curtain-wall-rfq-checklist.html`
 
 #### 值得继续做
