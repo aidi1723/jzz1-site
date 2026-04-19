@@ -354,6 +354,22 @@
 
 回到产品线，按 `windows / doors / profiles / railings / sunrooms / upvc / curtain wall / outdoor gates / system support` 做长期长尾滚动。
 
+同时保留第二梯队市场预备顺序：
+
+- `Vietnam`
+- `Philippines`
+- `Thailand`
+
+下一轮关键词判断优先看：
+
+- 第一梯队市场中哪些 `supplier / checklist / scene` 词开始出现真实 impressions
+- `curtain wall / profiles / uPVC performance` 哪条产品线更先起量
+- 是否已经具备开启 `Vietnam` 首批页面的信号
+
+更详细的后续方向见：
+
+- `seo/future-market-and-keyword-priority-assessment-2026-q2.md`
+
 详见：
 
 - `seo/product-weekly-longtail-matrix-2026-q2.md`

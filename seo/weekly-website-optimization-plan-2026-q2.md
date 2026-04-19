@@ -94,6 +94,13 @@
   - railings
   - sunrooms
   - upvc
+  - curtain wall
+  - outdoor gates
+  - system support
+- 同时开始做“后续扩张复盘”：
+  - 第一梯队市场哪个国家最先起量
+  - 哪一类关键词结构最先拿到 impressions
+  - 是否具备启动 `Vietnam` 或 `Philippines` 首批页面的条件
 
 ## 4. 每周页面组合建议
 
@@ -189,3 +196,4 @@ git diff --check
 - `seo/keyword-roadmap-2026-q2.md`
 - `seo/product-weekly-longtail-matrix-2026-q2.md`
 - `seo/competitor-landscape-upvc-and-core-products-2026-q2.md`
+- `seo/future-market-and-keyword-priority-assessment-2026-q2.md`
