@@ -32,11 +32,14 @@
 - `singapore balcony railing systems`
 - `singapore green mark window guide`
 - `singapore window acoustic and energy spec`
+- `singapore aluminum windows with low-e glass`
+- `singapore acoustic windows with epdm gasket`
 
 已上线/已存在页面：
 
 - `/singapore.html`
 - `/guides/singapore-acoustic-sliding-doors-for-condo-projects.html`
+- `/guides/singapore-aluminum-windows-for-condo-projects.html`
 - `/guides/singapore-balcony-railing-systems-for-condos.html`
 - `/knowledge-base/singapore-green-mark-and-acoustic-window-guide.html`
 - `/knowledge-base/singapore-window-acoustic-and-energy-spec-table.html`
@@ -63,6 +66,9 @@
 - `malaysia tropical glazing`
 - `malaysia commercial sunroom enclosures`
 - `malaysia hospitality project windows`
+- `malaysia hotel balcony doors with laminated glass`
+- `malaysia balcony doors with hardware package`
+- `hotel balcony doors with room labels`
 
 已上线/已存在页面：
 
@@ -70,6 +76,7 @@
 - `/guides/malaysia-hotel-balcony-doors-for-hospitality-projects.html`
 - `/guides/malaysia-commercial-sunroom-enclosures.html`
 - `/knowledge-base/malaysia-hotel-balcony-door-and-tropical-glazing-faq.html`
+- `/knowledge-base/malaysia-hotel-balcony-door-hardware-and-room-label-checklist.html`
 
 #### 值得继续做
 
@@ -93,12 +100,16 @@
 - `indonesia coastal windows`
 - `indonesia hotel balcony doors`
 - `indonesia apartment window package`
+- `indonesia balcony door hardware corrosion checklist`
+- `indonesia coastal windows with export packing`
+- `tropical balcony doors with coastal hardware`
 
 已上线/本轮新增页面：
 
 - `/indonesia.html`
 - `/guides/indonesia-tropical-window-and-balcony-door-sourcing.html`
 - `/knowledge-base/indonesia-tropical-coastal-window-guide.html`
+- `/knowledge-base/indonesia-balcony-door-hardware-and-corrosion-checklist.html`
 
 #### 值得继续做
 

@@ -110,6 +110,7 @@
 ### 第一梯队 Guide
 
 - `/guides/singapore-acoustic-sliding-doors-for-condo-projects.html`
+- `/guides/singapore-aluminum-windows-for-condo-projects.html`
 - `/guides/malaysia-hotel-balcony-doors-for-hospitality-projects.html`
 - `/guides/indonesia-tropical-window-and-balcony-door-sourcing.html`
 
@@ -118,26 +119,51 @@
 - `/knowledge-base/singapore-green-mark-and-acoustic-window-guide.html`
 - `/knowledge-base/singapore-window-acoustic-and-energy-spec-table.html`
 - `/knowledge-base/malaysia-hotel-balcony-door-and-tropical-glazing-faq.html`
+- `/knowledge-base/malaysia-hotel-balcony-door-hardware-and-room-label-checklist.html`
 - `/knowledge-base/indonesia-tropical-coastal-window-guide.html`
+- `/knowledge-base/indonesia-balcony-door-hardware-and-corrosion-checklist.html`
 
-## 4. 下一批建议新增的缺口页
+## 4. 本轮新增的市场化组合词页面
 
 ### Singapore
 
 - `/guides/singapore-aluminum-windows-for-condo-projects.html`
+- 关键词主线：
+  - `singapore aluminum windows with low-e glass`
+  - `singapore acoustic windows with epdm gasket`
+  - `singapore condo windows supplier`
+
+### Malaysia
+
+- `/knowledge-base/malaysia-hotel-balcony-door-hardware-and-room-label-checklist.html`
+- 关键词主线：
+  - `malaysia hotel balcony doors with laminated glass`
+  - `malaysia balcony doors with hardware package`
+  - `hotel balcony doors with room labels`
+
+### Indonesia
+
+- `/knowledge-base/indonesia-balcony-door-hardware-and-corrosion-checklist.html`
+- 关键词主线：
+  - `indonesia balcony door hardware corrosion checklist`
+  - `indonesia coastal windows with export packing`
+  - `tropical balcony doors with coastal hardware`
+
+## 5. 下一批建议新增的缺口页
+
+### Singapore
+
 - `/knowledge-base/singapore-balcony-door-acoustic-spec-checklist.html`
 
 ### Malaysia
 
 - `/guides/malaysia-commercial-window-and-balcony-door-rfq-guide.html`
-- `/knowledge-base/malaysia-coastal-hospitality-window-spec-checklist.html`
 
 ### Indonesia
 
 - `/guides/indonesia-apartment-window-package-rfq-guide.html`
-- `/knowledge-base/indonesia-balcony-door-hardware-and-corrosion-checklist.html`
 
-## 5. 周节奏建议
+## 6. 周节奏建议
 
 ### Week 1
 
@@ -157,7 +183,7 @@
 
 - 印尼专题补强 1 个 Guide + 1 个 Knowledge Base
 
-## 6. 成功信号怎么判断
+## 7. 成功信号怎么判断
 
 必须优先看 `Google Search Console`：
 
@@ -172,7 +198,7 @@
 - 站内新增页面是否已进入 `sitemap.xml`
 - 重要页面是否都能从首页、Hub 页、市场页找到
 
-## 7. 执行原则
+## 8. 执行原则
 
 - 市场页不追求写成百科，要追求“项目方愿意继续看”
 - Guide 页不追求空洞长文，要追求可直接回答采购问题
