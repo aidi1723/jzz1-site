@@ -130,6 +130,7 @@
 - `/guides/singapore-aluminum-windows-for-condo-projects.html`
 - `/guides/singapore-upvc-soundproof-windows-for-condos.html`
 - `/guides/singapore-upvc-vs-aluminum-windows-for-condos.html`
+- `/knowledge-base/singapore-balcony-door-acoustic-spec-checklist.html`
 - 关键词主线：
   - `singapore aluminum windows with low-e glass`
   - `singapore acoustic windows with epdm gasket`
@@ -137,19 +138,28 @@
   - `singapore upvc soundproof windows`
   - `singapore upvc windows with double glazing`
   - `singapore upvc vs aluminum windows for condos`
+  - `singapore balcony door acoustic spec checklist`
+  - `singapore balcony door supplier`
+  - `singapore minimalist sliding doors`
 
 ### Malaysia
 
 - `/knowledge-base/malaysia-hotel-balcony-door-hardware-and-room-label-checklist.html`
+- `/guides/malaysia-commercial-window-and-balcony-door-rfq-guide.html`
 - 关键词主线：
   - `malaysia hotel balcony doors with laminated glass`
   - `malaysia balcony doors with hardware package`
   - `hotel balcony doors with room labels`
+  - `malaysia commercial windows supplier`
+  - `malaysia balcony door supplier`
+  - `malaysia hotel window and door supplier`
+  - `malaysia tropical coastal windows`
 
 ### Indonesia
 
 - `/knowledge-base/indonesia-balcony-door-hardware-and-corrosion-checklist.html`
 - `/guides/indonesia-upvc-windows-for-villas-and-apartments.html`
+- `/guides/indonesia-apartment-window-package-rfq-guide.html`
 - `/guides/indonesia-curtain-wall-systems-for-commercial-facades.html`
 - `/knowledge-base/indonesia-unitized-curtain-wall-rfq-checklist.html`
 - 关键词主线：
@@ -158,6 +168,9 @@
   - `tropical balcony doors with coastal hardware`
   - `indonesia upvc windows and doors supplier`
   - `indonesia upvc windows for villas and apartments`
+  - `indonesia aluminum windows for apartments`
+  - `indonesia apartment window package`
+  - `indonesia mixed window and door rfq`
   - `indonesia curtain wall system supplier`
   - `commercial facade supplier indonesia`
   - `indonesia unitized curtain wall rfq checklist`
@@ -174,15 +187,15 @@
 
 ### Singapore
 
-- `/knowledge-base/singapore-balcony-door-acoustic-spec-checklist.html`
+- `/guides/singapore-minimalist-sliding-doors-for-condos.html`
 
 ### Malaysia
 
-- `/guides/malaysia-commercial-window-and-balcony-door-rfq-guide.html`
+- `/knowledge-base/malaysia-tropical-coastal-window-spec-checklist.html`
 
 ### Indonesia
 
-- `/guides/indonesia-apartment-window-package-rfq-guide.html`
+- `/knowledge-base/indonesia-mixed-window-and-door-rfq-checklist.html`
 
 ## 6. 周节奏建议
 
@@ -194,15 +207,19 @@
 
 ### Week 2
 
-- 新加坡专题补强 1 个 Guide + 1 个 Knowledge Base
+- 新加坡补 1 个 balcony-door acoustic Knowledge Base
+- 马来西亚补 1 个 commercial window and balcony-door Guide
+- 印度尼西亚补 1 个 apartment window package Guide
 
 ### Week 3
 
-- 马来西亚专题补强 1 个 Guide + 1 个 Knowledge Base
+- 新加坡补 supplier / minimalist sliding 方向页面
+- 马来西亚补 tropical / coastal windows Knowledge Base
+- 印度尼西亚补 mixed window and door RFQ checklist
 
 ### Week 4
 
-- 印尼专题补强 1 个 Guide + 1 个 Knowledge Base
+- 回到 windows / doors 产品页做内链补强和 GSC 复盘
 
 ## 7. 成功信号怎么判断
 
