@@ -258,3 +258,18 @@
 - Guide 页不追求空洞长文，要追求可直接回答采购问题
 - Knowledge Base 不追求堆字数，要追求可引用、可扫描、可比较
 - 每做一个市场页，就必须补其上下游页面，否则容易变成孤页
+
+## 9. 后续扩张依据
+
+Week 1 到 Week 4 的主线仍然是 `Singapore / Malaysia / Indonesia`。
+
+后续市场扩张顺序建议固定为：
+
+1. 继续深挖 `Indonesia / Malaysia / Singapore`
+2. 预备 `Vietnam`
+3. 预备 `Philippines`
+4. 选择性布局 `Thailand`
+
+后续判断依据、地区优先级、关键词结构和 4 到 8 周建议动作，统一参考：
+
+- `seo/future-market-and-keyword-priority-assessment-2026-q2.md`
