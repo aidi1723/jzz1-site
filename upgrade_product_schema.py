@@ -157,7 +157,7 @@ def upgrade_file(filepath, config):
     return True
 
 def main():
-    products_dir = Path("<jzz1-site-worktree>/products")
+    products_dir = Path(__file__).resolve().parent / "products"
     
     success_count = 0
     for filename, config in PRODUCT_CONFIG.items():
