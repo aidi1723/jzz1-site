@@ -4,7 +4,7 @@
 
 适用站点：`https://www.jzz1.com/`
 
-方案状态：已确认采用方案 B，当前仅完成设计与内容规划，尚未修改网站页面。
+方案状态：方案 B 已于 2026-08-18 完成实施和本地验证，实施提交为 `801736b`。
 
 ## 1. 目标
 
@@ -516,34 +516,18 @@ aluminum-garden-gate-hinge-lock-detail-01.jpg
 
 ## 14. 备份、实施与维护路径
 
-正式维护仓库：
+正式维护以当前 `origin/main` 检出目录为准。本机绝对路径、历史备份根目录和私有运维索引不写入公开仓库，维护人员应从不发布的本地运维索引获取。
 
-```text
-/Users/aidi/ai启蒙电影/谷歌seo/.site-work/jzz1-release-20260704
-```
-
-历史备份根目录：
-
-```text
-/Users/aidi/ai启蒙电影/谷歌seo/.site-work/backups
-```
-
-实施前建议新建：
+实施前备份名称：
 
 ```text
 jzz1-site-2026-08-18-before-outdoor-systems-optimization
 ```
 
-全局维护路径索引：
+仓库内公开安全维护入口：
 
 ```text
-/Users/aidi/网站/ops/jzz1-maintenance-paths-zh.md
-```
-
-本补充计划全局副本：
-
-```text
-/Users/aidi/网站/ops/jzz1-outdoor-aluminum-systems-supplement-plan-zh.md
+docs/JZZ1_MAINTENANCE_PATHS.zh-CN.md
 ```
 
 ## 15. 非目标
@@ -557,9 +541,11 @@ jzz1-site-2026-08-18-before-outdoor-systems-optimization
 - 新建询盘后端 API。
 - 在没有真实素材和参数的情况下编造产品案例或性能数据。
 
-## 16. 下一步
+## 16. 实施结果
 
-1. 用户按第 9 节补充真实素材和产品说明。
-2. 对素材进行分类、去重和公开性审核。
-3. 根据本计划生成逐文件实施计划。
-4. 创建正式备份后再修改网站。
+1. 已完成素材分类、去重、裁切和响应式图片输出。
+2. 已建立 Outdoor Aluminum Systems、Aluminum Garden Fences 和 Aluminum Garden Gates 三个新页面。
+3. 已加强首页、护栏、阳台护栏、户外门和项目参考页的产品入口。
+4. 已更新 HTML/XML sitemap，并加入专项验证脚本。
+5. 已通过桌面端、390px 移动端、JSON-LD、XML、隐私扫描和 diff 检查。
+6. 详细实施与回滚说明见 `docs/reports/2026-08-18-jzz1-outdoor-aluminum-systems-implementation.md`。
