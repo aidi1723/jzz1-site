@@ -582,6 +582,99 @@ nav a:hover,
   margin-top: 6px;
 }
 
+.outdoor-section {
+  margin-top: 86px;
+  padding: 64px 0;
+  border-block: 1px solid rgba(184, 141, 59, 0.3);
+  background: var(--shell);
+  color: #fff;
+}
+
+.outdoor-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.04fr) minmax(0, 0.96fr);
+  gap: 40px;
+  align-items: center;
+}
+
+.outdoor-copy .section-title {
+  color: #fff;
+}
+
+.outdoor-copy .section-intro {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.outdoor-copy .tiny-label {
+  color: #ead7aa;
+}
+
+.outdoor-media {
+  margin: 0;
+}
+
+.outdoor-media img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: var(--radius-md);
+}
+
+.outdoor-media figcaption {
+  margin-top: 9px;
+  color: rgba(255, 255, 255, 0.56);
+  font-size: var(--step--1);
+}
+
+.outdoor-route-grid {
+  display: grid;
+  margin-top: 28px;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.outdoor-route {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 18px;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+  color: #fff;
+  text-decoration: none;
+}
+
+.outdoor-route strong {
+  display: block;
+  font-size: var(--step-1);
+  line-height: 1.35;
+}
+
+.outdoor-route span {
+  color: rgba(255, 255, 255, 0.66);
+  font-size: var(--step--1);
+}
+
+.outdoor-route::after {
+  content: "\2192";
+  color: #ead7aa;
+  font-size: 1.25rem;
+}
+
+.outdoor-route:hover strong {
+  color: #ead7aa;
+}
+
+.outdoor-copy .cta-row {
+  margin-top: 24px;
+}
+
+.outdoor-copy .btn.secondary {
+  border-color: rgba(234, 215, 170, 0.55);
+  background: rgba(234, 215, 170, 0.12);
+  color: #fff;
+}
+
 .markets-layout {
   display: grid;
   grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
@@ -1005,6 +1098,7 @@ footer {
   .hero-grid,
   .trust-panel,
   .markets-layout,
+  .outdoor-layout,
   .grid-2,
   .grid-3,
   .process-grid,
@@ -1095,6 +1189,15 @@ footer {
 
   .section + .section {
     padding-top: 62px;
+  }
+
+  .outdoor-section {
+    margin-top: 62px;
+    padding: 48px 0;
+  }
+
+  .outdoor-route {
+    grid-template-columns: minmax(0, 1fr) auto;
   }
 
   .header-note {
