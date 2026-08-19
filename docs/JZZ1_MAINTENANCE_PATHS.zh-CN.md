@@ -55,6 +55,25 @@ git status --short
 
 发布后检查线上 HTTPS、页面状态码、移动端布局、询盘入口、图片和 sitemap，并在 `docs/reports/` 写入不含本机隐私信息的发布记录。
 
+## 2026-08-19 现有英文户外关键词优化
+
+本轮只优化现有英文页面和现有英文关键词，不新增西班牙语、葡萄牙语、城市页或未验证产品能力。公开实施记录：
+
+```text
+docs/reports/2026-08-19-jzz1-existing-english-outdoor-keyword-optimization.md
+```
+
+修改范围：
+
+- `products/railings.html`
+- `products/aluminum-garden-fences.html`
+- `products/aluminum-garden-gates.html`
+- `products/outdoor-aluminum-gates.html`
+- `products/outdoor-aluminum-systems.html`
+- `sitemap.xml`
+
+关键词分工为：护栏供应商、花园围栏和围栏面板、花园行人门、车道门和别墅入口门、户外铝合金系统总入口。提交和线上发布完成后，应把最终提交号与部署工作流补入本索引。
+
 ## 户外铝合金系统实施记录
 
 本轮护栏、花园护栏和花园门方案与实施记录位于：
