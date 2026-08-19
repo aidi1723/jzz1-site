@@ -72,7 +72,13 @@ docs/reports/2026-08-19-jzz1-existing-english-outdoor-keyword-optimization.md
 - `products/outdoor-aluminum-systems.html`
 - `sitemap.xml`
 
-关键词分工为：护栏供应商、花园围栏和围栏面板、花园行人门、车道门和别墅入口门、户外铝合金系统总入口。提交和线上发布完成后，应把最终提交号与部署工作流补入本索引。
+关键词分工为：护栏供应商、花园围栏和围栏面板、花园行人门、车道门和别墅入口门、户外铝合金系统总入口。
+
+发布信息：
+
+- 最终提交：`d511c86`（`Optimize existing English outdoor product keywords`）
+- GitHub Pages 工作流：`32215356571`，状态：`success`
+- 线上验收：五个页面返回目标 Title、Description、Canonical 和 H1；`sitemap.xml` XML 校验通过并包含五条 `2026-08-19` 更新记录。
 
 ## 户外铝合金系统实施记录
 

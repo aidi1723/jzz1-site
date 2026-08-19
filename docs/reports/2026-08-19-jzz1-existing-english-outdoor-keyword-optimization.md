@@ -49,8 +49,16 @@ git diff --check
 
 专项脚本覆盖修改页的唯一 H1、robots、canonical、Product/Breadcrumb/FAQ 结构化数据、询盘入口、图片、站内路由和 sitemap；仓库根目录实际存在 `robots.txt` 和 `sitemap.xml`，且 XML 校验及隐私扫描均通过。
 
-浏览器验证应覆盖首页、五个修改页面的桌面端和 390px 移动端，重点确认标题、图片、询盘链接、控制台和横向溢出。
+浏览器验证已覆盖五个修改页面的桌面端和 390px 移动端：无横向溢出、无坏图、每页一个 H1；本地页面控制台无错误和警告。线上验收中五个页面的 Title、Description、Canonical 和 H1 均已更新，`sitemap.xml` 返回有效 XML，并包含五条 `2026-08-19` 更新记录。
 
-## 6. 回滚记录
+## 6. 发布结果
+
+- 最终提交：`d511c86`（`Optimize existing English outdoor product keywords`）
+- GitHub Pages 工作流：`32215356571`，状态：`success`
+- 线上站点：`https://www.jzz1.com/`
+- 线上页面状态：修改页面返回正常 HTML；抽查 `products/railings.html` 返回 HTTP 200。
+- 回滚依据：发布前 Git bundle 备份路径记录在本机私有运维索引中。
+
+## 7. 回滚记录
 
 本轮修改前已生成 Git bundle 备份，具体本机路径保存在私有运维索引中。公开仓库只记录本报告和最终提交，不记录本机私有绝对路径。
