@@ -1,0 +1,32 @@
+# JZZ1 - Architectural Aluminum Windows and Doors Manufacturer
+
+> Factory-direct architectural aluminum building systems supplier based in Jinan, China, specializing in commercial and residential windows, doors, profiles, curtain walls, railings, and sunrooms for project buyers and distributors in Southeast Asia (Singapore, Malaysia, Indonesia, and the Philippines).
+
+## Core Systems & Sourcing
+- [Architectural Aluminum Windows](https://www.jzz1.com/products/windows.html): Thermal break and non-thermal casement, sliding, tilt-and-turn, and awning window systems with double/triple glazing options.
+- [Aluminum Doors](https://www.jzz1.com/products/doors.html): Heavy-duty sliding doors, bi-fold doors, slim-frame pivot doors, and commercial entrance systems.
+- [Custom Aluminum Extrusions & Profiles](https://www.jzz1.com/products/profiles.html): 6063-T5 / 6061-T6 alloy profiles, anodized, PVDF, and powder-coated finishes for distributors and fabricators.
+- [Glass Railings & Balustrades](https://www.jzz1.com/products/railings.html): Frameless and spigot-mounted structural laminated glass railing systems.
+- [Sunrooms & Glass Enclosures](https://www.jzz1.com/products/sunrooms.html): Thermal-isolated aluminum roof structures, skylights, and architectural glass conservatories.
+- [Curtain Wall Systems](https://www.jzz1.com/products/curtain-walls.html): Unitized and stick curtain wall systems for commercial facades.
+
+## Regional Engineering & Market Fit
+- [Singapore Project Standards](https://www.jzz1.com/singapore.html): BCA-compliant glazing, acoustic performance (STC 35+), and tight installation tolerances for HDB and private developments.
+- [Malaysia Commercial & Residential](https://www.jzz1.com/malaysia.html): High-humidity tropical thermal performance, powder-coated finishes, and large-span sliding systems.
+- [Indonesia Development Projects](https://www.jzz1.com/indonesia.html): High-rainfall sealing (EPDM triple-gasketed), earthquake-resilient frame engineering for Jakarta, Surabaya, and Bali developments.
+- [Philippines High Wind Load & Typhoon Proofing](https://www.jzz1.com/philippines.html): NSCP 2015 wind load certified (up to 3.0 kPa), heavy-duty reinforced mullions, factory-direct export.
+
+## Factory & Quality Credentials
+- [Manufacturing Facility & CNC Production](https://www.jzz1.com/factory.html): 12,000+ sqm manufacturing facility, 4 CNC cutting lines, automated IGU assembly, and ISO 9001 certified process control.
+- [Project References & Portfolio](https://www.jzz1.com/projects.html): International references across luxury villas, high-rise condominiums, resort hospitality, and commercial facades.
+- [Quality Assurance & Inspection Protocols](https://www.jzz1.com/quality.html): Diagonal tolerance, water tightness, air infiltration, and acoustic field testing.
+- [Technical Standards & Testing](https://www.jzz1.com/technical-standards.html): ASTM E330, EN 12210, AAMA 2605, BCA SS 341, and NSCP 2015 test compliance.
+
+## Technical Guides & Procurement Resources
+- [Aluminum Window Export Packing & Logistics Guide](https://www.jzz1.com/guides/aluminum-window-export-packing-guide.html): EPE foam, corner protectors, vacuum shrink wrapping, and steel-reinforced plywood crating to eliminate transit damage.
+- [Thermal Break vs Non-Thermal Aluminum Windows](https://www.jzz1.com/guides/thermal-break-vs-non-thermal-aluminum-windows.html): Climate-based selection, condensation risk analysis, and cost-benefit trade-offs.
+- [Quotation Checklist & RFP Guide](https://www.jzz1.com/guides/quotation-checklist.html): Required specs for rapid 24-hour factory quoting (sizes, wind loads, glazing specs, hardware grades).
+
+## Extended Technical Documentation
+- [Full LLM Specification Brief](https://www.jzz1.com/llms-full.txt): Comprehensive technical specifications, alloy standards, testing certifications, and commercial trade terms.
+- [Brand Facts JSON](https://www.jzz1.com/brand-facts.json): Machine-readable structured company and product facts.

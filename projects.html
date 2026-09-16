@@ -196,24 +196,37 @@
 </div>
 </div>
 
-    <section class="card">
-      <h2>Send your project requirements (fast quote)</h2>
-      <p>For project inquiries, please share drawings, quantity, destination and performance targets. We can recommend series options and confirm packing and lead time.</p>
-      <textarea class="checklist" readonly style="width:100%; min-height: 220px;">Product line: (windows / doors / profiles / railings / sunrooms)
-Project type: (residential / commercial / villa / high-rise)
-Drawings: (PDF/DWG) + opening list / BOM
-Quantity: (sets / tons / total length)
-Destination: (country / port)
-Finish: (powder coating / anodizing / wood grain) + RAL
-Glass (if applicable): (IGU / laminated / Low-E) + thickness
-Hardware (if applicable): (standard / brand-specified)
-Performance requirement: (wind/water/air rating or local code)
-Site climate: (coastal / snow load / high humidity)
-Packing: (carton + foam + pallet) + labeling requirement
-Target lead time:</textarea>
-      <div class="cta-row"><a class="btn primary" href="https://wa.me/8613562676792" target="_blank" rel="noopener">WhatsApp Fast Quote</a> <a class="btn ghost" href="mailto:info@jzz1.com">Email: info@jzz1.com</a></div>
+    <section class="quick-rfq-block">
+      <h3>Submit Your Project Schedule for Engineering Quotation</h3>
+      <p>Attach your window &amp; door schedule, architectural drawings (DWG/PDF), or bill of quantities. Our technical sales engineers reply with CAD confirmation and preliminary pricing within 12–24 hours.</p>
+      <div class="quick-rfq-grid">
+        <input type="text" id="qrfq-name" placeholder="Your Name / Company *" required>
+        <input type="text" id="qrfq-contact" placeholder="Email or WhatsApp Number *" required>
+        <select id="qrfq-series">
+          <option value="Condo / Commercial Tower Package">Condo / Commercial Tower Package</option>
+          <option value="Residential Villa Whole-House Glazing">Residential Villa Whole-House Glazing</option>
+          <option value="Resort / Hotel Balcony Doors &amp; Railings">Resort / Hotel Balcony Doors &amp; Railings</option>
+          <option value="Custom Extrusions &amp; Curtain Wall">Custom Extrusions &amp; Curtain Wall</option>
+        </select>
+        <input type="text" id="qrfq-qty" placeholder="Estimated Quantity (e.g. 50 sets / 1 container)">
+      </div>
+      <textarea id="qrfq-specs" placeholder="Project type, target destination port, glass specifications, surface finishes, or delivery schedule..." rows="3"></textarea>
+      <div class="quick-rfq-actions" style="margin-top:14px;">
+        <button class="btn primary" type="button" id="btn-qrfq-email">Send RFQ via Email</button>
+        <button class="btn secondary" type="button" id="btn-qrfq-wa">WhatsApp Fast Quote (+86 135 6267 6792)</button>
+      </div>
+      <div id="qrfq-status" style="margin-top:12px; font-size:0.9rem; display:none;"></div>
     </section>
   </main>
+
+  <div class="floating-dock" aria-label="Fast contact">
+    <a href="https://wa.me/8613562676792?text=Hello%20JZZ1%2C%20I%20am%20inquiring%20about%20project%20references%20and%20quotation." target="_blank" rel="noopener" class="dock-btn-whatsapp">
+      <span>💬 WhatsApp Fast Quote</span>
+    </a>
+    <a href="/contact.html" class="dock-btn-rfq">
+      <span>⚡ Request RFQ</span>
+    </a>
+  </div>
 
   <footer>
     <div class="container footer-grid">
@@ -229,5 +242,57 @@ Target lead time:</textarea>
       </div>
     </div>
   </footer>
+
+  <script>
+    (function () {
+      const btnEmail = document.getElementById('btn-qrfq-email');
+      const btnWa = document.getElementById('btn-qrfq-wa');
+      const statusEl = document.getElementById('qrfq-status');
+
+      function getQrfqData() {
+        return {
+          name: document.getElementById('qrfq-name').value.trim() || 'Project Buyer',
+          contact: document.getElementById('qrfq-contact').value.trim() || '(Pending confirmation)',
+          series: document.getElementById('qrfq-series').value,
+          qty: document.getElementById('qrfq-qty').value.trim() || 'N/A',
+          specs: document.getElementById('qrfq-specs').value.trim() || '(Drawings / details to follow)'
+        };
+      }
+
+      function buildMessage(d) {
+        return [
+          'Project Inquiry: ' + d.series,
+          'Buyer / Company: ' + d.name,
+          'Contact (Email/WhatsApp): ' + d.contact,
+          'Estimated Quantity: ' + d.qty,
+          'Specifications & Details: ' + d.specs,
+          'Source: www.jzz1.com/projects.html'
+        ].join('\n');
+      }
+
+      if (btnEmail) {
+        btnEmail.addEventListener('click', function () {
+          const d = getQrfqData();
+          const subject = encodeURIComponent('Project RFQ: ' + d.series + ' - ' + d.name);
+          const body = encodeURIComponent(buildMessage(d));
+          window.location.href = 'mailto:info@jzz1.com?subject=' + subject + '&body=' + body;
+          statusEl.style.display = 'block';
+          statusEl.textContent = 'Opening your email client with the project RFQ draft...';
+          statusEl.style.color = 'var(--accent-dark, #b88d3b)';
+        });
+      }
+
+      if (btnWa) {
+        btnWa.addEventListener('click', function () {
+          const d = getQrfqData();
+          const text = encodeURIComponent(buildMessage(d));
+          window.open('https://wa.me/8613562676792?text=' + text, '_blank', 'noopener');
+          statusEl.style.display = 'block';
+          statusEl.textContent = 'Connecting to WhatsApp (+86 135 6267 6792)...';
+          statusEl.style.color = '#25d366';
+        });
+      }
+    })();
+  </script>
 </body>
 </html>

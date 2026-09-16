@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact | JZZ1</title>
+  <title>Contact JZZ1 | Request Factory-Direct Quote &amp; Drawing Review</title>
   <meta property="og:image" content="https://www.jzz1.com/images/assets/og-logo.svg" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image" content="https://www.jzz1.com/images/assets/og-logo.svg" />
 
-  <meta name="description" content="Contact JZZ1 for aluminum windows, doors, profiles, railings and sunroom systems. WhatsApp for fastest quote." />
+  <meta name="description" content="Send drawings, schedules, or BOQ for direct manufacturer quotation on aluminum windows, doors, profiles, railings, and sunrooms. Fast 12-24h quote response." />
   <link rel="canonical" href="https://www.jzz1.com/contact.html" />
 
-  <meta property="og:title" content="Contact | JZZ1" />
-  <meta property="og:description" content="WhatsApp for the fastest quote. Email for drawings and specifications." />
+  <meta property="og:title" content="Contact JZZ1 | Request Factory-Direct Quote &amp; Drawing Review" />
+  <meta property="og:description" content="WhatsApp for fastest quote. Send drawings, schedules, or BOQ for direct manufacturer quotation on aluminum building systems." />
   <meta property="og:url" content="https://www.jzz1.com/contact.html" />
   <meta property="og:type" content="website" />
 
@@ -88,40 +88,96 @@
     <div class="container">
       <div class="grid">
         <section class="card">
-          <h2 style="margin-top:0;">Get a fast quote</h2>
-          <p>Copy the checklist and send it to WhatsApp, or email your drawing and BOQ.</p>
+          <h2 style="margin-top:0;">Request a Factory-Direct Quote</h2>
+          <p>Fill out the project details below for an engineering quotation within 12–24 hours, or send drawings directly via email or WhatsApp.</p>
 
-          <div class="cta-row" style="margin: 10px 0 14px;">
-            <a class="btn primary" href="https://wa.me/8613562676792" target="_blank" rel="noopener">WhatsApp Fast Quote</a>
-            <a class="btn ghost" href="mailto:info@jzz1.com">Email: info@jzz1.com</a>
-          </div>
+          <form class="rfq-form" id="jzz1-rfq-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="rfq-name">Your Name / Company <span class="req">*</span></label>
+                <input class="form-input" type="text" id="rfq-name" name="name" placeholder="e.g. John Smith / ABC Construction" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="rfq-email">Business Email <span class="req">*</span></label>
+                <input class="form-input" type="email" id="rfq-email" name="email" placeholder="e.g. john@contractor.com" required />
+              </div>
+            </div>
 
-          <textarea readonly>Product line: (windows / doors / profiles / railings / sunrooms)
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="rfq-phone">WhatsApp / Phone</label>
+                <input class="form-input" type="tel" id="rfq-phone" name="phone" placeholder="e.g. +65 9123 4567" />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="rfq-destination">Destination Country / Port</label>
+                <input class="form-input" type="text" id="rfq-destination" name="destination" placeholder="e.g. Singapore, Manila, Jakarta, Valencia..." />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="rfq-product">Product Line Interest</label>
+                <select class="form-select" id="rfq-product" name="product">
+                  <option value="Aluminum Windows">Aluminum Windows (Thermal Break / Non-Thermal)</option>
+                  <option value="Aluminum Doors">Aluminum Doors (Sliding / Bifold / Entrance)</option>
+                  <option value="Profiles & Extrusions">Aluminum Profiles &amp; Custom Extrusion</option>
+                  <option value="Railings & Fences">Balcony Railings &amp; Garden Fences</option>
+                  <option value="Sunrooms">Modular Aluminum Sunrooms</option>
+                  <option value="Mixed Project Package">Mixed Whole-Building Project Package</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="rfq-quantity">Estimated Quantity / Scale</label>
+                <input class="form-input" type="text" id="rfq-quantity" name="quantity" placeholder="e.g. 50 window sets, 1 container, 5 tons..." />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="rfq-specs">Project Specifications / Sizes / Notes</label>
+              <textarea class="form-textarea" id="rfq-specs" name="specs" placeholder="Detail opening sizes, glass specs (e.g. Low-E double glass), surface finish (RAL powder / anodized), hardware preferences, or attach drawing references..."></textarea>
+            </div>
+
+            <div id="rfq-status" class="form-status"></div>
+
+            <div class="form-actions">
+              <button class="btn primary" type="button" id="btn-submit-email">Send RFQ via Email</button>
+              <button class="btn secondary" type="button" id="btn-submit-whatsapp">Send to WhatsApp (+86 135 6267 6792)</button>
+            </div>
+          </form>
+
+          <details class="checklist-details">
+            <summary>Prefer to copy the raw text checklist? Click to expand</summary>
+            <textarea class="form-textarea" style="margin-top:10px; font-size:0.85rem;" readonly>Product line: (windows / doors / profiles / railings / sunrooms)
 Use case: (residential / commercial / project)
-System / series: (if any)
-Size / drawing: (PDF/DWG)
-Quantity (MOQ):
+System / series: (thermal break / standard)
+Size / drawing: (PDF / DWG / BOQ)
+Quantity (MOQ): (from 10 sets)
 Destination port/country:
-Glass: (single/double/triple; Low-E; laminated)
-Finish color: (RAL / powder / anodizing)
-Hardware brand (if any):
-Required certificates: (CE / NFRC / AS2047 / etc.)
-Target lead time:</textarea>
-
-          <p style="margin-bottom:0;">Tip: If you have project photos or site dimensions, attach them in WhatsApp or email for faster confirmation.</p>
+Glass: (single / double / triple / Low-E / laminated)
+Finish color: (RAL powder / anodizing / wood-grain)
+Target lead time: (typical 7-25 days)</textarea>
+            <p style="font-size:0.85rem; color:var(--muted); margin:6px 0 0;">Tip: You can copy the template above and send it directly to WhatsApp (+86 135 6267 6792) or email (info@jzz1.com).</p>
+          </details>
         </section>
 
         <aside class="card">
-          <h2 style="margin-top:0;">Company</h2>
-          <p><strong>Jinan Jingzao New Materials Co., Ltd</strong></p>
-          <p style="margin:0;">Factory-direct aluminum windows, doors, profiles, railings, and sunroom systems.</p>
+          <h2 style="margin-top:0;">Manufacturing &amp; Export Desk</h2>
+          <p><strong>Jinan Jingzao New Materials Co., Ltd (JZZ1)</strong></p>
+          <p style="margin:0; font-size:0.95rem; color:var(--muted);">Production &amp; Extrusion Facility: Linqu Industrial Park, Weifang / Jinan, Shandong, China.</p>
 
-          <hr style="border:none; border-top:1px solid #eee; margin:14px 0;" />
+          <hr style="border:none; border-top:1px solid var(--border); margin:16px 0;" />
 
-          <p><strong>WhatsApp</strong><br /><a href="https://wa.me/8613562676792">+86 135 6267 6792</a></p>
-          <p><strong>Email</strong><br /><a href="mailto:info@jzz1.com">info@jzz1.com</a></p>
+          <h3 style="margin:0 0 6px; font-size:1.05rem;">Export Logistics &amp; Packing</h3>
+          <p style="margin:0 0 8px; font-size:0.92rem; color:var(--muted);">
+            Direct container loading, reinforced sea freight crating, and drawing-based fabrication for distributors, project contractors, and architectural procurement worldwide.
+          </p>
 
-          <p style="margin-bottom:0;">Working hours: GMT+8 (China). We typically reply within 12-24 hours.</p>
+          <hr style="border:none; border-top:1px solid var(--border); margin:16px 0;" />
+
+          <p><strong>WhatsApp Fast Response</strong><br /><a href="https://wa.me/8613562676792" target="_blank" rel="noopener">+86 135 6267 6792</a></p>
+          <p><strong>Official Inquiry Email</strong><br /><a href="mailto:info@jzz1.com">info@jzz1.com</a></p>
+
+          <p style="margin-bottom:0; font-size:0.88rem; color:var(--muted);">Working hours: Mon–Sat GMT+8. Drawings and BOMs are typically analyzed with a preliminary quotation within 12–24 hours.</p>
         </aside>
       </div>
     </div>
@@ -141,5 +197,62 @@ Target lead time:</textarea>
       </div>
     </div>
   </footer>
+  <script>
+    (function () {
+      const form = document.getElementById('jzz1-rfq-form');
+      const statusEl = document.getElementById('rfq-status');
+      const btnEmail = document.getElementById('btn-submit-email');
+      const btnWhatsApp = document.getElementById('btn-submit-whatsapp');
+
+      function getFormData() {
+        return {
+          name: document.getElementById('rfq-name').value.trim() || 'Project Buyer',
+          email: document.getElementById('rfq-email').value.trim() || '(Pending confirmation)',
+          phone: document.getElementById('rfq-phone').value.trim(),
+          destination: document.getElementById('rfq-destination').value.trim(),
+          product: document.getElementById('rfq-product').value,
+          quantity: document.getElementById('rfq-quantity').value.trim(),
+          specs: document.getElementById('rfq-specs').value.trim()
+        };
+      }
+
+      function showStatus(msg, type) {
+        statusEl.textContent = msg;
+        statusEl.className = 'form-status ' + type;
+      }
+
+      function buildMessage(data) {
+        return [
+          'RFQ Inquiry from ' + data.name,
+          '-----------------------------',
+          'Business Email: ' + data.email,
+          'WhatsApp / Phone: ' + (data.phone || 'N/A'),
+          'Destination: ' + (data.destination || 'N/A'),
+          'Product Line: ' + data.product,
+          'Estimated Quantity: ' + (data.quantity || 'N/A'),
+          '',
+          'Project Specifications & Notes:',
+          data.specs || '(Drawings / specifications to follow)',
+          '-----------------------------',
+          'Source: www.jzz1.com/contact.html'
+        ].join('\n');
+      }
+
+      btnEmail.addEventListener('click', function () {
+        const data = getFormData();
+        const subject = encodeURIComponent('RFQ: ' + data.product + ' - ' + data.name);
+        const body = encodeURIComponent(buildMessage(data));
+        window.location.href = 'mailto:info@jzz1.com?subject=' + subject + '&body=' + body;
+        showStatus('Opening your email client to send to info@jzz1.com. We will analyze your specifications and reply within 12-24 hours.', 'success');
+      });
+
+      btnWhatsApp.addEventListener('click', function () {
+        const data = getFormData();
+        const text = encodeURIComponent(buildMessage(data));
+        window.open('https://wa.me/8613562676792?text=' + text, '_blank', 'noopener');
+        showStatus('Opening WhatsApp (+86 135 6267 6792) to connect directly with engineering sales...', 'success');
+      });
+    })();
+  </script>
 </body>
 </html>

@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.jzz1.com/sitemap.xml
+LLMs-Txt: https://www.jzz1.com/llms.txt

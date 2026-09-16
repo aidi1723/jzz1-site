@@ -446,3 +446,195 @@ th {
     grid-column: auto;
   }
 }
+
+/* ==========================================================================
+   GLOBAL FLOATING CONVERSION DOCK (Desktop & Mobile)
+   ========================================================================== */
+.floating-dock {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  filter: drop-shadow(0 10px 25px rgba(0, 0, 0, 0.18));
+}
+
+.floating-dock a,
+.floating-dock button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 18px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.92rem;
+  text-decoration: none;
+  transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
+  cursor: pointer;
+  border: none;
+}
+
+.floating-dock a:hover,
+.floating-dock button:hover {
+  transform: translateY(-2px) scale(1.02);
+}
+
+.dock-btn-whatsapp {
+  background: #25d366;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.dock-btn-whatsapp:hover {
+  background: #20ba59;
+  color: #ffffff !important;
+}
+
+.dock-btn-rfq {
+  background: var(--cta, #1c1d20);
+  color: #ffffff !important;
+  border: 1px solid var(--accent, #b88d3b);
+}
+
+.dock-btn-rfq:hover {
+  background: #000000;
+  color: #ead7aa !important;
+}
+
+@media (max-width: 768px) {
+  .floating-dock {
+    bottom: 0;
+    right: 0;
+    left: 0;
+    flex-direction: row;
+    padding: 10px 14px;
+    background: rgba(255, 255, 255, 0.96);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-top: 1px solid var(--border, #d8d1c4);
+    box-shadow: 0 -4px 18px rgba(0, 0, 0, 0.08);
+  }
+
+  .floating-dock a,
+  .floating-dock button {
+    flex: 1;
+    justify-content: center;
+    padding: 12px 8px;
+    font-size: 0.88rem;
+  }
+
+  body {
+    padding-bottom: 64px;
+  }
+}
+
+/* ==========================================================================
+   IN-PAGE QUICK RFQ BLOCK
+   ========================================================================== */
+.quick-rfq-block {
+  margin: 36px 0 20px;
+  padding: 26px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(247, 241, 232, 0.98));
+  border: 1px solid rgba(184, 141, 59, 0.35);
+  border-left: 4px solid var(--accent, #b88d3b);
+  border-radius: var(--radius, 18px);
+  box-shadow: var(--shadow);
+}
+
+.quick-rfq-block h3 {
+  margin: 0 0 8px;
+  font-size: 1.3rem;
+  color: var(--text);
+}
+
+.quick-rfq-block p {
+  margin: 0 0 16px;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.quick-rfq-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.quick-rfq-block input,
+.quick-rfq-block textarea,
+.quick-rfq-block select {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid var(--border, #d8d1c4);
+  border-radius: 8px;
+  background: #ffffff;
+  font-family: inherit;
+  font-size: 0.92rem;
+}
+
+.quick-rfq-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* ==========================================================================
+   GEO / AIO DIRECT ANSWER & SPEC SUMMARY BLOCK
+   ========================================================================== */
+.spec-summary-block {
+  margin: 20px 0 28px;
+  padding: 20px 22px;
+  background: #ffffff;
+  border: 1px solid rgba(216, 209, 196, 0.95);
+  border-left: 4px solid var(--accent, #b88d3b);
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+}
+
+.spec-summary-block .block-label {
+  display: inline-block;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent, #b88d3b);
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.spec-summary-block h4 {
+  margin: 0 0 8px;
+  font-size: 1.15rem;
+  color: var(--text);
+}
+
+.spec-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.spec-summary-grid div {
+  padding: 10px 12px;
+  background: #fbf8f2;
+  border-radius: 6px;
+  border: 1px solid rgba(216, 209, 196, 0.6);
+}
+
+.spec-summary-grid dt {
+  font-size: 0.74rem;
+  font-family: var(--font-mono, monospace);
+  color: var(--muted);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.spec-summary-grid dd {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 4px 0 0;
+}
