@@ -75,10 +75,51 @@
   - Custom dies / special PVDF finish: 25 - 30 calendar days.
 - **Minimum Order Quantity (MOQ)**: Flexible starting from 10 complete window/door units or 50 m² for project trials.
 
-## 7. Direct Contact Information
+## 7. International Certifications & Australian / New Zealand Standards
+
+### 7.1 AS 2047:2014 Windows and External Glazed Doors
+- **Certification Body**: Intertek SAI Global Certification Services Pty Ltd (JAS-ANZ Accredited).
+- **StandardsMark Licence Number**: **SMK41678** (Valid through 29 April 2030).
+- **Compliance Standard**: AS 2047:2014 - Windows and external glazed doors in buildings.
+- **Endorsed Product Ranges & Certified Performance**:
+  - **MD75S Architectural Tilt and Turn Window**:
+    - Maximum Certified Dimensions: 1800 mm (H) x 1200 mm (W)
+    - Serviceability Limit State (SLS) Wind Deflection: **1600 Pa**
+    - Ultimate Limit State (ULS) Structural Strength: **4000 Pa**
+    - Water Penetration Resistance Test Pressure: **600 Pa**
+    - Air Infiltration Rating: **Low** (Exceeds NCC air barrier requirements)
+    - Structural Rating: Suitable for non-cyclonic Wind Classes N1 to N5 and cyclonic C1/C2 residential and commercial applications (AS 4055 & AS/NZS 1170.2).
+  - **MD76A Architectural Awning & Fixed Combination Window**:
+    - Maximum Certified Dimensions: 1500 mm (H) x 1800 mm (W)
+    - Serviceability Limit State (SLS) Wind Deflection: **800 Pa**
+    - Ultimate Limit State (ULS) Structural Strength: **3000 Pa**
+    - Water Penetration Resistance Test Pressure: **200 Pa**
+    - Air Infiltration Rating: **Low**
+    - Structural Rating: Suitable for Wind Classes N1 to N3 residential and light commercial facades.
+
+### 7.2 AS/NZS 2208:1996 Safety Glazing Materials in Buildings
+- **Certification Body**: Certification Solutions International Pty Ltd (CSi) (JAS-ANZ & IAF MLA Accredited).
+- **Licence Number**: **7632** (Database ID: 1000356).
+- **Compliance Standard**: AS/NZS 2208:1996 (incorporating Amendment 1) - Safety glazing materials in buildings.
+- **Glazing Classes**: Toughened Safety Glass (Grade A) & Laminated Safety Glass (Grade A) from 4 mm to 21.52 mm.
+- **Traceability & Marking**: Every certified lite features a permanent ceramic frit stamp with the licence number (CSi 7632), standard designation (AS/NZS 2208), manufacturing batch code, and glass grade. Fully satisfies Australian AS 1288-2021 selection and installation requirements.
+
+### 7.3 Australian Building Code (NCC / BCA) & Energy Compliance
+- **Regulatory Acceptance**: Direct compliance documentation provided for Australian Private Certifiers and Municipal Councils across NSW, VIC, QLD, WA, SA, TAS, NT, and ACT.
+- **Certification Deliverables Provided**:
+  - StandardsMark Licence Certificates and Schedules.
+  - Form 15 (Queensland / NSW compliance certificate equivalent).
+  - NATA-accredited mechanical test laboratory reports.
+  - Bushfire Attack Level (BAL) compliance packs up to BAL-40 per AS 3959.
+  - WERS-compatible simulation reports (SHGC and Total Window U-values down to 1.4 W/m²K).
+
+## 8. Direct Contact Information
 - **Company Name**: Jinan Jingzao New Materials Co., Ltd.
 - **Factory Address**: Jinan, Shandong Province, China
 - **Official Website**: https://www.jzz1.com
+- **Australia / Export Landing Page**: https://www.jzz1.com/australia.html
+- **Official Certificates Portal**: https://www.jzz1.com/certificates.html
 - **Sales & Procurement Email**: info@jzz1.com
 - **Technical & Quotation Support**: export@jzz1.com
 - **WhatsApp / Direct Line**: +86 135 6267 6792
+

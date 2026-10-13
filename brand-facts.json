@@ -25,10 +25,42 @@
         }
       ],
       "areaServed": [
+        {"@type": "Country", "name": "Australia"},
+        {"@type": "Country", "name": "New Zealand"},
         {"@type": "Country", "name": "Singapore"},
         {"@type": "Country", "name": "Malaysia"},
         {"@type": "Country", "name": "Indonesia"},
         {"@type": "Country", "name": "Philippines"}
+      ],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "AS 2047-2014 StandardsMark Licence (Windows and External Glazed Doors in Buildings)",
+          "credentialCategory": "Product Certification",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Intertek SAI Global Certification Services Pty Ltd"
+          },
+          "identifier": "SMK41678",
+          "validIn": {
+            "@type": "Country",
+            "name": "Australia"
+          }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "AS/NZS 2208:1996 Safety Glazing Materials in Buildings",
+          "credentialCategory": "Product Certification",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Certification Solutions International Pty Ltd (CSi)"
+          },
+          "identifier": "7632",
+          "validIn": [
+            {"@type": "Country", "name": "Australia"},
+            {"@type": "Country", "name": "New Zealand"}
+          ]
+        }
       ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
