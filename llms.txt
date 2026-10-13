@@ -26,10 +26,61 @@
 - [Quality Assurance & Inspection Protocols](https://www.jzz1.com/quality.html): Diagonal tolerance, water tightness, air infiltration, and acoustic field testing.
 - [Technical Standards & Testing](https://www.jzz1.com/technical-standards.html): AS 2047-2014, AS/NZS 2208, AS 1288, ASTM E330, EN 12210, AAMA 2605, BCA SS 341, and NSCP 2015 test compliance.
 
-## Technical Guides & Procurement Resources
-- [Aluminum Window Export Packing & Logistics Guide](https://www.jzz1.com/guides/aluminum-window-export-packing-guide.html): EPE foam, corner protectors, vacuum shrink wrapping, and steel-reinforced plywood crating to eliminate transit damage.
-- [Thermal Break vs Non-Thermal Aluminum Windows](https://www.jzz1.com/guides/thermal-break-vs-non-thermal-aluminum-windows.html): Climate-based selection, condensation risk analysis, and cost-benefit trade-offs.
-- [Quotation Checklist & RFP Guide](https://www.jzz1.com/guides/quotation-checklist.html): Required specs for rapid 24-hour factory quoting (sizes, wind loads, glazing specs, hardware grades).
+## Technical Guides & Procurement Knowledge Base
+
+### Procurement & Sourcing Strategy
+- [How to Buy Aluminum Windows from China](https://www.jzz1.com/guides/how-to-buy-aluminum-windows-from-china.html): RFQ inputs, MOQ, samples, packing control, lead-time planning, and delivery-risk reduction.
+- [Aluminum Window MOQ and Lead Time Guide](https://www.jzz1.com/guides/aluminum-window-moq-and-lead-time.html): Factory batch sizes, sample policy, extrusion lead times, and scheduling.
+- [How to Send Drawings for Aluminum Window Quotation](https://www.jzz1.com/guides/how-to-send-drawings-for-quotation.html): PDF/DWG elevation schedules, opening types, glass codes, and BOM preparation.
+- [How to Buy Aluminum Doors for Projects](https://www.jzz1.com/guides/how-to-buy-aluminum-doors-for-projects.html): Heavy-duty sliding, bi-fold, and pivot door selection criteria.
+- [How to Buy uPVC Windows from China](https://www.jzz1.com/guides/how-to-buy-upvc-windows-from-china.html): PVC profile reinforcement, steel chambers, multi-point hardware, and export pricing.
+- [How to Order Custom Aluminum Profiles](https://www.jzz1.com/guides/how-to-order-custom-aluminum-profiles.html): Die tooling design, alloy temper (6063-T5 vs 6061-T6), surface treatment, and extrusion minimums.
+- [Aluminum Windows for Contractors](https://www.jzz1.com/guides/aluminum-windows-for-contractors.html): Bulk procurement, sub-sill flashing details, jobsite tolerances, and container drops.
+- [Aluminum Windows for Distributors](https://www.jzz1.com/guides/aluminum-windows-for-distributors.html): OEM private labeling, showroom sample corners, stock lengths, and territory terms.
+- [uPVC Windows for Distributors](https://www.jzz1.com/guides/upvc-windows-for-distributors.html): Wholesale PVC window systems, stock programs, and container optimization.
+
+### Technical & Engineering Comparisons
+- [Thermal Break vs Non-Thermal Aluminum Windows](https://www.jzz1.com/guides/thermal-break-vs-non-thermal-aluminum-windows.html): PA66 GF25 polyamide insulation, condensation prevention, and U-value benchmarks.
+- [uPVC vs Aluminum Windows](https://www.jzz1.com/guides/upvc-vs-aluminum-windows.html): Thermal insulation, structural rigidity, maintenance, frame sightlines, and budget analysis.
+- [Sliding vs Casement Aluminum Windows](https://www.jzz1.com/guides/sliding-vs-casement-aluminum-windows.html): Air infiltration ratings, acoustic sealing, balcony usage, and cleaning access.
+- [AS2047 Bifold Doors for Australia Housing Projects](https://www.jzz1.com/guides/as2047-bifold-doors-for-australia-housing-projects.html): Multi-panel folding glass walls, bottom-rolling hardware, and NCC compliance.
+- [Passive House Thermal Break Windows for Cold Climate Projects](https://www.jzz1.com/guides/passive-house-thermal-break-windows-for-cold-climate-projects.html): Triple-glazed argon-filled insulated units, warm-edge spacers, and super-insulation frames.
+- [NFRC Commercial Windows for US Projects](https://www.jzz1.com/guides/nfrc-commercial-windows-for-us-projects.html): U-factor, SHGC, and Visible Transmittance ratings for American commercial codes.
+- [Florida Impact Sliding Doors for Coastal Projects](https://www.jzz1.com/guides/florida-impact-sliding-doors-for-coastal-projects.html): Large missile impact laminated glass, reinforced structural interlocks, and hurricane standards.
+
+### Ocean Export Packing & Logistics
+- [Aluminum Window Export Packing & Logistics Guide](https://www.jzz1.com/guides/aluminum-window-export-packing-guide.html): Multi-layer protective wrapping, EPE corner guards, and steel-reinforced fumigated plywood crates.
+- [Export Packing for Aluminum Windows](https://www.jzz1.com/guides/export-packing-for-aluminum-windows.html): Sea freight container loading, glass protection, moisture control, and unloading protocols.
+
+### Building Typologies & Specialized Systems
+- [Aluminum Windows for Villa Projects](https://www.jzz1.com/guides/aluminum-windows-for-villa-projects.html): Floor-to-ceiling glass, ultra-slim frames, concealed drainage, and architectural luxury.
+- [Hotel Balcony Doors for Resorts and Apartments](https://www.jzz1.com/guides/hotel-balcony-doors-for-resorts-and-apartments.html): Heavy-duty daily cycling, acoustic insulation, keycard locks, and salt-mist resistance.
+- [Four Season Aluminum Sunroom Systems](https://www.jzz1.com/guides/four-season-aluminum-sunroom-systems.html): Thermally isolated rafters, laminated safety glass roofs, drainage gutters, and ventilation.
+- [Planning an Aluminum Sunroom Project](https://www.jzz1.com/guides/planning-an-aluminum-sunroom-project.html): Structural foundation, live wind/snow load calculations, and glass thermal control.
+- [How to Choose Aluminum Railings for Balconies](https://www.jzz1.com/guides/how-to-choose-aluminum-railings-for-balconies.html): Structural post spacing, spigot glass balustrades, top rails, and height codes.
+- [Apartment Balcony Railing Systems Guide](https://www.jzz1.com/guides/apartment-balcony-railing-systems-guide.html): Multi-family safety codes, horizontal load testing, and powder coat durability.
+- [Powder Coated Aluminum Profiles for Coastal Projects](https://www.jzz1.com/guides/powder-coated-aluminum-profiles-for-coastal-projects.html): Qualicoat Class 2 / AAMA 2604/2605 specifications, salt spray resistance, and color retention.
+
+### Regional Market Sourcing Guides
+- [Singapore Aluminum Windows for Condo Projects](https://www.jzz1.com/guides/singapore-aluminum-windows-for-condo-projects.html): BCA SS 341 standards, tight site tolerances, and Singapore urban residential requirements.
+- [Singapore Condo Window Supplier RFQ Guide](https://www.jzz1.com/guides/singapore-condo-window-supplier-rfq-guide.html): RFQ process, technical submittals, and factory audit expectations for Singapore contractors.
+- [Singapore Acoustic Sliding Doors for Condo Projects](https://www.jzz1.com/guides/singapore-acoustic-sliding-doors-for-condo-projects.html): Heavy traffic noise reduction (STC 38+), double-laminated glass, and acoustic perimeter seals.
+- [Singapore Minimalist Sliding Doors for Condos](https://www.jzz1.com/guides/singapore-minimalist-sliding-doors-for-condos.html): Ultra-narrow interlock profiles, recessed flush tracks, and panoramic glass vistas.
+- [Singapore Balcony Railing Systems for Condos](https://www.jzz1.com/guides/singapore-balcony-railing-systems-for-condos.html): Building and Construction Authority safety height and load barrier guidelines.
+- [Singapore uPVC Soundproof Windows for Condos](https://www.jzz1.com/guides/singapore-upvc-soundproof-windows-for-condos.html): Multi-chambered acoustic dampening, triple gaskets, and expressway noise mitigation.
+- [Singapore uPVC vs Aluminum Windows for Condos](https://www.jzz1.com/guides/singapore-upvc-vs-aluminum-windows-for-condos.html): Material selection criteria for high-humidity, high-density tropical urban living.
+- [Malaysia Commercial Window and Balcony Door RFQ Guide](https://www.jzz1.com/guides/malaysia-commercial-window-and-balcony-door-rfq-guide.html): Tender specifications, monsoon rain tightness, and Malaysian architectural standards.
+- [Malaysia Hotel Window and Door Supplier Guide](https://www.jzz1.com/guides/malaysia-hotel-window-and-door-supplier-guide.html): High-traffic hospitality hardware, sound attenuation, and coastal corrosion resistance.
+- [Malaysia Hotel Balcony Doors for Hospitality Projects](https://www.jzz1.com/guides/malaysia-hotel-balcony-doors-for-hospitality-projects.html): Large opening dimensions, easy-slide rollers, and tropical weathering seals.
+- [Malaysia Commercial Sunroom Enclosures](https://www.jzz1.com/guides/malaysia-commercial-sunroom-enclosures.html): Commercial rooftop restaurants, glass cafes, and heat-reflective double glazing.
+- [Indonesia Apartment Window Package RFQ Guide](https://www.jzz1.com/guides/indonesia-apartment-window-package-rfq-guide.html): Jakarta and Surabaya multi-unit high-rise window and door package RFQ process.
+- [Indonesia Commercial Window Supplier Project Guide](https://www.jzz1.com/guides/indonesia-commercial-window-supplier-project-guide.html): Developer procurement, bill of quantities takeoff, and Indonesian commercial supply.
+- [Indonesia Tropical Windows and Balcony Doors for Apartments and Hotels](https://www.jzz1.com/guides/indonesia-tropical-window-and-balcony-door-sourcing.html): High humidity resistance, heavy tropical downpour drainage, and UV-resistant powder coating.
+- [Indonesia uPVC Windows for Villas and Apartments](https://www.jzz1.com/guides/indonesia-upvc-windows-for-villas-and-apartments.html): Coastal villa salinity resistance, acoustic calm in busy cities, and thermal comfort.
+- [Indonesia Curtain Wall Systems for Commercial Facades](https://www.jzz1.com/guides/indonesia-curtain-wall-systems-for-commercial-facades.html): Stick and semi-unitized glass facades engineered for tropical seismic and wind conditions.
+- [Thailand Coastal Resort Doors and Heat-Control Windows](https://www.jzz1.com/guides/thailand-coastal-resort-doors-and-heat-control-windows.html): Solar heat gain reduction, Low-E solar reflective glass, and seaside resort corrosion resistance.
+- [Thailand Coastal Powder Coated Profiles](https://www.jzz1.com/guides/thailand-coastal-powder-coated-profiles.html): High-durability powder coating standards for Gulf of Thailand coastal exposure.
+- [Philippines Apartment Balcony Railing Systems](https://www.jzz1.com/guides/philippines-apartment-balcony-railing-systems.html): Typhoon wind load structural glass and aluminum railing design for residential towers.
 
 ## Extended Technical Documentation
 - [Full LLM Specification Brief](https://www.jzz1.com/llms-full.txt): Comprehensive technical specifications, alloy standards, testing certifications, and commercial trade terms.

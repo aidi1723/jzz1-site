@@ -4,6 +4,18 @@ All notable changes to the `jzz1.com` website will be documented in this file.
 
 ## [Unreleased]
 
+## [2.2.0] - 2026-10-13
+
+### Added
+- **GEO Knowledge Graph Expansion**: Comprehensive expansion of `llms.txt` incorporating all 44 technical guides across 5 categorised tracks (Procurement & Sourcing, Engineering Comparisons, Ocean Packing, Typologies, and Regional Routes).
+- **AI "Answer-Ready" Block**: Executive quote summary deployed to `australia.html` detailing AS 2047-2014 SMK41678, AS/NZS 2208 CSi 7632, MD75S (ULS 4000 Pa, Water 600 Pa), and MD76A (ULS 3000 Pa) for direct AI citation.
+- **Visible & Structured FAQ Section**: 8-item technical/procurement FAQ cards and corresponding `FAQPage` JSON-LD on `australia.html` covering wind load ratings, direct export without local fabricator, customs clearance/Form 15, alloy distinctions (6063-T5 vs 6061-T6), and BAL bushfire ratings.
+- **International `hreflang` Cluster**: Global localization header cluster (`en-au`, `en-sg`, `en-my`, `en-id`, `en-ph`, `en-th`, `en-vn`, `fr`, `es`, `it`, `x-default`) deployed across 11 regional landing pages and `index.html`.
+- **Enriched Product Schema**: `Product` JSON-LD schema enriched across all 19 `products/*.html` files with official manufacturer entity (`Jinan Jingzao New Materials Co., Ltd.`), architectural materials, test certifications, and USD currency offers.
+- **Enriched Article Schema**: Added `datePublished` and `dateModified` (2026-10-13) with full legal publisher/author metadata across all 43 technical guides.
+- **Enhanced `brand-facts.json`**: Upgraded with machine-readable entity dictionary, Jinan headquarters coordinates, certification test schedules, MOQ (10 sets), lead times (7-25 days), and export packaging protocols.
+- **Sitemap & Robots Audit**: Audited 100% indexable URL coverage in `sitemap.xml` (119 URLs) and synchronized all `<lastmod>` timestamps to `2026-10-13`. Confirmed open crawl directives in `robots.txt`.
+
 ## [2.1.0] - 2026-10-13
 
 ### Added

@@ -1,5 +1,97 @@
 {
   "@context": "https://schema.org",
+  "brand_facts": {
+    "brand_name": "JZZ1",
+    "legal_name": "Jinan Jingzao New Materials Co., Ltd.",
+    "legal_name_cn": "济南京造新材料有限公司",
+    "entity_type": "Manufacturer & Direct Exporter",
+    "founded_country": "China",
+    "location": {
+      "city": "Jinan",
+      "province": "Shandong",
+      "country": "China",
+      "industrial_zone": "Jinan High-Tech Industrial Development Zone",
+      "postal_code": "250101"
+    },
+    "certifications": [
+      {
+        "standard": "AS 2047-2014",
+        "licence_no": "SMK41678",
+        "issued_by": "Intertek SAI Global Certification Services Pty Ltd",
+        "accreditation": "JAS-ANZ System 5",
+        "certified_models": [
+          {
+            "model": "MD75S Tilt and Turn Window",
+            "sls_wind_pressure": "1600 Pa",
+            "uls_wind_pressure": "4000 Pa",
+            "water_penetration": "600 Pa",
+            "air_infiltration": "Low"
+          },
+          {
+            "model": "MD76A Awning Window",
+            "sls_wind_pressure": "800 Pa",
+            "uls_wind_pressure": "3000 Pa",
+            "water_penetration": "200 Pa",
+            "air_infiltration": "Low"
+          }
+        ],
+        "compliance_jurisdiction": "Australia (NCC / BCA)"
+      },
+      {
+        "standard": "AS/NZS 2208:1996",
+        "licence_no": "CSi Licence 7632",
+        "issued_by": "Certification Solutions International Pty Ltd",
+        "scope": "Toughened Safety Glazing & Laminated Safety Glazing",
+        "compliance_jurisdiction": "Australia & New Zealand"
+      },
+      {
+        "standard": "ISO 9001:2015",
+        "scope": "Quality Management for Architectural Aluminum and Glazed Products"
+      }
+    ],
+    "products": [
+      "Thermal Break Aluminum Casement Windows",
+      "Architectural Tilt and Turn Windows (MD75S)",
+      "Awning and Projecting Windows (MD76A)",
+      "High Wind Load Aluminum Sliding Windows",
+      "Heavy-Duty Stacking and Sliding Patio Doors",
+      "Architectural Bi-fold Patio Doors",
+      "Commercial Pivot Entrance Doors",
+      "Unitized and Semi-Unitized Curtain Wall Systems",
+      "Aluminum Balcony Railings and Glass Balustrades",
+      "Garden Fences and Outdoor Gates",
+      "Thermal Break Glass Sunrooms and Pergolas",
+      "6063-T5 / 6063-T6 Custom Aluminum Extrusion Profiles",
+      "Lead-Free uPVC Window and Door Systems"
+    ],
+    "materials": [
+      "6063-T5 & 6063-T6 Architectural Grade Aluminum Alloy",
+      "PA66 GF25 Polyamide Thermal Barrier Struts",
+      "Automotive Grade EPDM Triple Gasket Weatherstrips",
+      "AS/NZS 2208 Toughened / Laminated Safety Glass",
+      "Double and Triple Glazed Argon-Filled Warm Edge IGUs",
+      "Qualicoat Powder Coating & AkzoNobel Fluorocarbon Finishes"
+    ],
+    "target_markets": [
+      "Australia",
+      "New Zealand",
+      "Singapore",
+      "Malaysia",
+      "Indonesia",
+      "Philippines",
+      "Thailand",
+      "Vietnam"
+    ],
+    "moq": "10 sets typical (custom architectural schedules accommodated)",
+    "lead_time": "7-25 business days based on system, finish, and glass build-up",
+    "export_packaging": "ISPM 15 certified fumigated plywood crates, vertical steel A-frames, corner edge protectors, industrial desiccants",
+    "nearest_sea_ports": ["Port of Qingdao (Direct FCL/LCL)", "Port of Tianjin"],
+    "contact": {
+      "official_website": "https://www.jzz1.com/",
+      "whatsapp": "+86 135 6267 6792",
+      "email": "info@jzz1.com"
+    }
+  },
   "@graph": [
     {
       "@type": "Organization",
@@ -24,13 +116,18 @@
           "availableLanguage": ["English", "Chinese"]
         }
       ],
+      "sameAs": [
+        "https://wa.me/8613562676792"
+      ],
       "areaServed": [
         {"@type": "Country", "name": "Australia"},
         {"@type": "Country", "name": "New Zealand"},
         {"@type": "Country", "name": "Singapore"},
         {"@type": "Country", "name": "Malaysia"},
         {"@type": "Country", "name": "Indonesia"},
-        {"@type": "Country", "name": "Philippines"}
+        {"@type": "Country", "name": "Philippines"},
+        {"@type": "Country", "name": "Thailand"},
+        {"@type": "Country", "name": "Vietnam"}
       ],
       "hasCredential": [
         {
@@ -69,7 +166,7 @@
           {
             "@type": "OfferCatalog",
             "name": "Aluminum Windows",
-            "itemListElement": ["Thermal Break Casement Windows", "High Wind Load Sliding Windows", "Tilt and Turn Windows", "Awning Windows"]
+            "itemListElement": ["Thermal Break Casement Windows", "High Wind Load Sliding Windows", "Tilt and Turn Windows (MD75S)", "Awning Windows (MD76A)"]
           },
           {
             "@type": "OfferCatalog",
