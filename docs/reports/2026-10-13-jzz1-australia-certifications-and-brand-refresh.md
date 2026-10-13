@@ -1,7 +1,7 @@
 # JZZ1 国际认证（澳标 AS 2047 & 玻璃 AS/NZS 2208）部署、视觉升级与全站维护记录
 
 日期：2026-10-13  
-适用站点：`https://www.jzz1.com/` (Jinan Jingzao New Materials Co., Ltd. / JZZ1 佛山系统门窗出口制造工厂)  
+适用站点：`https://www.jzz1.com/` (Jinan Jingzao New Materials Co., Ltd. / 济南京造新材料有限公司 · 山东济南系统门窗制造基地)  
 负责模块：国际资质数字化、区域市场 SEO/GEO、首页视觉优化、新 Logo 升级与生产环境发布  
 
 ---
