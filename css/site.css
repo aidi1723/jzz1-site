@@ -146,6 +146,14 @@ header {
 .brand img {
   height: 46px;
   width: auto;
+  border-radius: var(--radius-sm, 10px);
+}
+
+.brand strong {
+  font-size: var(--step-0);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: var(--text);
 }
 
 .brand-copy {

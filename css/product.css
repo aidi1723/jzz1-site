@@ -72,7 +72,8 @@ header {
   text-decoration: none;
 }
 
-.brand img { height: 36px; width: auto; }
+.brand img { height: 36px; width: auto; border-radius: 8px; }
+.brand strong { font-size: 1.15rem; font-weight: 800; letter-spacing: 0.08em; color: var(--text, #111); }
 
 nav a {
   text-decoration: none;
