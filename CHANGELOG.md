@@ -4,6 +4,15 @@ All notable changes to the `jzz1.com` website will be documented in this file.
 
 ## [Unreleased]
 
+## [2.3.1] - 2026-10-23
+
+### Changed
+- **Re-Engineered Capability Proof Section (`index.html`)**: Replaced broken 5-card grid that suffered from a 320px empty white void and orphaned card on row 3 with:
+  - **Executive Accreditation Showcase Banner (`.evidence-accreditation-banner`)**: Full-width split presentation highlighting AS 2047-2014 & AS/NZS 2208 certifications, verified structural test ratings (MD75S 4000Pa, MD76A 3000Pa), and direct CTA links.
+  - **Balanced 4-Card Capability Matrix (`.capability-matrix-grid`)**: Symmetrical 2x2 grid pairing Export Packing, Logistics Workflow, Glazing Detail, and Project Context with equal aspect ratios and zero dead space.
+- **Decoupled Sticky Header & Trust Strip**: Moved `.header-note` out of sticky `<header>` into `.sub-header-strip` across `index.html`, `contact.html`, and `projects.html`. Reduced sticky navigation height from 135px to a sleek 64px with subtle backdrop blur and shadow, preventing cards from being sliced in half during scroll.
+- **Section Heading Typography Refinement**: Adjusted `.section-title` line-height from `1.06` to `1.18` and relaxed letter-spacing from `-0.04em` to `-0.02em` to prevent vertical glyph collisions across multi-line headings.
+
 ## [2.3.0] - 2026-10-23
 
 ### Added

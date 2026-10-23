@@ -129,7 +129,9 @@
         <a class="btn primary header-cta" href="/contact.html">Request Quote</a>
       </div>
     </div>
+  </header>
 
+  <div class="sub-header-strip">
     <div class="container header-note" aria-label="Key facts">
       <span>AS 2047 &amp; AS/NZS 2208 Certified</span>
       <span>Australia, Singapore, SE Asia</span>
@@ -137,7 +139,7 @@
       <span>7-25 day lead time</span>
       <span>Drawing-based quotation</span>
     </div>
-  </header>
+  </div>
 
   <main>
     <section class="home-hero">
@@ -455,7 +457,7 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="capability">
       <div class="container section-shell">
         <div class="section-head">
           <div class="section-copy">
@@ -465,64 +467,107 @@
           </div>
         </div>
 
-        <div class="evidence-grid">
-          <article class="evidence-card evidence-card-featured">
+        <!-- 1. Executive Accreditation Showcase (Full-Width Split Hero Banner) -->
+        <article class="evidence-accreditation-banner">
+          <div class="accreditation-media">
             <picture>
-              <source srcset="/images/certificates/as2047-standardsmark-licence-p1.webp" type="image/webp">
-              <img src="/images/certificates/as2047-standardsmark-licence-p1.jpg" alt="AS 2047 StandardsMark Licence SMK41678 by Intertek SAI Global" width="1240" height="1754" loading="lazy">
+              <source srcset="/images/certificates/as2047-standardsmark-licence-p1-600.webp" type="image/webp">
+              <img src="/images/certificates/as2047-standardsmark-licence-p1-600.webp" alt="AS 2047 StandardsMark Licence SMK41678 by Intertek SAI Global" width="600" height="849" loading="lazy">
             </picture>
-            <div class="evidence-copy">
-              <p class="tiny-label">Official Accreditation</p>
-              <h3>AS 2047 &amp; AS/NZS 2208 Certified</h3>
-              <p>StandardsMark Licence SMK41678 by Intertek SAI Global and CSi Safety Glazing 7632 provide documented compliance for Australian and New Zealand building certifier sign-offs.</p>
-              <div style="margin-top: 10px; display: flex; gap: 10px; flex-wrap: wrap;">
-                <a href="/certificates.html" class="btn secondary" style="font-size: 0.82rem; padding: 6px 14px;">View Certificates →</a>
-                <a href="/australia.html" class="btn ghost" style="font-size: 0.82rem; padding: 6px 14px;">Australia Solutions →</a>
+            <div class="accreditation-badge-overlay">
+              <span class="cert-pill">StandardsMark™ SMK41678</span>
+              <span class="cert-pill">CSi Licence 7632</span>
+            </div>
+          </div>
+          <div class="accreditation-copy">
+            <div class="accreditation-eyebrow">
+              <span class="tag-gold">Official International Accreditation</span>
+              <span class="tag-meta">JAS-ANZ &amp; IAF MLA Certified</span>
+            </div>
+            <h3>AS 2047-2014 &amp; AS/NZS 2208:1996 Certified Manufacturing Base</h3>
+            <p>Documented compliance for Australian and New Zealand building certifiers under the National Construction Code (NCC/BCA). Tested by JAS-ANZ accredited Intertek SAI Global for structural wind loads, water penetration, and air infiltration.</p>
+            
+            <div class="accreditation-specs-grid">
+              <div class="spec-chip">
+                <span class="spec-label">MD75S Tilt &amp; Turn</span>
+                <strong class="spec-val">ULS 4000 Pa · Water 600 Pa</strong>
+              </div>
+              <div class="spec-chip">
+                <span class="spec-label">MD76A Awning &amp; Fixed</span>
+                <strong class="spec-val">ULS 3000 Pa · Water 200 Pa</strong>
+              </div>
+              <div class="spec-chip">
+                <span class="spec-label">Safety Glazing Material</span>
+                <strong class="spec-val">AS/NZS 2208 CSi Licence 7632</strong>
+              </div>
+              <div class="spec-chip">
+                <span class="spec-label">Certifier Documentation</span>
+                <strong class="spec-val">Form 15 &amp; NATA Lab Test Package</strong>
               </div>
             </div>
-          </article>
-          <article class="evidence-card">
-            <picture>
-              <source srcset="/images/site-refresh/proof-packing.webp" type="image/webp">
-              <img src="/images/site-refresh/proof-packing.jpg" alt="Packed aluminum profiles prepared for export shipment" width="1800" height="1350" loading="lazy">
-            </picture>
-            <div class="evidence-copy">
-              <p class="tiny-label">Export packing</p>
+
+            <div class="accreditation-actions">
+              <a href="/certificates.html" class="btn primary">View Certificates &amp; Schedules →</a>
+              <a href="/australia.html" class="btn secondary">Australia &amp; NZ Solutions →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2. Balanced 4-Card Factory & Execution Matrix (2x2 on desktop, 1-col on mobile) -->
+        <div class="capability-matrix-grid">
+          <article class="capability-card">
+            <div class="capability-media">
+              <picture>
+                <source srcset="/images/site-refresh/proof-packing.webp" type="image/webp">
+                <img src="/images/site-refresh/proof-packing.jpg" alt="Packed aluminum profiles prepared for export shipment" width="1800" height="1350" loading="lazy">
+              </picture>
+              <span class="capability-tag">01 · Export Packing</span>
+            </div>
+            <div class="capability-copy">
               <h3>Ready for long-distance shipment</h3>
-              <p>Protected and labeled product preparation helps long-distance orders arrive in better condition and with less confusion at unloading.</p>
+              <p>Multi-layer protective wrapping, corner edge guards, and project-coded bundles ensure ocean freight arrives undamaged and ready for organized site staging.</p>
             </div>
           </article>
-          <article class="evidence-card">
-            <picture>
-              <source srcset="/images/site-refresh/proof-shipping.webp" type="image/webp">
-              <img src="/images/site-refresh/proof-shipping.jpg" alt="Container loading area inside factory environment" width="1800" height="1349" loading="lazy">
-            </picture>
-            <div class="evidence-copy">
-              <p class="tiny-label">Logistics workflow</p>
+
+          <article class="capability-card">
+            <div class="capability-media">
+              <picture>
+                <source srcset="/images/site-refresh/proof-shipping.webp" type="image/webp">
+                <img src="/images/site-refresh/proof-shipping.jpg" alt="Container loading area inside factory environment" width="1800" height="1349" loading="lazy">
+              </picture>
+              <span class="capability-tag">02 · Logistics Workflow</span>
+            </div>
+            <div class="capability-copy">
               <h3>Factory-to-container capability</h3>
-              <p>Loading readiness and shipment handling are part of the service buyers evaluate when comparing suppliers for overseas delivery.</p>
+              <p>Direct factory loading bays, reinforced timber crate bracing, and disciplined weight distribution safeguard heavy glass units during long sea voyages.</p>
             </div>
           </article>
-          <article class="evidence-card">
-            <picture>
-              <source srcset="/images/site-refresh/proof-glass.webp" type="image/webp">
-              <img src="/images/site-refresh/proof-glass.jpg" alt="Insulated glass units prepared in production area" width="1800" height="1012" loading="lazy">
-            </picture>
-            <div class="evidence-copy">
-              <p class="tiny-label">Technical detail</p>
+
+          <article class="capability-card">
+            <div class="capability-media">
+              <picture>
+                <source srcset="/images/site-refresh/proof-glass.webp" type="image/webp">
+                <img src="/images/site-refresh/proof-glass.jpg" alt="Insulated glass units prepared in production area" width="1800" height="1012" loading="lazy">
+              </picture>
+              <span class="capability-tag">03 · Technical Detail</span>
+            </div>
+            <div class="capability-copy">
               <h3>Glazing and build-up visible at a glance</h3>
-              <p>Visible glass preparation and system build-up make it easier to discuss thermal, acoustic, and specification requirements with confidence.</p>
+              <p>Argon-filled double and triple IGU assemblies with warm-edge spacers, Low-E solar control, and continuous EPDM multi-chamber gaskets for superior thermal insulation.</p>
             </div>
           </article>
-          <article class="evidence-card evidence-card-wide">
-            <picture>
-              <source srcset="/images/site-refresh/proof-installation.webp" type="image/webp">
-              <img src="/images/site-refresh/proof-installation.jpg" alt="Window system positioned within construction framing" width="1600" height="1201" loading="lazy">
-            </picture>
-            <div class="evidence-copy">
-              <p class="tiny-label">Project context</p>
+
+          <article class="capability-card">
+            <div class="capability-media">
+              <picture>
+                <source srcset="/images/site-refresh/proof-installation.webp" type="image/webp">
+                <img src="/images/site-refresh/proof-installation.jpg" alt="Window system positioned within construction framing" width="1600" height="1201" loading="lazy">
+              </picture>
+              <span class="capability-tag">04 · Project Context</span>
+            </div>
+            <div class="capability-copy">
               <h3>Closer to the real job site</h3>
-              <p>Reference projects and in-situ system photos help buyers judge frame proportion, finish quality, and real-world application before approval.</p>
+              <p>In-situ installation mockups and project references help architects and builders verify profile sightlines, reveal clearances, and sub-frame fixing details.</p>
             </div>
           </article>
         </div>
