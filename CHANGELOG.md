@@ -4,6 +4,26 @@ All notable changes to the `jzz1.com` website will be documented in this file.
 
 ## [Unreleased]
 
+## [2.3.0] - 2026-10-23
+
+### Added
+- **Modern Architectural Font Engineering**: Embedded Google Fonts (`Plus Jakarta Sans`, `Inter`, `IBM Plex Mono`) with modern font stacks; eliminated legacy CJK font fallbacks (`PingFang SC`, `Microsoft YaHei`) on English pages to restore native Latin typesetting aesthetics.
+- **OpenGraph Social Preview Cards**: Generated pixel-perfect 1200x630 `images/assets/og-card.png` and `images/assets/og-card.jpg` to replace unsupported SVG OpenGraph image links across 27 pages, ensuring rich card previews on WhatsApp, LinkedIn, X, and Facebook.
+- **Expanded GEO Knowledge Graph (`llms.txt`)**: Indexed all 19 product systems, all 11 performance solutions, and all 26 knowledge-base technical checklists; resolved broken URL for curtain walls (`/products/aluminum-curtain-wall-systems.html`). All 119 links verified 100% active.
+- **Enriched Knowledge-Base Schema**: Added `datePublished`, `dateModified` (2026-10-23), and corporate author/publisher JSON-LD schema across all 25 `knowledge-base/*.html` documents.
+
+### Changed
+- **CSS Design System & Layout Bug Fixes (`css/site.css`, `css/product.css`)**:
+  - Defined missing `:root` design variables (`--bg-soft`, `--accent-dark`, `--shadow-md`) to fix transparent backgrounds on regional landing cards and FAQ accordions.
+  - Overhauled `.display-title` and `.hero h1`: widened max-width constraint from `11ch` to `22ch`, adjusted `line-height` from `0.92` to `1.12` and loosened negative letter-spacing from `-0.05em` to `-0.025em` to eliminate multi-line text collisions.
+  - Removed aggressive global `p, li, dd { max-width: 65ch; }` restriction that caused awkward dead space in wide cards.
+  - Added vertical rhythm margins (`margin-top: 22px;`) for `.card` and `.grid-2` in `site.css` to fix 0px gap collapse across 14 pages; added standardized HTML table styles.
+- **Purged SEO Meta-Commentary (64+ Pages)**: Systematically cleaned developer notes and keyword-stuffing prompts (`"Search intents this page supports"`, `"This page is optimized around..."`, `"This page targets search intent..."`, `"Crawlable hub"`, `"thin placeholder"`) across 38+ guides and 25 knowledge-base pages, replacing them with authentic engineering and architectural specifications.
+- **Hreflang Regional Compliance**: Corrected European regional alternate tags on all 11 landing pages from bare `fr`, `es`, `it` to proper `en-fr`, `en-es`, `en-it` to fix Google Search Console language mismatch errors.
+- **Sitemap Synchronisation**: Audited and synchronized all 119 URL `<lastmod>` timestamps in `sitemap.xml` to `2026-10-23`.
+
+
+
 ## [2.2.0] - 2026-10-13
 
 ### Added

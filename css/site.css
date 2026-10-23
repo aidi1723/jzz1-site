@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:ital,opsz,wght@0,14..32,400..800;1,14..32,400..700&family=Plus+Jakarta+Sans:ital,wght@0,500..800;1,500..800&display=swap');
+
 :root {
   --bg: #f5f2ec;
   --bg-alt: #ebe6de;
+  --bg-soft: #fbf8f2;
   --surface: #ffffff;
   --surface-soft: #fbf8f2;
   --surface-strong: #f1ece2;
@@ -12,15 +15,18 @@
   --shell-soft: #2a2c30;
   --accent: #b88d3b;
   --accent-soft: #ead7aa;
+  --accent-dark: #8c651e;
   --success: #2f6952;
   --shadow-sm: 0 10px 24px rgba(20, 20, 18, 0.06);
+  --shadow-md: 0 14px 34px rgba(20, 20, 18, 0.08);
   --shadow-lg: 0 20px 40px rgba(20, 20, 18, 0.08);
   --radius-sm: 16px;
   --radius-md: 22px;
   --radius-lg: 30px;
   --container: 1240px;
-  --font-sans: "Inter", "SF Pro Text", "SF Pro Display", "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Noto Sans", sans-serif;
-  --font-mono: "IBM Plex Mono", "SFMono-Regular", "JetBrains Mono", "Cascadia Mono", "Consolas", monospace;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Plus Jakarta Sans", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", "SFMono-Regular", "JetBrains Mono", Consolas, monospace;
   --step--1: clamp(0.88rem, 0.84rem + 0.14vw, 0.95rem);
   --step-0: clamp(1rem, 0.96rem + 0.2vw, 1.08rem);
   --step-1: clamp(1.12rem, 1.04rem + 0.36vw, 1.28rem);
@@ -73,7 +79,10 @@ h2,
 h3,
 h4,
 .display-title,
-.section-title {
+.section-title,
+.brand-name,
+.brand strong {
+  font-family: var(--font-display);
   text-wrap: balance;
 }
 
@@ -86,14 +95,12 @@ dd,
   text-wrap: pretty;
 }
 
-p,
-li,
-dd,
 .lead,
 .section-intro,
 .footer-note,
-.hero p {
-  max-width: 65ch;
+.hero p,
+.section-copy p {
+  max-width: 68ch;
 }
 
 .container {
@@ -275,10 +282,10 @@ nav a:hover,
 
 .display-title {
   margin: 0;
-  max-width: 11ch;
-  font-size: var(--step-5);
-  line-height: 0.92;
-  letter-spacing: -0.05em;
+  max-width: 22ch;
+  font-size: clamp(2.3rem, 1.8rem + 1.8vw, 3.6rem);
+  line-height: 1.12;
+  letter-spacing: -0.025em;
 }
 
 .lead {
@@ -524,6 +531,42 @@ nav a:hover,
   transform: translateY(-2px);
   box-shadow: var(--shadow-lg);
   border-color: rgba(184, 141, 59, 0.28);
+}
+
+/* Vertical rhythm for cards, sections, and grids across inner pages */
+main > .card,
+main > .grid-2,
+main > .grid-3,
+main > .spec-summary-block,
+main > .quick-rfq-block,
+main > .rfq-card,
+.container > .card,
+.container > .grid-2,
+.container > .grid-3,
+section.card,
+section.grid-2 {
+  margin-top: 22px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+  font-size: 0.92rem;
+  overflow-wrap: anywhere;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 10px 14px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: var(--surface-soft);
+  color: var(--text);
+  font-weight: 700;
 }
 
 .card h2,
@@ -1121,10 +1164,10 @@ textarea {
 
 .hero h1 {
   margin: 0 0 10px;
-  max-width: 13ch;
-  font-size: clamp(2.24rem, 1.84rem + 1.64vw, 3.4rem);
-  line-height: 0.98;
-  letter-spacing: -0.04em;
+  max-width: none;
+  font-size: clamp(2.2rem, 1.8rem + 1.4vw, 3.2rem);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
 }
 
 .hero p {

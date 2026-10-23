@@ -1,8 +1,11 @@
 /* Shared product page styling (kept intentionally minimal and fast). */
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:ital,opsz,wght@0,14..32,400..800;1,14..32,400..700&family=Plus+Jakarta+Sans:ital,wght@0,500..800;1,500..800&display=swap');
+
 :root {
   --bg: #f5f2ec;
   --bg-alt: #ebe6de;
+  --bg-soft: #fbf8f2;
   --text: #151515;
   --muted: #5f615d;
   --muted-strong: #3d413e;
@@ -14,11 +17,14 @@
   --ctaBorder: #1c1d20;
   --accent: #b88d3b;
   --accent-soft: #ead7aa;
+  --accent-dark: #8c651e;
   --shadow: 0 14px 34px rgba(20, 20, 18, 0.07);
+  --shadow-md: 0 14px 34px rgba(20, 20, 18, 0.08);
   --radius: 18px;
   --radius-lg: 26px;
-  --font-sans: "Inter", "SF Pro Text", "SF Pro Display", "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Noto Sans", sans-serif;
-  --font-mono: "IBM Plex Mono", "SFMono-Regular", "JetBrains Mono", "Cascadia Mono", "Consolas", monospace;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Plus Jakarta Sans", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", "SFMono-Regular", "JetBrains Mono", Consolas, monospace;
 }
 
 * { box-sizing: border-box; }
@@ -33,6 +39,15 @@ body {
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4,
+.brand strong {
+  font-family: var(--font-display);
+  text-wrap: balance;
 }
 
 a { color: inherit; }
