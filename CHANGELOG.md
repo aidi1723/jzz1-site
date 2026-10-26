@@ -4,6 +4,12 @@ All notable changes to the `jzz1.com` website will be documented in this file.
 
 ## [Unreleased]
 
+## [2.3.2] - 2026-10-26
+
+### Added
+- **Knocket Telegram Unified Live Chat Widget**: Integrated Knocket SDK (`identifier=55c7607a8ec41b1142`) across all pages, connecting website visitor live chats directly to the mobile Telegram unified inbox.
+- **Floating Dock Anti-Collision Layout**: Configured `--contact-widget-bottom: 136px` (desktop) and `76px` (mobile) in `css/site.css` to vertically stack the live chat bubble neatly above the floating WhatsApp and RFQ buttons without overlapping.
+
 ## [2.3.1] - 2026-10-23
 
 ### Changed

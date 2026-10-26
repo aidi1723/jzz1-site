@@ -2141,3 +2141,21 @@ footer {
 .cert-lightbox-close:hover {
   background: #000000;
 }
+
+/* ==========================================================================
+   KNOCKET TELEGRAM LIVE CHAT WIDGET DOCKING & ANTI-COLLISION
+   ========================================================================== */
+:root,
+#contact-widget-auto {
+  --contact-widget-bottom: 136px;
+  --contact-widget-right: 24px;
+  --contact-widget-z-index: 998;
+}
+
+@media (max-width: 768px) {
+  :root,
+  #contact-widget-auto {
+    --contact-widget-bottom: 76px;
+    --contact-widget-right: 16px;
+  }
+}
