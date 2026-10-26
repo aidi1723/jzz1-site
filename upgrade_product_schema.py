@@ -106,17 +106,7 @@ def create_product_schema(filename, config):
         "additionalProperty": [
             {"@type": "PropertyValue", "name": prop["name"], "value": prop["value"]}
             for prop in config["properties"]
-        ],
-        "offers": {
-            "@type": "Offer",
-            "@id": f"{url}#offer",
-            "url": url,
-            "availability": "https://schema.org/InStock",
-            "itemCondition": "https://schema.org/NewCondition",
-            "seller": {
-                "@id": "https://www.jzz1.com/#org"
-            }
-        }
+        ]
     }
     return schema
 

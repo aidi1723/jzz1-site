@@ -4,7 +4,10 @@ All notable changes to the `jzz1.com` website will be documented in this file.
 
 ## [Unreleased]
 
-## [2.3.2] - 2026-10-26
+## [2.3.3] - 2026-10-26
+
+### Fixed
+- **Google Search Console Merchant Listings Schema Alignment**: Completely removed incomplete `offers` blocks (which lacked required `price` fields) across all 19 `products/*.html` files. As an architectural engineering custom OEM/ODM manufacturer operating on blueprint and drawing-based quotations (RFQ), removing consumer retail offers eliminates Google Merchant Listings validation errors (`"Missing field 'price' (in 'offers')"`), while preserving full `Product` engineering attributes (`brand`, `manufacturer`, `material`, `certification`) and rich `BreadcrumbList` / `FAQPage` snippets.
 
 ### Added
 - **Knocket Telegram Unified Live Chat Widget**: Integrated Knocket SDK (`identifier=55c7607a8ec41b1142`) across all pages, connecting website visitor live chats directly to the mobile Telegram unified inbox.
