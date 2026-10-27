@@ -4,7 +4,18 @@ All notable changes to the `jzz1.com` website will be documented in this file.
 
 ## [Unreleased]
 
-## [2.3.3] - 2026-10-26
+## [2.3.4] - 2026-10-27
+
+### Changed
+- **Accelerated SEO & High-Intent Conversion Architecture**:
+  - Overhauled `guides/thermal-break-vs-non-thermal-aluminum-windows.html` to target near-page-1 queries (`non thermal windows` Rank 16, `non thermal break aluminum windows` Rank 24). Added Executive Engineering Takeaway, full technical comparison matrix ($U_f$, alloy, acoustic, cost, tropical climate fit), and multi-point security lock section.
+  - Upgraded `guides/singapore-acoustic-sliding-doors-for-condo-projects.html` and `guides/hotel-balcony-doors-for-resorts-and-apartments.html` to target `acoustic sliding door` (Rank 29). Added tested STC decibel rating benchmark table (STC 28–45 dB), acoustic laminated glass build-ups, and commercial 100,000-cycle hardware specifications.
+  - Enhanced `index.html` feature grid with direct high-PageRank internal links to Non-Thermal Windows and Acoustic Sliding Doors.
+  - Strengthened `products/windows.html` and `products/doors.html` contextual anchor links.
+- **Universal Floating Dock Coverage Across Entire Site (123 Pages)**:
+  - Injected `.floating-dock` (`💬 WhatsApp Fast Quote` + `⚡ Request RFQ`) across all 45 `guides/*.html` and 26 `knowledge-base/*.html` documents. Visitors landing from Google Search or AI recommendations can now initiate instant inquiries without scrolling to footer.
+- **GEO & AI Engine Recommendation Optimization**:
+  - Enriched `llms.txt` and `brand-facts.json` machine-readable catalogs with Non-Thermal Break Window Systems, Acoustic Soundproof Sliding Doors (STC 35–44 dB), and Multi-Point Lock Security Fenestration for Google AI Overviews, Perplexity, and ChatGPT Search attribution.
 
 ### Fixed
 - **Google Search Console Merchant Listings Schema Alignment**: Completely removed incomplete `offers` blocks (which lacked required `price` fields) across all 19 `products/*.html` files. As an architectural engineering custom OEM/ODM manufacturer operating on blueprint and drawing-based quotations (RFQ), removing consumer retail offers eliminates Google Merchant Listings validation errors (`"Missing field 'price' (in 'offers')"`), while preserving full `Product` engineering attributes (`brand`, `manufacturer`, `material`, `certification`) and rich `BreadcrumbList` / `FAQPage` snippets.

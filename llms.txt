@@ -98,7 +98,7 @@
 - [Aluminum Windows for Contractors](https://www.jzz1.com/guides/aluminum-windows-for-contractors.html): Project supply, drawing review, site labeling, and installation sequencing.
 - [Aluminum Windows for Distributors](https://www.jzz1.com/guides/aluminum-windows-for-distributors.html): SKU planning, sample corners, stock lengths, and repeat orders.
 - [uPVC Windows for Distributors](https://www.jzz1.com/guides/upvc-windows-for-distributors.html): Wholesale PVC window systems, stock programs, and container optimization.
-- [Thermal Break vs Non-Thermal Aluminum Windows](https://www.jzz1.com/guides/thermal-break-vs-non-thermal-aluminum-windows.html): Thermal insulation, energy codes, and cost comparison.
+- [Non-Thermal Windows vs Thermal Break Aluminum Systems](https://www.jzz1.com/guides/thermal-break-vs-non-thermal-aluminum-windows.html): Engineering comparison of non-thermal break vs thermal break aluminum windows, tropical climate fit, structural wind resistance (up to 4000 Pa), U-factor, 30–45% extrusion cost savings, multi-point lock compatibility, and factory direct export.
 - [uPVC vs Aluminum Windows](https://www.jzz1.com/guides/upvc-vs-aluminum-windows.html): Comprehensive material comparison across durability, thermal, and aesthetics.
 - [Sliding vs Casement Aluminum Windows](https://www.jzz1.com/guides/sliding-vs-casement-aluminum-windows.html): Air sealing, acoustic rating, and ventilation ergonomics.
 - [Passive House Thermal Break Windows](https://www.jzz1.com/guides/passive-house-thermal-break-windows-for-cold-climate-projects.html): Super-insulated windows for cold-climate high-efficiency buildings.
@@ -115,7 +115,7 @@
 - [Powder Coated Aluminum Profiles for Coastal Projects](https://www.jzz1.com/guides/powder-coated-aluminum-profiles-for-coastal-projects.html): Qualicoat Class 2 specifications for high-salinity coastal exposure.
 - [Singapore Aluminum Windows for Condo Projects](https://www.jzz1.com/guides/singapore-aluminum-windows-for-condo-projects.html): BCA SS 341 standards and tight urban installation tolerances.
 - [Singapore Condo Window Supplier RFQ Guide](https://www.jzz1.com/guides/singapore-condo-window-supplier-rfq-guide.html): Technical submittals and factory audit expectations.
-- [Singapore Acoustic Sliding Doors for Condo Projects](https://www.jzz1.com/guides/singapore-acoustic-sliding-doors-for-condo-projects.html): STC 38+ traffic noise reduction and acoustic perimeter gaskets.
+- [Acoustic Sliding Door Systems for Condos & Hotels](https://www.jzz1.com/guides/singapore-acoustic-sliding-doors-for-condo-projects.html): Soundproof sliding door engineering with STC 35–44 dB acoustic rating, acoustic laminated glass (PVB/SentryGlas), multi-point compression locks, and BCA Green Mark compliance.
 - [Singapore Minimalist Sliding Doors for Condos](https://www.jzz1.com/guides/singapore-minimalist-sliding-doors-for-condos.html): Ultra-narrow interlocks and recessed flush floor tracks.
 - [Singapore Balcony Railing Systems for Condos](https://www.jzz1.com/guides/singapore-balcony-railing-systems-for-condos.html): BCA safety barrier heights and horizontal load engineering.
 - [Singapore uPVC Soundproof Windows for Condos](https://www.jzz1.com/guides/singapore-upvc-soundproof-windows-for-condos.html): Acoustic multi-chamber PVC frames for expressway sound mitigation.
