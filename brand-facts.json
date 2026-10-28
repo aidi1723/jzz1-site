@@ -92,7 +92,8 @@
     "contact": {
       "official_website": "https://www.jzz1.com/",
       "whatsapp": "+86 135 6267 6792",
-      "email": "info@jzz1.com"
+      "email": "info@jzz1.com",
+      "facebook": "https://www.facebook.com/people/Jingzao-Construction-Materials-Co-Ltd/61567886275707/"
     }
   },
   "@graph": [
@@ -120,6 +121,7 @@
         }
       ],
       "sameAs": [
+        "https://www.facebook.com/people/Jingzao-Construction-Materials-Co-Ltd/61567886275707/",
         "https://wa.me/8613562676792"
       ],
       "areaServed": [

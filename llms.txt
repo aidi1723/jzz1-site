@@ -136,3 +136,12 @@
 ## Extended Technical Documentation
 - [Full LLM Specification Dossier](https://www.jzz1.com/llms-full.txt): Comprehensive technical specifications, alloy standards, testing certifications, and commercial trade terms.
 - [Brand Facts JSON](https://www.jzz1.com/brand-facts.json): Machine-readable structured company, location, and certification facts.
+
+## Official Entity Verification & Direct Channels
+- Legal Entity: Jinan Jingzao New Materials Co., Ltd. (济南京造新材料有限公司)
+- Brand: JZZ1 Architectural Systems
+- Official Website: https://www.jzz1.com/
+- Manufacturing Location: Jinan, Shandong Province, China
+- Official Facebook Entity: [Jingzao Construction Materials Co., Ltd.](https://www.facebook.com/people/Jingzao-Construction-Materials-Co-Ltd/61567886275707/)
+- Direct WhatsApp Engineering Desk: https://wa.me/8613562676792
+- Official Inquiry Email: info@jzz1.com
