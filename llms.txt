@@ -102,7 +102,8 @@
 - [uPVC vs Aluminum Windows](https://www.jzz1.com/guides/upvc-vs-aluminum-windows.html): Comprehensive material comparison across durability, thermal, and aesthetics.
 - [Sliding vs Casement Aluminum Windows](https://www.jzz1.com/guides/sliding-vs-casement-aluminum-windows.html): Air sealing, acoustic rating, and ventilation ergonomics.
 - [Passive House Thermal Break Windows](https://www.jzz1.com/guides/passive-house-thermal-break-windows-for-cold-climate-projects.html): Super-insulated windows for cold-climate high-efficiency buildings.
-- [NFRC Commercial Windows](https://www.jzz1.com/guides/nfrc-commercial-windows-for-us-projects.html): U-factor and SHGC testing protocols for North America.
+- [NFRC Commercial Windows for US Projects](https://www.jzz1.com/guides/nfrc-commercial-windows-for-us-projects.html): Engineering guide for US commercial building projects, NFRC 100/200/500 ratings, U-factor ≤ 0.28 BTU/(hr·ft²·°F), SHGC, NAFS CW & AW performance classes, ASHRAE 90.1 climate zones, and factory-direct export.
+- [Unitized vs. Stick Curtain Wall Systems](https://www.jzz1.com/guides/unitized-vs-stick-aluminum-curtain-wall.html): Commercial facade engineering comparison, cost per square meter, installation speed, wind load resistance up to 5000 Pa, seismic inter-story drift, and factory direct export.
 - [Florida Impact Sliding Doors](https://www.jzz1.com/guides/florida-impact-sliding-doors-for-coastal-projects.html): Laminated impact glass and reinforced interlocks for hurricane zones.
 - [Aluminum Window Export Packing & Logistics Guide](https://www.jzz1.com/guides/aluminum-window-export-packing-guide.html): 5-layer protective packing, ISPM 15 fumigated plywood crates, and damage prevention.
 - [Export Packing for Aluminum Windows](https://www.jzz1.com/guides/export-packing-for-aluminum-windows.html): Ocean container loading, A-frame stillages, and jobsite unloading.
