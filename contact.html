@@ -49,7 +49,7 @@
   <header class="site-header">
     <div class="container topbar">
       <a class="brand" href="/" aria-label="JZZ1 Home">
-        <img src="/images/assets/logo.svg" alt="JZZ1" loading="eager" />
+        <img src="/images/assets/logo.svg" alt="JZZ1" loading="eager" width="256" height="256" />
         <span class="brand-copy">
           <span class="brand-name">JZZ1</span>
           <span class="brand-sub">Jinan Jingzao New Materials Co., Ltd</span>
@@ -145,6 +145,7 @@
             <div class="form-actions">
               <button class="btn primary" type="button" id="btn-submit-email">Send RFQ via Email</button>
               <button class="btn secondary" type="button" id="btn-submit-whatsapp">Send to WhatsApp (+86 135 6267 6792)</button>
+              <button class="btn ghost" type="button" id="btn-copy-rfq">Copy RFQ Summary</button>
             </div>
           </form>
 
@@ -207,6 +208,7 @@ Target lead time: (typical 7-25 days)</textarea>
       const statusEl = document.getElementById('rfq-status');
       const btnEmail = document.getElementById('btn-submit-email');
       const btnWhatsApp = document.getElementById('btn-submit-whatsapp');
+      const btnCopy = document.getElementById('btn-copy-rfq');
 
       function getFormData() {
         return {
@@ -244,11 +246,27 @@ Target lead time: (typical 7-25 days)</textarea>
 
       btnEmail.addEventListener('click', function () {
         const data = getFormData();
+        const msg = buildMessage(data);
         const subject = encodeURIComponent('RFQ: ' + data.product + ' - ' + data.name);
-        const body = encodeURIComponent(buildMessage(data));
+        const body = encodeURIComponent(msg);
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText('To: info@jzz1.com\nSubject: RFQ: ' + data.product + ' - ' + data.name + '\n\n' + msg);
+        }
         window.location.href = 'mailto:info@jzz1.com?subject=' + subject + '&body=' + body;
-        showStatus('Opening your email client to send to info@jzz1.com. We will analyze your specifications and reply within 12-24 hours.', 'success');
+        showStatus('Opening your email client to info@jzz1.com (your formatted RFQ has also been copied to your clipboard so you can paste it directly into Gmail/Outlook).', 'success');
       });
+
+      if (btnCopy) {
+        btnCopy.addEventListener('click', function () {
+          const data = getFormData();
+          const msg = 'To: info@jzz1.com\nSubject: RFQ: ' + data.product + ' - ' + data.name + '\n\n' + buildMessage(data);
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(msg).then(function () {
+              showStatus('✓ Formatted RFQ summary copied to clipboard! Paste into any webmail and send to info@jzz1.com.', 'success');
+            });
+          }
+        });
+      }
 
       btnWhatsApp.addEventListener('click', function () {
         const data = getFormData();

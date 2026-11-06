@@ -1,5 +1,8 @@
 User-agent: *
 Allow: /
+Disallow: /seo/
+Disallow: /docs/
+Disallow: /scripts/
 
 Sitemap: https://www.jzz1.com/sitemap.xml
 LLMs-Txt: https://www.jzz1.com/llms.txt

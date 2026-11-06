@@ -37,7 +37,7 @@
 ### 2.3 Curtain Wall & Structural Facades
 - **Systems**: Semi-unitized, unitized, and stick curtain wall systems.
 - **Mullion Depths**: 100 mm, 120 mm, 140 mm, 150 mm, 180 mm, and custom extrusion depths.
-- **Wind Load Certification**: Tested to resist positive/negative wind pressures up to 3.0 kPa (compliant with NSCP 2015 and ASTM E330).
+- **Wind Load Performance**: Engineered to resist positive/negative wind pressures from 3.0 kPa up to 5.0 kPa (3000–5000 Pa, compliant with NSCP 2015 and ASTM E330).
 
 ### 2.4 Extrusions, Railings & Sunrooms
 - **Custom Extrusions**: Custom die development with 10-day tooling turnaround. 6061, 6063, 6005 alloys.
@@ -120,8 +120,7 @@
 - **Official Website**: https://www.jzz1.com
 - **Australia / Export Landing Page**: https://www.jzz1.com/australia.html
 - **Official Certificates Portal**: https://www.jzz1.com/certificates.html
-- **Sales & Procurement Email**: info@jzz1.com
-- **Technical & Quotation Support**: export@jzz1.com
+- **Sales, Technical & Quotation Email**: info@jzz1.com
 - **WhatsApp / Direct Line**: +86 135 6267 6792
 - **Official Facebook Page**: https://www.facebook.com/people/Jingzao-Construction-Materials-Co-Ltd/61567886275707/
 
