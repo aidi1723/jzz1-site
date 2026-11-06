@@ -28,7 +28,7 @@
 - [Australian Standard Windows & Doors (AS 2047 & AS/NZS 2208)](https://www.jzz1.com/australia.html): StandardsMark Licence SMK41678 certified by Intertek SAI Global for MD75S tilt-and-turn (ULS 4000 Pa, SLS 1600 Pa, Water 600 Pa) and MD76A awning systems (ULS 3000 Pa, SLS 800 Pa, Water 200 Pa); CSi Licence 7632 for AS/NZS 2208 safety glazing. Full National Construction Code (NCC / BCA) compliance.
 - [Official Certificates & Compliance Center](https://www.jzz1.com/certificates.html): Traceable third-party certifications, JAS-ANZ accredited licences, NATA laboratory test data, and Form 15 compliance documents.
 - [AS 2047 Sourcing Checklist](https://www.jzz1.com/knowledge-base/as2047-windows-and-doors-sourcing-checklist.html): Australian building certifier requirements, NATA test reports, and Form 15 documentation.
-- [AS 2047 Bifold Doors Guide](https://www.jzz1.com/guides/as2047-bifold-doors-for-australia-housing-projects.html): Large-span folding door configurations for Australian residential developments.
+- [AS 2047 Bifold Doors Guide](https://www.jzz1.com/guides/as2047-bifold-doors-for-australia-housing-projects.html): Complete engineering guide for Australian residential & townhouse developments covering AS 2047 / AS/NZS 2208 (CSi 7632) compliance, 80mm/85mm bottom-rolling vs top-hung configurations, 3+0/3+1/6+1 panel layouts, weathered vs flush thresholds, and NatHERS 7-Star thermal break options.
 
 ## Performance Engineering & Specialized Solutions
 - [Solutions Hub](https://www.jzz1.com/solutions/index.html): Performance-led fenestration engineering for extreme climate, acoustic, and structural criteria.
@@ -57,7 +57,7 @@
 
 ## Factory, Quality & Testing Credentials
 - [Manufacturing Facility & CNC Production](https://www.jzz1.com/factory.html): 12,000+ sqm manufacturing facility in Jinan, Shandong, 4 CNC cutting lines, automated IGU assembly, and ISO 9001 certified process control.
-- [Project References & Portfolio](https://www.jzz1.com/projects.html): International references across luxury villas, high-rise condominiums, resort hospitality, and commercial facades.
+- [Project References & Portfolio](https://www.jzz1.com/projects.html): Export project engineering reference matrix and configuration schedules across Australia (AS 2047 SMK41678), the United States (NFRC/NAFS), Philippines (4000 Pa typhoon high-rise), Singapore (STC 38–42 dB condos), Southeast Asia coastal resorts, and custom OEM extrusions.
 - [Quality Assurance & Inspection Protocols](https://www.jzz1.com/quality.html): Diagonal tolerance, water tightness, air infiltration, and acoustic field testing.
 - [Technical Standards & Testing](https://www.jzz1.com/technical-standards.html): AS 2047-2014, AS/NZS 2208, AS 1288, ASTM E330, EN 12210, AAMA 2605, BCA SS 341, and NSCP 2015 test compliance.
 
@@ -102,10 +102,10 @@
 - [Non-Thermal Windows vs Thermal Break Aluminum Systems](https://www.jzz1.com/guides/thermal-break-vs-non-thermal-aluminum-windows.html): Engineering comparison of non-thermal break vs thermal break aluminum windows, tropical climate fit, structural wind resistance (up to 4000 Pa), U-factor, 30–45% extrusion cost savings, multi-point lock compatibility, and factory direct export.
 - [uPVC vs Aluminum Windows](https://www.jzz1.com/guides/upvc-vs-aluminum-windows.html): Comprehensive material comparison across durability, thermal, and aesthetics.
 - [Sliding vs Casement Aluminum Windows](https://www.jzz1.com/guides/sliding-vs-casement-aluminum-windows.html): Air sealing, acoustic rating, and ventilation ergonomics.
-- [Passive House Thermal Break Windows](https://www.jzz1.com/guides/passive-house-thermal-break-windows-for-cold-climate-projects.html): Super-insulated windows for cold-climate high-efficiency buildings.
+- [Passive House Thermal Break Windows](https://www.jzz1.com/guides/passive-house-thermal-break-windows-for-cold-climate-projects.html): Cold-climate facade engineering guide for ASHRAE Zones 5–7 and Northern Europe: 75mm/85mm PA66 GF25 (34mm–42mm) foam-filled frames, triple Low-E Argon IGUs (Uw 0.78–1.18 W/(m²·K)), warm-edge spacers (Psi ≤ 0.032 W/(m·K)), and EN 12207 Class 4 inward tilt-and-turn compression sealing.
 - [NFRC Commercial Windows for US Projects](https://www.jzz1.com/guides/nfrc-commercial-windows-for-us-projects.html): Engineering guide for US commercial building projects, NFRC 100/200/500 ratings, U-factor ≤ 0.28 BTU/(hr·ft²·°F), SHGC, NAFS CW & AW performance classes, ASHRAE 90.1 climate zones, and factory-direct export.
 - [Unitized vs. Stick Curtain Wall Systems](https://www.jzz1.com/guides/unitized-vs-stick-aluminum-curtain-wall.html): Commercial facade engineering comparison, cost per square meter, installation speed, wind load resistance up to 5000 Pa, seismic inter-story drift, and factory direct export.
-- [Florida Impact Sliding Doors](https://www.jzz1.com/guides/florida-impact-sliding-doors-for-coastal-projects.html): Laminated impact glass and reinforced interlocks for hurricane zones.
+- [Florida & Coastal Hurricane Impact Sliding Doors](https://www.jzz1.com/guides/florida-impact-sliding-doors-for-coastal-projects.html): Hurricane-zone patio & balcony door engineering guide: SGP vs PVB laminated impact glass (ASTM E1886/E1996), DP ±65 to ±90 psf (3100–4300 Pa) reinforced interlocks, 55mm–75mm stepped water-barrier sills, 316 stainless steel quad rollers, and AAMA 2605 PVDF marine finishes.
 - [Aluminum Window Export Packing & Logistics Guide](https://www.jzz1.com/guides/aluminum-window-export-packing-guide.html): 5-layer protective packing, ISPM 15 fumigated plywood crates, and damage prevention.
 - [Export Packing for Aluminum Windows](https://www.jzz1.com/guides/export-packing-for-aluminum-windows.html): Ocean container loading, A-frame stillages, and jobsite unloading.
 - [Aluminum Windows for Villa Projects](https://www.jzz1.com/guides/aluminum-windows-for-villa-projects.html): Luxury floor-to-ceiling glass, ultra-slim frames, and concealed thresholds.
