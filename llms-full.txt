@@ -150,6 +150,20 @@
   - Reaction to Fire: EN 13501-1 classification.
   - Slip Resistance: CEN/TS 15676 wet/dry pendulum test pass.
 
+
+### 7.7 Raw Material & Surface Treatment Certifications (AkzoNobel & PPG)
+- **AkzoNobel Powder Coatings**:
+  - Integrated Management Certification: **LRQA Certificate 10559523** (ISO 9001:2015, ISO 14001:2015, ISO 45001:2018).
+  - Automotive Quality Standard: **IATF 16949:2016 Certificate 0561802** (Approval IATF 16949 – 00047632-001 by LRQA).
+  - Architectural Finishes: Interpon D1000 (Class 1), Interpon D2000 (Qualicoat Class 2 / AAMA 2604 super durable), Interpon D3000 (AAMA 2605 fluorocarbon PVDF).
+  - Salt Spray Resistance: ASTM B117 > 1,500 hours (Class 2) to > 4,000 hours (PVDF); Class 5B cross-hatch adhesion.
+- **PPG Architectural Cationic Epoxy E-Coat (Electrophoresis)**:
+  - Formulations: Cationic Epoxy Paste (CP525D) & Resin (CR682) compliant with GB/T 16483 & GB/T 17519 SDS standards.
+  - Performance: Pin-hole free full-immersion electrodeposition into hollow cavities; > 2,000 hours salt spray resistance.
+- **ISO 9001:2015 Metal Guardrails & Doors**:
+  - Certificate Registration: **10425Q00700R0S** (Valid through 06 May 2028).
+  - Accreditation: CNAS C104-M. Scope: Production of metal guardrails, garden fences, and metal doors.
+
 ## 8. Direct Contact Information
 - **Company Name**: Jinan Jingzao New Materials Co., Ltd.
 - **Factory Address**: Jinan, Shandong Province, China

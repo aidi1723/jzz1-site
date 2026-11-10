@@ -88,6 +88,41 @@
         "testing_body": "Intertek Testing Services Shanghai",
         "scope": "Physical mechanical properties, reaction to fire, and wet/dry slip resistance",
         "compliance_jurisdiction": "Global"
+      },
+      {
+        "standard": "LRQA ISO 9001:2015, ISO 14001:2015, ISO 45001:2018",
+        "supplier_brand": "AkzoNobel Powder Coatings",
+        "certificate_identity": "10559523",
+        "approval_numbers": "ISO 9001-0072518 / ISO 14001-0072519 / ISO 45001-0072520",
+        "auditing_body": "LRQA Limited",
+        "scope": "Manufacturing and sales of architectural powder coatings",
+        "valid_through": "2026-12-31",
+        "compliance_jurisdiction": "Global"
+      },
+      {
+        "standard": "IATF 16949:2016 Automotive Quality Management",
+        "supplier_brand": "AkzoNobel Powder Coatings",
+        "iatf_cert_no": "0561802",
+        "approval_no": "IATF 16949 – 00047632-001",
+        "auditing_body": "LRQA Limited & International Automotive Task Force",
+        "scope": "Design and manufacturing of automotive and architectural grade powder coatings",
+        "valid_through": "2028-01-08",
+        "compliance_jurisdiction": "Global"
+      },
+      {
+        "standard": "GB/T 16483-2008 & GB/T 17519-2013 (SDS)",
+        "supplier_brand": "PPG Coatings",
+        "product_codes": "CP525D Cationic Epoxy Ecoat Paste / CR682 Cationic Epoxy Ecoat Resin",
+        "scope": "Architectural and industrial electrophoretic (E-coat) anti-corrosion barrier",
+        "compliance_jurisdiction": "Global"
+      },
+      {
+        "standard": "GB/T 19001-2016 / ISO 9001:2015",
+        "certificate_no": "10425Q00700R0S",
+        "accreditation": "CNAS Accreditation CNAS C104-M",
+        "scope": "Production of metal guardrails, fences, and metal doors",
+        "valid_through": "2028-05-06",
+        "compliance_jurisdiction": "Global"
       }
     ],
     "products": [
