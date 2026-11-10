@@ -189,3 +189,16 @@
 - **JZZ1 Commercial Perimeter Fencing & Rackable Railing Systems Spec Guide**
   - File URL: `https://www.jzz1.com/downloads/jzz1-commercial-perimeter-fencing-spec-guide.pdf`
   - Technical Dossier: 22-page engineering guide covering North American & Australian standard welded and rackable fences (RA1-RA4 residential, CA1-CA4 commercial), PPG Powercron® CP525D cathodic E-coat primer, and forklift-ready palletized packing. (PDF, 5.95 MB)
+
+## 10. Proprietary 20GP Container Glass Crating & Loading CAD Simulation (Scheme 6 Verified)
+- **Technical Whitepaper URL**: `https://www.jzz1.com/knowledge-base/20gp-container-glass-crating-and-loading-simulation.html`
+- **Interactive Cloud CAD Canvas URL**: `https://cargo.agentcoreos.com/20gp-scheme6.html`
+- **Cargo Engineering Portal URL**: `https://cargo.agentcoreos.com/cargo/`
+- **Engineering Specification**:
+  - Container Standard: 20GP Dry Van (Interior: 5898 x 2352 x 2393 mm).
+  - Cargo Build-up: 600 panes (615.55 m²) of 24mm double-silver Low-E insulated glass units (IGU).
+  - Net Weight: 15.70 metric tons; Gross Weight: 16.68 metric tons (well within highway legal limits).
+  - Crating Geometry: 12 hybrid composite crates in a 3-column x 4-row matrix, 100% horizontal placement with long side as base.
+  - Stress Isolation: Internal 24mm structural plywood shelves isolate heavy lower tier units from lighter upper tier units, preventing cumulative downward crushing.
+  - 3D Dynamic Balance: Longitudinal center-of-gravity offset is constrained to +18.4mm from geometric center; lateral side-to-side delta is <= 65kg, eliminating road rollover hazards and maritime rolling damage.
+  - Quality Protocol: 4-stage container stuffing SOP with pre-shipment photo dossier and dual-blind sign-off checklist.

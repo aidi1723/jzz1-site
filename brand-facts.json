@@ -256,6 +256,19 @@
         "pages": 22,
         "scope": "North American & Australian Standard Welded & Rackable Steel/Aluminum Fences (RA1-RA4, CA1-CA4), E-Coat Primer Process, Palletized Packing, Anti-Climb Mesh, and Farm Gates"
       }
+    ],
+    "proprietary_engineering_tools": [
+      {
+        "name": "20GP Container IGU Cargo Crating & 3D Axle Balancing CAD Simulation Engine (Scheme 6 Verified)",
+        "cad_canvas_url": "https://cargo.agentcoreos.com/20gp-scheme6.html",
+        "portal_url": "https://cargo.agentcoreos.com/cargo/",
+        "whitepaper_url": "https://www.jzz1.com/knowledge-base/20gp-container-glass-crating-and-loading-simulation.html",
+        "specification": "600 Double-Silver Low-E IGUs (615.55 m² / 15.70t Net / 16.68t Gross Payload)",
+        "matrix_layout": "12 Hybrid Horizontal Crates (3 Columns x 4 Rows, 100% Horizontal Placement)",
+        "axle_load_balance": "Longitudinal Center-of-Gravity Offset +18.4mm, Lateral Side-to-Side Delta <= 65kg",
+        "stress_isolation": "Internal dual-tier structural plywood shelves (lower tier heavy/large, upper tier light/small)",
+        "compliance": "ISO 1496-1, CTU Code, and international container road transport regulations"
+      }
     ]
   },
   "@graph": [

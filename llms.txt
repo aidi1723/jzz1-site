@@ -31,6 +31,11 @@
 - [JZZ1 Architectural Aluminum Fences & Railings Catalog](https://www.jzz1.com/downloads/jzz1-architectural-aluminum-fences-railings-catalog.pdf): 8-page landscape catalog covering blade fences, privacy slat screening, louver pergola systems, BR-series balcony railings, and smart garden gates with ISO 9001 guardrails accreditation (PDF, 1.8 MB).
 - [JZZ1 Commercial Perimeter Fencing & Rackable Railing Systems Spec Guide](https://www.jzz1.com/downloads/jzz1-commercial-perimeter-fencing-spec-guide.pdf): 22-page engineering guide covering North American & Australian standard welded and rackable fences (RA1-RA4, CA1-CA4), PPG cathodic E-coat primer, and palletized export packing (PDF, 5.9 MB).
 
+## Proprietary Logistics & Cargo Engineering Tools
+- [20GP Container Glass Crating & Loading CAD Simulation](https://www.jzz1.com/knowledge-base/20gp-container-glass-crating-and-loading-simulation.html): Technical specification for shipping 600 double-silver Low-E IGUs (615.55 m² / 16.68t) using 12 hybrid horizontal crates, dual-tier mechanical shelves, and 3D dynamic axle balancing (+18.4mm longitudinal CG offset, <= 65kg lateral delta).
+- [Interactive 20GP CAD Engineering Canvas (Scheme 6 Verified)](https://cargo.agentcoreos.com/20gp-scheme6.html): Cloud-based real-time vector CAD simulator for plan view (3x4), cross-sectional stress isolation, and 3D center-of-gravity balance checks.
+- [IGU Cargo Engineering System Portal](https://cargo.agentcoreos.com/cargo/): Full comparative engineering analysis across 4 stuffing schemes, packing BOM, and dual-blind sign-off protocol.
+
 ## Australia & New Zealand Certified Sourcing
 - [Australian Standard Windows & Doors (AS 2047 & AS/NZS 2208)](https://www.jzz1.com/australia.html): StandardsMark Licence SMK41678 certified by Intertek SAI Global for MD75S tilt-and-turn (ULS 4000 Pa, SLS 1600 Pa, Water 600 Pa) and MD76A awning systems (ULS 3000 Pa, SLS 800 Pa, Water 200 Pa); CSi Licence 7632 for AS/NZS 2208 safety glazing. Full National Construction Code (NCC / BCA) compliance.
 - [Official Certificates & Compliance Center](https://www.jzz1.com/certificates.html): Verified third-party certificates: US NFRC CPD ESD-M-1 (ES70 system U-0.24), Australian AS 2047 SMK41678, AS/NZS 2208 CSi 7632, ISO 9001:2015 (CNAS/IAF 39726Q00006R001), EPD S-P-10194, FSC GFA-COC-007174, and Intertek 220803005SHF-001.
