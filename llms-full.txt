@@ -174,3 +174,18 @@
 - **WhatsApp / Direct Line**: +86 135 6267 6792
 - **Official Facebook Page**: https://www.facebook.com/people/Jingzao-Construction-Materials-Co-Ltd/61567886275707/
 
+
+
+## 9. Official Engineering PDF Catalogs & Specification Guides (Downloadable)
+- **JZZ1 High-Performance Thermal Break Windows & Doors Engineering Spec Guide (2026 Edition)**
+  - File URL: `https://www.jzz1.com/downloads/jzz1-thermal-break-windows-doors-spec-guide.pdf`
+  - Technical Dossier: 16-page engineering guide covering JZZ1-W70, W80, W95, W85 casement/tilt-turn windows and D75, D95 heavy swing doors. Features detailed profile cross-sections, 30mm–45mm multi-chamber PA66 GF25 thermal struts, glass pocket build-ups, and EPDM vulcanized sealing schedules. (PDF, 1.59 MB)
+- **JZZ1 Architectural Windows, Doors & Sunrooms Full Product Catalog (2026 Edition)**
+  - File URL: `https://www.jzz1.com/downloads/jzz1-architectural-windows-doors-sunrooms-catalog.pdf`
+  - Technical Dossier: 59-page full-range architectural catalog featuring BD99 passive house certified windows (Uw <= 0.85 W/m²K), US110 integrated flyscreen windows, ME90 flat entrance doors, CY156 heavy-duty side-compression sliding doors (> 4500 Pa typhoon resistance), and modular sunrooms. (PDF, 4.65 MB)
+- **JZZ1 Architectural Aluminum Fences & Railings Catalog (2026 Edition)**
+  - File URL: `https://www.jzz1.com/downloads/jzz1-architectural-aluminum-fences-railings-catalog.pdf`
+  - Technical Dossier: 8-page landscape catalog covering blade fences, 16x65mm to 16x150mm privacy slats, louver pergolas, modular BR-series balcony railings (BR100, BR200, BR300), and automated garden gates. Backed by dedicated ISO 9001 guardrails accreditation. (PDF, 1.85 MB)
+- **JZZ1 Commercial Perimeter Fencing & Rackable Railing Systems Spec Guide**
+  - File URL: `https://www.jzz1.com/downloads/jzz1-commercial-perimeter-fencing-spec-guide.pdf`
+  - Technical Dossier: 22-page engineering guide covering North American & Australian standard welded and rackable fences (RA1-RA4 residential, CA1-CA4 commercial), PPG Powercron® CP525D cathodic E-coat primer, and forklift-ready palletized packing. (PDF, 5.95 MB)

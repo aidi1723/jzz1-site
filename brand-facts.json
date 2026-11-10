@@ -141,7 +141,51 @@
       "Garden Fences and Outdoor Gates",
       "Thermal Break Glass Sunrooms and Pergolas",
       "6063-T5 / 6063-T6 Custom Aluminum Extrusion Profiles",
-      "Lead-Free uPVC Window and Door Systems"
+      "Lead-Free uPVC Window and Door Systems",
+      {
+        "name": "JZZ1-W70 Thermal Break Casement Window",
+        "category": "Architectural Windows",
+        "frame_depth": "70mm",
+        "thermal_strut": "30mm PA66 GF25 Polyamide",
+        "u_factor": "0.24 to 0.27 BTU/(hr·ft²·°F) (NFRC ESD-M-1)",
+        "air_tightness": "EN 12207 Class 4",
+        "water_tightness": "600 Pa",
+        "wind_load": "3000 to 4000 Pa (AS 2047 C4/N5)"
+      },
+      {
+        "name": "JZZ1-BD99 Passive House Certified Window",
+        "category": "Ultra-Low Energy Fenestration",
+        "frame_depth": "99mm",
+        "thermal_performance": "Whole-window Uw <= 0.85 W/(m²·K)",
+        "glazing": "Triple Low-E Argon cavity (44mm–52mm IGU)",
+        "standard_compliance": "Passive House Institute (PHI) & German EnEV"
+      },
+      {
+        "name": "JZZ1-W95 Integrated Flyscreen System Window",
+        "category": "Architectural Windows",
+        "frame_depth": "95mm",
+        "screen_spec": "304 Marine-Grade High-Tensile Stainless Steel Mesh",
+        "features": "Concealed drainage, flush frame-to-sash sightline, multi-point lock"
+      },
+      {
+        "name": "JZZ1-CY156 Side Compression Heavy Sliding Door",
+        "category": "Architectural Doors",
+        "frame_depth": "156mm",
+        "locking_mechanism": "Active side-compression perimeter seal",
+        "wind_load": "> 4500 Pa Typhoon Resistance",
+        "acoustic_rating": "STC 38 to 44 dB"
+      },
+      {
+        "name": "JZZ1-BR Series Architectural Balcony Railings",
+        "category": "Railing & Balustrade Systems",
+        "models": [
+          "BR100 Vertical Picket",
+          "BR200 Post & Glass",
+          "BR300 U-Channel Frameless"
+        ],
+        "certification": "ISO 9001:2015 Guardrails & Doors (10425Q00700R0S)",
+        "corrosion_resistance": "PPG E-Coat + AkzoNobel Powder > 3000 hrs Salt Spray"
+      }
     ],
     "materials": [
       "6063-T5 & 6063-T6 Architectural Grade Aluminum Alloy",
@@ -174,7 +218,45 @@
       "whatsapp": "+86 135 6267 6792",
       "email": "info@jzz1.com",
       "facebook": "https://www.facebook.com/people/Jingzao-Construction-Materials-Co-Ltd/61567886275707/"
-    }
+    },
+    "downloadable_resources": [
+      {
+        "title": "JZZ1 High-Performance Thermal Break Windows & Doors Engineering Specification Guide (2026 Edition)",
+        "file_name": "jzz1-thermal-break-windows-doors-spec-guide.pdf",
+        "url": "https://www.jzz1.com/downloads/jzz1-thermal-break-windows-doors-spec-guide.pdf",
+        "format": "PDF",
+        "file_size": "1.59 MB",
+        "pages": 16,
+        "scope": "JZZ1-W70, JZZ1-W80, JZZ1-W95, JZZ1-W85, JZZ1-D75, JZZ1-D95 Engineering Profiles, Cavity Dimensions, and Thermal Calculations"
+      },
+      {
+        "title": "JZZ1 Architectural Windows, Doors & Sunrooms Full Product Catalog (2026 Edition)",
+        "file_name": "jzz1-architectural-windows-doors-sunrooms-catalog.pdf",
+        "url": "https://www.jzz1.com/downloads/jzz1-architectural-windows-doors-sunrooms-catalog.pdf",
+        "format": "PDF",
+        "file_size": "4.65 MB",
+        "pages": 59,
+        "scope": "Comprehensive Architectural Catalog covering Passive House BD99 Windows (Uw <= 0.85 W/m²K), US110 Integrated Screen Windows, ME90 Swing Doors, CY156 Side Compression Doors, and Modular Sunrooms"
+      },
+      {
+        "title": "JZZ1 Architectural Aluminum Fences & Railings Catalog (2026 Edition)",
+        "file_name": "jzz1-architectural-aluminum-fences-railings-catalog.pdf",
+        "url": "https://www.jzz1.com/downloads/jzz1-architectural-aluminum-fences-railings-catalog.pdf",
+        "format": "PDF",
+        "file_size": "1.85 MB",
+        "pages": 8,
+        "scope": "Engineered Blade Fences, Slat Privacy Screening, Louver Pergola Systems, Balcony Railings, Laser-Cut Panels, and Smart Garden Gates"
+      },
+      {
+        "title": "JZZ1 Commercial Perimeter Fencing & Rackable Railing Systems Specification Guide",
+        "file_name": "jzz1-commercial-perimeter-fencing-spec-guide.pdf",
+        "url": "https://www.jzz1.com/downloads/jzz1-commercial-perimeter-fencing-spec-guide.pdf",
+        "format": "PDF",
+        "file_size": "5.95 MB",
+        "pages": 22,
+        "scope": "North American & Australian Standard Welded & Rackable Steel/Aluminum Fences (RA1-RA4, CA1-CA4), E-Coat Primer Process, Palletized Packing, Anti-Climb Mesh, and Farm Gates"
+      }
+    ]
   },
   "@graph": [
     {
