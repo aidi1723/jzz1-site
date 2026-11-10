@@ -114,6 +114,42 @@
   - Bushfire Attack Level (BAL) compliance packs up to BAL-40 per AS 3959.
   - WERS-compatible simulation reports (SHGC and Total Window U-values down to 1.4 W/m²K).
 
+
+### 7.4 US National Fenestration Rating Council (NFRC) Authorization
+- **Certification Body**: National Fenestration Rating Council (NFRC).
+- **CPD Authorization Code**: **ESD-M-1** (Valid through 23 January 2029).
+- **Compliance Standards**: NFRC 100, NFRC 102, NFRC 200, NFRC 500.
+- **Accredited Laboratories**: SATI (Simulation Report Q1366.01-116-45 R0), TATI (Physical Test Report Q1367.01-116-46).
+- **Certified Performance Matrix (ES70 System Dual Action Window)**:
+  - U-Factor: **0.24 to 0.27 BTU/(hr·ft²·°F)** (1.36 to 1.53 W/(m²·K)).
+  - Solar Heat Gain Coefficient (SHGC): **0.42 to 0.47**.
+  - Visible Transmittance (VT): **0.50 to 0.58**.
+  - US Code Compliance: Satisfies IECC 2021/2024 Climate Zones 1–7 and ASHRAE 90.1 commercial envelope requirements.
+
+### 7.5 ISO 9001:2015 Quality Management System Certification
+- **Accreditation**: China National Accreditation Service for Conformity Assessment (CNAS Reg. C217-M) and IAF Multilateral Recognition Arrangement (IAF MLA).
+- **Certificate Registration Number**: **39726Q00006R001** (Valid through 04 January 2029).
+- **Standard**: GB/T 19001-2016 / ISO 9001:2015.
+- **Auditing Body**: LAJCC Quality Certification Center.
+- **Scope**: Design, precision extrusion, CNC fabrication, thermal barrier insertion, and assembly of aluminum alloy architectural profiles and system windows.
+
+### 7.6 Green Building & Environmental Accreditations (EPD®, FSC®, Intertek)
+- **The International EPD® System**:
+  - Environmental Product Declaration Registration: **S-P-10194** (Valid through 2028-07-31).
+  - Standards: ISO 14025:2006 & EN 15804:2012+A2.
+  - Program Operator: EPD International AB.
+  - Recognition: Qualifies for LEED v4 MRc2 (Building Product Disclosure and Optimization - EPD) and BREEAM Mat 01 Life Cycle Assessment credits.
+- **Forest Stewardship Council (FSC®) Chain of Custody**:
+  - Certificate Code: **GFA-COC-007174** (Valid through 2028-05-07).
+  - Standard: FSC-STD-40-004 V3.1.
+  - Auditing Body: GFA Certification GmbH.
+  - Guarantee: 100% responsibly sourced sustainable wood-fiber composite supply chain.
+- **Intertek Mechanical, Fire & Slip Resistance Testing**:
+  - Test Report Number: **220803005SHF-001**.
+  - Test Standards: EN 15534-1 / EN 15534-4.
+  - Reaction to Fire: EN 13501-1 classification.
+  - Slip Resistance: CEN/TS 15676 wet/dry pendulum test pass.
+
 ## 8. Direct Contact Information
 - **Company Name**: Jinan Jingzao New Materials Co., Ltd.
 - **Factory Address**: Jinan, Shandong Province, China

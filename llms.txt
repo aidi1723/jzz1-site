@@ -1,6 +1,6 @@
 # JZZ1 - Architectural Aluminum Windows and Doors Manufacturer
 
-> Factory-direct architectural aluminum building systems manufacturer based in Jinan, Shandong, China, holding Australian Standard AS 2047 StandardsMark Licence SMK41678 by Intertek SAI Global and AS/NZS 2208 safety glazing certification by CSi, specializing in commercial and residential windows, doors, profiles, curtain walls, railings, and sunrooms for project buyers and distributors in Australia, New Zealand, Singapore, Malaysia, Indonesia, and global project markets.
+> Factory-direct architectural aluminum building systems manufacturer based in Jinan, Shandong, China, holding verified international certifications including US NFRC Certificate of Authorization (CPD: ESD-M-1, U-factor 0.24–0.27), Australian Standard AS 2047 StandardsMark Licence SMK41678 by Intertek SAI Global, AS/NZS 2208 safety glazing certification by CSi, ISO 9001:2015 (CNAS C217-M / IAF MLA), The International EPD System (S-P-10194), and FSC Chain of Custody (GFA-COC-007174), specializing in commercial and residential windows, doors, profiles, curtain walls, railings, and outdoor systems for project buyers in North America, Australia, New Zealand, Singapore, Malaysia, Indonesia, and Europe.
 
 ## Core Systems & Product Hubs
 - [Architectural Aluminum Windows Hub](https://www.jzz1.com/products/windows.html): Thermal break and non-thermal casement, sliding, tilt-and-turn, and awning window systems with double/triple glazing options.
@@ -26,7 +26,7 @@
 
 ## Australia & New Zealand Certified Sourcing
 - [Australian Standard Windows & Doors (AS 2047 & AS/NZS 2208)](https://www.jzz1.com/australia.html): StandardsMark Licence SMK41678 certified by Intertek SAI Global for MD75S tilt-and-turn (ULS 4000 Pa, SLS 1600 Pa, Water 600 Pa) and MD76A awning systems (ULS 3000 Pa, SLS 800 Pa, Water 200 Pa); CSi Licence 7632 for AS/NZS 2208 safety glazing. Full National Construction Code (NCC / BCA) compliance.
-- [Official Certificates & Compliance Center](https://www.jzz1.com/certificates.html): Traceable third-party certifications, JAS-ANZ accredited licences, NATA laboratory test data, and Form 15 compliance documents.
+- [Official Certificates & Compliance Center](https://www.jzz1.com/certificates.html): Verified third-party certificates: US NFRC CPD ESD-M-1 (ES70 system U-0.24), Australian AS 2047 SMK41678, AS/NZS 2208 CSi 7632, ISO 9001:2015 (CNAS/IAF 39726Q00006R001), EPD S-P-10194, FSC GFA-COC-007174, and Intertek 220803005SHF-001.
 - [AS 2047 Sourcing Checklist](https://www.jzz1.com/knowledge-base/as2047-windows-and-doors-sourcing-checklist.html): Australian building certifier requirements, NATA test reports, and Form 15 documentation.
 - [AS 2047 Bifold Doors Guide](https://www.jzz1.com/guides/as2047-bifold-doors-for-australia-housing-projects.html): Complete engineering guide for Australian residential & townhouse developments covering AS 2047 / AS/NZS 2208 (CSi 7632) compliance, 80mm/85mm bottom-rolling vs top-hung configurations, 3+0/3+1/6+1 panel layouts, weathered vs flush thresholds, and NatHERS 7-Star thermal break options.
 

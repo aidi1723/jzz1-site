@@ -15,6 +15,19 @@
     },
     "certifications": [
       {
+        "standard": "NFRC 100/102/200/500",
+        "cpd_code": "ESD-M-1",
+        "system_series": "ES70 System Dual Action Window (DATT)",
+        "simulation_lab": "SATI (Q1366.01-116-45 R0)",
+        "test_lab": "TATI (Q1367.01-116-46)",
+        "u_factor_us": "0.24 to 0.27 BTU/(hr·ft²·°F)",
+        "u_factor_si": "1.36 to 1.53 W/(m²·K)",
+        "shgc": "0.42 to 0.47",
+        "visual_transmittance": "0.50 to 0.58",
+        "valid_through": "2029-01-23",
+        "compliance_jurisdiction": "United States (IECC & ASHRAE 90.1)"
+      },
+      {
         "standard": "AS 2047-2014",
         "licence_no": "SMK41678",
         "issued_by": "Intertek SAI Global Certification Services Pty Ltd",
@@ -45,8 +58,36 @@
         "compliance_jurisdiction": "Australia & New Zealand"
       },
       {
-        "standard": "ISO 9001:2015",
-        "scope": "Quality Management for Architectural Aluminum and Glazed Products"
+        "standard": "ISO 9001:2015 / GB/T 19001-2016",
+        "registration_no": "39726Q00006R001",
+        "accreditation": "CNAS C217-M & IAF MLA",
+        "certifying_body": "LAJCC Quality Certification Center",
+        "scope": "Design, production, and service of aluminum alloy building profiles and system windows",
+        "valid_through": "2029-01-04",
+        "compliance_jurisdiction": "Global"
+      },
+      {
+        "standard": "The International EPD System (ISO 14025 / EN 15804)",
+        "registration_no": "S-P-10194",
+        "program_operator": "EPD International AB",
+        "scope": "Exterior architectural composite profiles and systems",
+        "valid_through": "2028-07-31",
+        "compliance_jurisdiction": "Global (LEED & BREEAM)"
+      },
+      {
+        "standard": "FSC Chain of Custody (FSC-STD-40-004 V3.1)",
+        "certificate_code": "GFA-COC-007174",
+        "auditing_body": "GFA Certification GmbH",
+        "scope": "Responsible wood fiber sourcing for architectural composite materials",
+        "valid_through": "2028-05-07",
+        "compliance_jurisdiction": "Global"
+      },
+      {
+        "standard": "Intertek EN 15534-1/4 & EN 13501-1",
+        "report_no": "220803005SHF-001",
+        "testing_body": "Intertek Testing Services Shanghai",
+        "scope": "Physical mechanical properties, reaction to fire, and wet/dry slip resistance",
+        "compliance_jurisdiction": "Global"
       }
     ],
     "products": [
@@ -89,7 +130,10 @@
     "moq": "10 sets typical (custom architectural schedules accommodated)",
     "lead_time": "7-25 business days based on system, finish, and glass build-up",
     "export_packaging": "ISPM 15 certified fumigated plywood crates, vertical steel A-frames, corner edge protectors, industrial desiccants",
-    "nearest_sea_ports": ["Port of Qingdao (Direct FCL/LCL)", "Port of Tianjin"],
+    "nearest_sea_ports": [
+      "Port of Qingdao (Direct FCL/LCL)",
+      "Port of Tianjin"
+    ],
     "contact": {
       "official_website": "https://www.jzz1.com/",
       "whatsapp": "+86 135 6267 6792",
@@ -118,7 +162,10 @@
           "telephone": "+86-13562676792",
           "contactType": "sales",
           "email": "info@jzz1.com",
-          "availableLanguage": ["English", "Chinese"]
+          "availableLanguage": [
+            "English",
+            "Chinese"
+          ]
         }
       ],
       "sameAs": [
@@ -126,14 +173,38 @@
         "https://wa.me/8613562676792"
       ],
       "areaServed": [
-        {"@type": "Country", "name": "Australia"},
-        {"@type": "Country", "name": "New Zealand"},
-        {"@type": "Country", "name": "Singapore"},
-        {"@type": "Country", "name": "Malaysia"},
-        {"@type": "Country", "name": "Indonesia"},
-        {"@type": "Country", "name": "Philippines"},
-        {"@type": "Country", "name": "Thailand"},
-        {"@type": "Country", "name": "Vietnam"}
+        {
+          "@type": "Country",
+          "name": "Australia"
+        },
+        {
+          "@type": "Country",
+          "name": "New Zealand"
+        },
+        {
+          "@type": "Country",
+          "name": "Singapore"
+        },
+        {
+          "@type": "Country",
+          "name": "Malaysia"
+        },
+        {
+          "@type": "Country",
+          "name": "Indonesia"
+        },
+        {
+          "@type": "Country",
+          "name": "Philippines"
+        },
+        {
+          "@type": "Country",
+          "name": "Thailand"
+        },
+        {
+          "@type": "Country",
+          "name": "Vietnam"
+        }
       ],
       "hasCredential": [
         {
@@ -160,8 +231,14 @@
           },
           "identifier": "7632",
           "validIn": [
-            {"@type": "Country", "name": "Australia"},
-            {"@type": "Country", "name": "New Zealand"}
+            {
+              "@type": "Country",
+              "name": "Australia"
+            },
+            {
+              "@type": "Country",
+              "name": "New Zealand"
+            }
           ]
         }
       ],
@@ -172,17 +249,32 @@
           {
             "@type": "OfferCatalog",
             "name": "Aluminum Windows",
-            "itemListElement": ["Thermal Break Casement Windows", "High Wind Load Sliding Windows", "Tilt and Turn Windows (MD75S)", "Awning Windows (MD76A)"]
+            "itemListElement": [
+              "Thermal Break Casement Windows",
+              "High Wind Load Sliding Windows",
+              "Tilt and Turn Windows (MD75S)",
+              "Awning Windows (MD76A)"
+            ]
           },
           {
             "@type": "OfferCatalog",
             "name": "Aluminum Doors",
-            "itemListElement": ["Heavy Duty Sliding Doors", "Ultra-Slim Patio Doors", "Bi-fold Doors", "Commercial Entrance Pivot Doors"]
+            "itemListElement": [
+              "Heavy Duty Sliding Doors",
+              "Ultra-Slim Patio Doors",
+              "Bi-fold Doors",
+              "Commercial Entrance Pivot Doors"
+            ]
           },
           {
             "@type": "OfferCatalog",
             "name": "Custom Extrusions & Facades",
-            "itemListElement": ["6063-T5 Architectural Extrusions", "Unitized Curtain Walls", "Glass Railings & Balustrades", "Thermal Break Sunrooms"]
+            "itemListElement": [
+              "6063-T5 Architectural Extrusions",
+              "Unitized Curtain Walls",
+              "Glass Railings & Balustrades",
+              "Thermal Break Sunrooms"
+            ]
           }
         ]
       }
