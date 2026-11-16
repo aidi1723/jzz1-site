@@ -203,3 +203,24 @@
   - Stress Isolation: Internal 24mm structural plywood shelves isolate heavy lower tier units from lighter upper tier units, preventing cumulative downward crushing.
   - 3D Dynamic Balance: Longitudinal center-of-gravity offset is constrained to +18.4mm from geometric center; lateral side-to-side delta is <= 65kg, eliminating road rollover hazards and maritime rolling damage.
   - Quality Protocol: 4-stage container stuffing SOP with pre-shipment photo dossier and dual-blind sign-off checklist.
+
+## 11. Global Import & Customs Clearance Compliance and Interactive PI Budget Estimator
+- **Guide & Compliance Portal URL**: `https://www.jzz1.com/import-customs-clearance-guide.html`
+- **Interactive Web Estimator App**: `https://tools.jzz1.com/` (Edge: `https://jzz1-tools.huili86689.workers.dev/`)
+- **Harmonized System (HS) Classifications**:
+  - Primary Code: **HS 7610.10** (Doors, windows and their frames and thresholds for doors, of aluminum).
+  - Component Codes: **HS 7604.21** (Hollow profiles of aluminum alloys); **HS 7610.90** (Other aluminum structures and parts, curtain wall profiles).
+- **Incoterms® 2020 Allocation Matrix**:
+  - **FOB Qingdao (CNQDG)**: JZZ1 covers China export clearance, terminal handling charges (THC), container drayage, and on-board loading. Buyer covers ocean freight, marine insurance, and destination import clearance/tariffs.
+  - **CIF (Cost, Insurance & Freight)**: JZZ1 pays export clearance + main carriage freight + Institute Cargo Clauses (A) all-risk insurance to buyer's destination port. Buyer manages local port clearance, duty, and inland drayage.
+  - **DDP (Delivered Duty Paid)**: Turnkey door-to-door delivery. JZZ1 handles all ocean freight, destination customs clearance, import tariffs, and inland transport directly to buyer's jobsite or warehouse.
+- **Country-Specific Import Compliance**:
+  - **United States**: Pre-shipment Importer Security Filing (ISF 10+2) transmitted 24 hours prior to Qingdao port loading; NFRC CPD ESD-M-1 authorization and Section 301 / MFN tariff tracking.
+  - **Australia**: AS 2047-2014 StandardsMark Licence SMK41678 documentation, AS/NZS 2208 safety glazing certificates (CSi 7632), and certified Form 15 compliance schedules. Non-fumigation engineered plywood crates eliminate ISPM 15 BMSB quarantine hold delays.
+  - **Singapore**: BCA SS 341 certification, Green Mark energy acoustic submittals, and zero-MFN customs clearance support under China-Singapore Free Trade Agreement (CSFTA).
+  - **European Union**: CE marking compliance, EN 14351-1 product standard testing, and Environmental Product Declaration (EPD S-P-10194) for carbon footprint tracking.
+- **Interactive Proforma Invoice (PI) & BOM Engine Features**:
+  - Client-side reactive BOM calculation: window sets, opening dimensions (mm to m²), glass specs, weight per unit, and cubic meters (CBM).
+  - Container stuffing gauge: live visualization of 20GP (28 CBM / 21t cap) and 40HQ (68 CBM / 26t cap) utilization percentages.
+  - Automated currency conversion and English amount in words generator ("SAY TOTAL US DOLLARS...").
+  - Instant print-ready document styling (`@media print`) generating official PI, CI, and Packing List formats with digital seal.
