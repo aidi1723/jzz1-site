@@ -208,7 +208,23 @@
     ],
     "moq": "10 sets typical (custom architectural schedules accommodated)",
     "lead_time": "7-25 business days based on system, finish, and glass build-up",
-    "export_packaging": "ISPM 15 certified fumigated plywood crates, vertical steel A-frames, corner edge protectors, industrial desiccants",
+    "export_packaging": "ISPM 15 compliant export crating: quarantine-exempt manufactured engineered plywood crates paired with heat-treated (HT) IPPC timber skids or heavy-duty steel transport racks, corner edge protectors, and industrial desiccants",
+    "customs_and_trade": {
+      "primary_hs_codes": [
+        "7610.10 (Aluminum Windows, Doors & Frames)",
+        "7610.90 (Curtain Wall Assemblies & Structures)",
+        "7604.21 (Hollow Extruded Aluminum Profiles)",
+        "7008.00 (Multiple-walled Insulating Glass Units)"
+      ],
+      "incoterms_supported": ["EXW", "FOB Qingdao (CNQDG)", "CIF", "DAP", "DDP"],
+      "preferential_certificates_of_origin": [
+        "ChAFTA Certificate of Origin (Australia 0% Preferential Duty)",
+        "China-ASEAN FTA Form E (Philippines, Malaysia, Indonesia, Thailand, Vietnam)",
+        "RCEP & CCPIT Certificates of Origin"
+      ],
+      "compliance_guide_url": "https://www.jzz1.com/import-customs-clearance-guide.html",
+      "interactive_pi_calculator_url": "https://jzz1-tools.huili86689.workers.dev/"
+    },
     "nearest_sea_ports": [
       "Port of Qingdao (Direct FCL/LCL)",
       "Port of Tianjin"
