@@ -126,6 +126,21 @@
   <!-- Umami Analytics (Self-Hosted & Privacy-Friendly) -->
   <script defer src="https://analytics.jzz1.com/script.js" data-website-id="842de99f-db46-4e46-b584-ba7ad4a3b572"></script>
   <script defer src="/js/analytics-events.js"></script>
+  <script type="speculationrules">
+  {
+    "prerender": [
+      {
+        "where": {
+          "and": [
+            { "href_matches": "/*" },
+            { "not": { "href_matches": "/downloads/*" } }
+          ]
+        },
+        "eagerness": "moderate"
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <header>
@@ -280,7 +295,7 @@
         <div class="card" style="padding:0; overflow:hidden;">
           <picture>
             <source srcset="/images/site-refresh/proof-glass.webp" type="image/webp">
-            <img src="/images/site-refresh/proof-glass.jpg" alt="Insulated glass unit assembly" style="width:100%; aspect-ratio:16/10; object-fit:cover;" loading="lazy" width="1800" height="1012">
+            <img src="/images/site-refresh/proof-glass.jpg" alt="Insulated glass unit assembly" style="width:100%; aspect-ratio:16/10; object-fit:cover;" loading="eager" fetchpriority="high" width="1800" height="1012">
           </picture>
           <div style="padding:14px 16px;">
             <strong style="display:block; font-size:1.05rem;">Automated Glazing Assembly</strong>

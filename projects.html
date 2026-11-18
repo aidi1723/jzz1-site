@@ -51,6 +51,21 @@
   <!-- Umami Analytics (Self-Hosted & Privacy-Friendly) -->
   <script defer src="https://analytics.jzz1.com/script.js" data-website-id="842de99f-db46-4e46-b584-ba7ad4a3b572"></script>
   <script defer src="/js/analytics-events.js"></script>
+  <script type="speculationrules">
+  {
+    "prerender": [
+      {
+        "where": {
+          "and": [
+            { "href_matches": "/*" },
+            { "not": { "href_matches": "/downloads/*" } }
+          ]
+        },
+        "eagerness": "moderate"
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <header class="site-header">
@@ -172,7 +187,7 @@
         <picture>
           <source type="image/webp" srcset="/images/assets_webp/windows-640.webp 640w, /images/assets_webp/windows-1200.webp 1200w" sizes="(max-width: 900px) 100vw, 520px" />
           <source type="image/jpeg" srcset="/images/assets_web/windows-640.jpg 640w, /images/assets_web/windows-1200.jpg 1200w" sizes="(max-width: 900px) 100vw, 520px" />
-          <img src="/images/assets_safe/windows.jpg" alt="Architectural thermal break aluminum windows reference" loading="lazy" width="1600" height="1200" />
+          <img src="/images/assets_safe/windows.jpg" alt="Architectural thermal break aluminum windows reference" loading="eager" fetchpriority="high" width="1600" height="1200" />
         </picture>
       </div>
     </div>

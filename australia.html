@@ -150,6 +150,21 @@
   <!-- Umami Analytics (Self-Hosted & Privacy-Friendly) -->
   <script defer src="https://analytics.jzz1.com/script.js" data-website-id="842de99f-db46-4e46-b584-ba7ad4a3b572"></script>
   <script defer src="/js/analytics-events.js"></script>
+  <script type="speculationrules">
+  {
+    "prerender": [
+      {
+        "where": {
+          "and": [
+            { "href_matches": "/*" },
+            { "not": { "href_matches": "/downloads/*" } }
+          ]
+        },
+        "eagerness": "moderate"
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <header>
@@ -251,7 +266,7 @@
           <div class="cert-media" onclick="openCertLightbox('/images/certificates/as2047-standardsmark-licence-p1.jpg', 'AS 2047 StandardsMark Licence SMK41678 - Page 1')">
             <picture>
               <source srcset="/images/certificates/as2047-standardsmark-licence-p1.webp" type="image/webp">
-              <img src="/images/certificates/as2047-standardsmark-licence-p1.jpg" alt="AS 2047 StandardsMark Licence SMK41678 Intertek SAI Global" width="600" height="849" loading="lazy">
+              <img src="/images/certificates/as2047-standardsmark-licence-p1.jpg" alt="AS 2047 StandardsMark Licence SMK41678 Intertek SAI Global" width="600" height="849" loading="eager" fetchpriority="high">
             </picture>
             <span class="cert-zoom-hint">🔍 Expand Licence</span>
           </div>
