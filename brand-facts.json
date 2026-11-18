@@ -123,6 +123,23 @@
         "scope": "Production of metal guardrails, fences, and metal doors",
         "valid_through": "2028-05-06",
         "compliance_jurisdiction": "Global"
+      },
+      {
+        "standard": "GB/T 7106 / GB/T 8484 / GB/T 8485 / GB/T 31433",
+        "report_reference_series": [
+          "CY112",
+          "US110",
+          "H1",
+          "UC90",
+          "WS110"
+        ],
+        "testing_agency": "National Quality Inspection Center for Architectural Fenestration & Curtain Walls",
+        "wind_pressure_resistance": "Class 8 (P3 >= 4500 Pa)",
+        "water_penetration_resistance": "Class 6 (Delta P >= 700 Pa)",
+        "air_permeability": "Class 8 (q1 <= 0.5 m³/(m·h))",
+        "thermal_insulation": "Class 7 (K = 1.8 to 2.0 W/(m²·K))",
+        "acoustic_sound_attenuation": "Class 4 (Rw + Ctr >= 35 dB)",
+        "dossier_download_url": "https://www.jzz1.com/downloads/jzz1-national-window-testing-reports-bundle.pdf"
       }
     ],
     "products": [
@@ -216,7 +233,13 @@
         "7604.21 (Hollow Extruded Aluminum Profiles)",
         "7008.00 (Multiple-walled Insulating Glass Units)"
       ],
-      "incoterms_supported": ["EXW", "FOB Qingdao (CNQDG)", "CIF", "DAP", "DDP"],
+      "incoterms_supported": [
+        "EXW",
+        "FOB Qingdao (CNQDG)",
+        "CIF",
+        "DAP",
+        "DDP"
+      ],
       "preferential_certificates_of_origin": [
         "ChAFTA Certificate of Origin (Australia 0% Preferential Duty)",
         "China-ASEAN FTA Form E (Philippines, Malaysia, Indonesia, Thailand, Vietnam)",
@@ -285,6 +308,64 @@
         "axle_load_balance": "Longitudinal Center-of-Gravity Offset +18.4mm, Lateral Side-to-Side Delta <= 65kg",
         "stress_isolation": "Internal dual-tier structural plywood shelves (lower tier heavy/large, upper tier light/small)",
         "compliance": "ISO 1496-1, CTU Code, and international container road transport regulations"
+      }
+    ],
+    "engineering_downloads_2026": [
+      {
+        "name": "National Window Testing Reports Dossier",
+        "url": "https://www.jzz1.com/downloads/jzz1-national-window-testing-reports-bundle.pdf",
+        "size": "19.4 MB",
+        "pages": 25
+      },
+      {
+        "name": "NFRC Thermal Simulation & Physical Test Report",
+        "url": "https://www.jzz1.com/downloads/jzz1-nfrc-thermal-performance-report.pdf",
+        "size": "1.3 MB"
+      },
+      {
+        "name": "Architectural Louver Pergola Catalog",
+        "url": "https://www.jzz1.com/downloads/jzz1-architectural-louver-pergola-catalog.pdf",
+        "size": "10 MB"
+      },
+      {
+        "name": "Minimalist Slim-Frame Folding Doors Catalog",
+        "url": "https://www.jzz1.com/downloads/jzz1-minimalist-folding-doors-catalog.pdf",
+        "size": "21 MB"
+      },
+      {
+        "name": "Curtain Wall Solid Aluminum Facade Cladding Guide",
+        "url": "https://www.jzz1.com/downloads/jzz1-curtain-wall-solid-aluminum-panel-guide.pdf",
+        "size": "12 MB"
+      },
+      {
+        "name": "Motorized Window Actuators Catalog",
+        "url": "https://www.jzz1.com/downloads/jzz1-motorized-window-actuators-catalog.pdf",
+        "size": "8.9 MB"
+      },
+      {
+        "name": "Silicone Sealant Technical Catalog",
+        "url": "https://www.jzz1.com/downloads/jzz1-silicone-sealant-technical-catalog.pdf",
+        "size": "2.8 MB"
+      },
+      {
+        "name": "Neutral Silicone Sealant MSDS",
+        "url": "https://www.jzz1.com/downloads/jzz1-neutral-silicone-sealant-msds.pdf",
+        "size": "0.23 MB"
+      },
+      {
+        "name": "Intertek WPC Decking Test Report",
+        "url": "https://www.jzz1.com/downloads/jzz1-intertek-wpc-decking-test-report.pdf",
+        "size": "2.6 MB"
+      },
+      {
+        "name": "The International EPD Declaration",
+        "url": "https://www.jzz1.com/downloads/jzz1-epd-environmental-product-declaration.pdf",
+        "size": "0.86 MB"
+      },
+      {
+        "name": "ISO 9001:2015 QMS Certificate",
+        "url": "https://www.jzz1.com/downloads/jzz1-iso9001-qms-certificate.pdf",
+        "size": "2.8 MB"
       }
     ]
   },
