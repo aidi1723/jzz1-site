@@ -134,11 +134,11 @@
           "WS110"
         ],
         "testing_agency": "National Quality Inspection Center for Architectural Fenestration & Curtain Walls",
-        "wind_pressure_resistance": "Class 8 (P3 >= 4500 Pa)",
-        "water_penetration_resistance": "Class 6 (Delta P >= 700 Pa)",
-        "air_permeability": "Class 8 (q1 <= 0.5 m³/(m·h))",
-        "thermal_insulation": "Class 7 (K = 1.8 to 2.0 W/(m²·K))",
-        "acoustic_sound_attenuation": "Class 4 (Rw + Ctr >= 35 dB)",
+        "wind_pressure_resistance": "Class 9 (P3 = ±5.0 kPa / 5000 Pa, Pmax = ±7.5 kPa)",
+        "water_penetration_resistance": "Class 6 (Delta P = 700 Pa unpenetrated)",
+        "air_permeability": "Class 8 (q1 = 0.10 to 0.31 m³/(m·h))",
+        "thermal_insulation": "Class 8–9 (K = 1.2 to 1.4 W/(m²·K))",
+        "acoustic_sound_attenuation": "Class 4 (Rw + Ctr = 35 to 37 dB)",
         "dossier_download_url": "https://www.jzz1.com/downloads/jzz1-national-window-testing-reports-bundle.pdf"
       }
     ],
