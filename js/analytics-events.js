@@ -1,20 +1,101 @@
 (function () {
   'use strict';
 
+  var AI_REFERRER_RE = /(^|\.)(chatgpt\.com|chat\.openai\.com|perplexity\.ai|claude\.ai|gemini\.google\.com|copilot\.microsoft\.com|you\.com)$/i;
+  var AI_UTM_RE = /(chatgpt|openai|perplexity|claude|gemini|copilot)/i;
+  var SESSION_KEY = 'jzz1_ai_source';
+
   function getUmami() {
     return (window.umami && typeof window.umami.track === 'function') ? window.umami : null;
+  }
+
+  function detectAiSource() {
+    var host = '';
+    try {
+      if (document.referrer) {
+        host = new URL(document.referrer).hostname.replace(/^www\./i, '').toLowerCase();
+        if (AI_REFERRER_RE.test(host)) {
+          return host;
+        }
+      }
+    } catch (e) {}
+
+    try {
+      if (window.location && window.location.search) {
+        var params = new URLSearchParams(window.location.search);
+        var utmSource = (params.get('utm_source') || '').trim().toLowerCase();
+        if (utmSource && AI_UTM_RE.test(utmSource)) {
+          return utmSource;
+        }
+      }
+    } catch (e) {}
+
+    return '';
+  }
+
+  function getAiSource() {
+    try {
+      return sessionStorage.getItem(SESSION_KEY) || 'none';
+    } catch (e) {
+      return 'none';
+    }
+  }
+
+  function initAiAttribution() {
+    var freshSource = detectAiSource();
+    if (!freshSource) return;
+
+    var prev = '';
+    try {
+      prev = sessionStorage.getItem(SESSION_KEY) || '';
+      if (!prev) {
+        sessionStorage.setItem(SESSION_KEY, freshSource);
+      }
+    } catch (e) {}
+
+    if (!prev) {
+      var sendReferral = function () {
+        var u = getUmami();
+        if (u) {
+          try {
+            u.track('AI Search Referral', {
+              engine: freshSource,
+              landing: window.location.pathname
+            });
+          } catch (err) {}
+        }
+      };
+      if (document.readyState === 'complete') {
+        sendReferral();
+      } else {
+        window.addEventListener('load', sendReferral);
+      }
+    }
   }
 
   function trackEvent(name, data) {
     var u = getUmami();
     if (u) {
+      var payload = {};
+      if (data && typeof data === 'object') {
+        for (var k in data) {
+          if (Object.prototype.hasOwnProperty.call(data, k)) {
+            payload[k] = data[k];
+          }
+        }
+      }
+      if (!payload.ai_source) {
+        payload.ai_source = getAiSource();
+      }
       try {
-        u.track(name, data);
+        u.track(name, payload);
       } catch (err) {
         // fail-safe, do not disrupt user interaction
       }
     }
   }
+
+  initAiAttribution();
 
   document.addEventListener('click', function (e) {
     var target = e.target;

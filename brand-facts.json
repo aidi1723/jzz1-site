@@ -87,7 +87,12 @@
         "report_no": "220803005SHF-001",
         "testing_body": "Intertek Testing Services Shanghai",
         "scope": "Physical mechanical properties, reaction to fire, and wet/dry slip resistance",
-        "compliance_jurisdiction": "Global"
+        "compliance_jurisdiction": "Global",
+        "bending_strength_mean": "28.5 MPa",
+        "deflection_500n": "1.07 mm",
+        "water_absorption_28d_mean": "4.40% (length swelling 0.11%)",
+        "pendulum_slip_mean": "81",
+        "fire_classification": "EN 13501-1:2018 Class Bfl"
       },
       {
         "standard": "LRQA ISO 9001:2015, ISO 14001:2015, ISO 45001:2018",
@@ -189,7 +194,7 @@
         "category": "Architectural Doors",
         "frame_depth": "156mm",
         "locking_mechanism": "Active side-compression perimeter seal",
-        "wind_load": "> 4500 Pa Typhoon Resistance",
+        "wind_load": "4500 Pa Design Typhoon Resistance (Core Fenestration Lab-Tested to ±5.0 kPa / 5000 Pa GB/T 7106 Class 9)",
         "acoustic_rating": "STC 38 to 44 dB"
       },
       {
