@@ -654,3 +654,551 @@ th {
   color: var(--text);
   margin: 4px 0 0;
 }
+
+
+/* ==========================================================================
+   JZZ1 VISUAL REFRESH v2 · 2026-11  (appended override layer)
+   Scope : colour, type texture, shadows, radii, tables, buttons, nav.
+   Rules : never hides content (no display:none), never reorders DOM,
+           no new web fonts, no JS, no new images.
+   Rollback: delete everything from this banner to end of file.
+   ========================================================================== */
+
+/* ---- 1. Design tokens: stone / graphite / bronze ---------------------- */
+:root {
+  --bg: #f4f3f0;
+  --bg-alt: #eae8e3;
+  --bg-soft: #faf9f7;
+  --surface: #ffffff;
+  --surface-soft: #f8f7f4;
+  --surface-strong: #efede8;
+  --card: #ffffff;
+  --card-soft: #f8f7f4;
+  --text: #121416;
+  --muted: #565b61;
+  --muted-strong: #33383d;
+  --border: #dfdbd4;
+  --border-strong: #c8c3ba;
+  --line: rgba(18, 20, 22, 0.08);
+  --shell: #15181b;
+  --shell-soft: #262a2f;
+  --cta: #15181b;
+  --ctaBorder: #15181b;
+  --accent: #a47a33;
+  --accent-soft: #eadcbc;
+  --accent-dark: #7a5a1f;
+  --accent-tint: rgba(164, 122, 51, 0.08);
+  --shadow-sm: 0 1px 2px rgba(18, 20, 22, 0.04), 0 4px 14px rgba(18, 20, 22, 0.04);
+  --shadow:    0 1px 2px rgba(18, 20, 22, 0.04), 0 6px 20px rgba(18, 20, 22, 0.05);
+  --shadow-md: 0 1px 2px rgba(18, 20, 22, 0.05), 0 10px 30px rgba(18, 20, 22, 0.07);
+  --shadow-lg: 0 2px 4px rgba(18, 20, 22, 0.05), 0 20px 48px rgba(18, 20, 22, 0.10);
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius: 12px;
+  --radius-lg: 16px;
+  --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+/* ---- 2. Canvas & type texture ----------------------------------------- */
+body {
+  background: linear-gradient(180deg, var(--bg-soft) 0, var(--bg) 520px) no-repeat, var(--bg);
+  color: var(--text);
+}
+h1, h2, h3, h4 { letter-spacing: -0.02em; line-height: 1.18; }  /* colour inherited: keeps white headings in dark panels */
+h1 { letter-spacing: -0.028em; line-height: 1.1; }
+p, li, dd { text-wrap: pretty; }
+::selection { background: var(--accent-soft); color: var(--text); }
+a { text-underline-offset: 3px; text-decoration-thickness: 1px; }
+a:focus-visible, button:focus-visible, input:focus-visible,
+select:focus-visible, textarea:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+/* ---- 3. Header & navigation ------------------------------------------- */
+header {
+  background: rgba(250, 249, 247, 0.88);
+  border-bottom: 1px solid var(--line);
+  box-shadow: none;
+}
+.brand strong, .brand-name { letter-spacing: 0.12em; }
+nav a:not(.btn), .nav-links a:not(.btn) {
+  position: relative;
+  color: var(--muted-strong);
+  font-weight: 600;
+  transition: color 180ms var(--ease-out);
+}
+nav a:not(.btn)::after, .nav-links a:not(.btn)::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: 2px;
+  height: 1.5px;
+  background: var(--accent);
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 220ms var(--ease-out);
+  pointer-events: none;
+}
+nav a:not(.btn):hover, .nav-links a:not(.btn):hover,
+nav a.nav-active, nav a[aria-current="page"] { color: var(--text); }
+nav a:not(.btn):hover::after, .nav-links a:not(.btn):hover::after,
+nav a.nav-active::after, nav a[aria-current="page"]::after { transform: scaleX(1); }
+
+.breadcrumbs { color: var(--muted); letter-spacing: 0.01em; }
+.breadcrumbs a { color: var(--muted-strong); text-decoration: none; }
+.breadcrumbs a:hover { color: var(--accent-dark); text-decoration: underline; }
+
+/* ---- 4. Buttons -------------------------------------------------------- */
+.btn {
+  border-radius: 10px;
+  font-weight: 650;
+  letter-spacing: 0.01em;
+  transition: background-color 180ms var(--ease-out), border-color 180ms var(--ease-out),
+              color 180ms var(--ease-out), box-shadow 180ms var(--ease-out),
+              transform 180ms var(--ease-out);
+}
+.btn:hover { transform: translateY(-1px); }
+.btn:active { transform: translateY(0); }
+.btn.primary {
+  background: var(--shell);
+  border-color: var(--shell);
+  color: #fff;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08), 0 1px 2px rgba(18, 20, 22, 0.14);
+}
+.btn.primary:hover {
+  background: #000;
+  box-shadow: inset 0 -2px 0 var(--accent), 0 10px 22px rgba(18, 20, 22, 0.18);
+}
+.btn.secondary {
+  background: var(--accent-tint);
+  border-color: rgba(164, 122, 51, 0.38);
+  color: var(--text);
+}
+.btn.secondary:hover { background: rgba(164, 122, 51, 0.14); border-color: var(--accent); }
+.btn.ghost {
+  background: rgba(255, 255, 255, 0.72);
+  border-color: var(--border-strong);
+  color: var(--text);
+}
+.btn.ghost:hover { border-color: var(--text); background: #fff; }
+
+/* ---- 5. Cards & surfaces ---------------------------------------------- */
+.card {
+  border-color: var(--border);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+.badge {
+  border-radius: 6px;
+  border-color: var(--border-strong);
+  background: rgba(255, 255, 255, 0.86);
+  color: var(--muted-strong);
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+.badges > .badge::before, .proof-pills > .badge::before {
+  content: "";
+  display: inline-block;
+  width: 5px; height: 5px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  vertical-align: middle;
+  flex: 0 0 auto;
+}
+
+/* ---- 6. Spec tables (text stays in HTML, only styling changes) -------- */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  font-variant-numeric: tabular-nums lining-nums;
+  box-shadow: var(--shadow-sm);
+}
+th, td {
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  border-right: 1px solid var(--line);
+  padding: 11px 14px;
+}
+tr > :last-child { border-right: 0; }
+tbody tr:last-child > *, tfoot tr:last-child > * { border-bottom: 0; }
+th { font-weight: 650; }
+/* Only style rows/cells WITHOUT inline styles, so hand-coloured rows
+   (e.g. navy header rows, highlighted rows) keep their look. */
+tr:not([style]) > th:not([style]) { background: var(--surface-strong); color: var(--text); }
+thead tr:not([style]) > th:not([style]) {
+  background: #f1efea;
+  color: var(--muted-strong);
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--border);
+}
+tbody tr:not([style]):nth-child(even) > td:not([style]) { background: #fbfaf8; }
+tbody tr:not([style]):hover > td:not([style]) { background: var(--accent-tint); }
+table > :first-child > tr:first-child > :first-child { border-top-left-radius: 7px; }
+table > :first-child > tr:first-child > :last-child  { border-top-right-radius: 7px; }
+table > :last-child > tr:last-child > :first-child   { border-bottom-left-radius: 7px; }
+table > :last-child > tr:last-child > :last-child    { border-bottom-right-radius: 7px; }
+caption { caption-side: top; text-align: left; padding: 0 0 8px; font-weight: 650; color: var(--text); }
+
+/* ---- 7. Spec summary / RFQ blocks ------------------------------------- */
+.spec-summary-block { border-color: var(--border); border-radius: var(--radius-md); }
+.spec-summary-block .block-label { color: var(--accent-dark); letter-spacing: 0.12em; }
+.spec-summary-grid div {
+  border-radius: var(--radius-sm);
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+}
+.spec-summary-grid dd { font-variant-numeric: tabular-nums; }
+.quick-rfq-block {
+  background: linear-gradient(135deg, #ffffff 0%, #f6f4ef 100%);
+  border-color: var(--border);
+  border-radius: var(--radius-md);
+}
+.quick-rfq-block input, .quick-rfq-block textarea, .quick-rfq-block select,
+.checklist { border-radius: var(--radius-sm); border-color: var(--border-strong); }
+.quick-rfq-block input:focus, .quick-rfq-block textarea:focus,
+.quick-rfq-block select:focus, .checklist:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(164, 122, 51, 0.16);
+}
+
+/* ---- 8. Floating dock (keeps WhatsApp brand green) -------------------- */
+.floating-dock a, .floating-dock button { border-radius: 10px; }
+.dock-btn-rfq { background: var(--shell); border-color: var(--accent); }
+
+/* ---- 9. Footer -------------------------------------------------------- */
+footer { border-top: 1px solid var(--line); color: var(--muted); }
+
+/* ---- 10. Motion safety ------------------------------------------------ */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ---- 11. product.css only: product / guide detail pages -------------- */
+nav a:not(.btn) { display: inline-block; padding: 6px 0; }
+.hero h1 { font-size: clamp(1.75rem, 1.2rem + 1.8vw, 2.45rem); line-height: 1.12; }
+.hero p { line-height: 1.7; }
+.hero-media img { border-color: var(--border); box-shadow: var(--shadow-md); }
+.card { padding: 20px 22px; }
+.card h2 { font-size: 1.2rem; letter-spacing: -0.015em; }
+.media-card img { border-radius: var(--radius-md); }
+.note-strip { border-radius: var(--radius-sm); }
+.rfq-grid div, .link-list a { border-radius: var(--radius-sm); }
+.link-list a:hover { border-color: var(--accent); }
+
+
+/* ==========================================================================
+   JZZ1 A-TIER v3 · 2026-11 · motion + dark accents + render fixes
+   Pure CSS. No HTML/JS changes. Never starts content at opacity 0.
+   Motion lives ONLY inside:
+     @media (prefers-reduced-motion: no-preference) { @supports (...) { } }
+   Rollback: delete from this banner to end of file (v2 stays intact).
+   ========================================================================== */
+
+/* ---- F0. Guards -------------------------------------------------------- */
+body { overflow-x: clip; }                 /* safety net; root causes fixed below */
+.btn { max-width: 100%; }
+
+/* ---- F1. Dark containers: graphite + blueprint grid + bronze hairline -- */
+.surface-cta, .outdoor-section, footer {
+  background-color: #15181b;
+  background-image:
+    linear-gradient(rgba(234, 220, 188, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(234, 220, 188, 0.06) 1px, transparent 1px),
+    linear-gradient(rgba(234, 220, 188, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(234, 220, 188, 0.025) 1px, transparent 1px),
+    linear-gradient(135deg, #15181b 0%, #1c2024 58%, #26241f 100%);
+  background-size: 96px 96px, 96px 96px, 24px 24px, 24px 24px, 100% 100%;
+  background-position: -1px -1px, -1px -1px, -1px -1px, -1px -1px, 0 0;
+  color: rgba(255, 255, 255, 0.74);
+}
+.surface-cta { box-shadow: inset 0 1px 0 rgba(234, 220, 188, 0.22), var(--shadow-lg); }
+.outdoor-section { border-block: 1px solid rgba(164, 122, 51, 0.45); }
+footer { border-top: 1px solid rgba(164, 122, 51, 0.5); }
+:is(.surface-cta, .outdoor-section, footer) :is(h2, h3, h4, .section-title, strong) { color: #fff; }
+:is(.surface-cta, .outdoor-section) :is(p, li, .section-intro) { color: rgba(255, 255, 255, 0.74); }
+:is(.surface-cta, .outdoor-section) :is(.eyebrow, .tiny-label) { color: var(--accent-soft); }
+footer a { color: rgba(255, 255, 255, 0.88); text-decoration-color: rgba(234, 220, 188, 0.35); }
+footer a:hover { color: var(--accent-soft); }
+
+/* Fix #1 · buttons inside dark containers (were black-on-black / white-on-white on hover) */
+:is(.surface-cta, .outdoor-section, footer) .btn.primary {
+  background: #fff; border-color: #fff; color: #15181b; box-shadow: none;
+}
+:is(.surface-cta, .outdoor-section, footer) .btn.primary:hover {
+  background: var(--accent-soft); border-color: var(--accent-soft); color: #15181b;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+}
+:is(.surface-cta, .outdoor-section, footer) :is(.btn.secondary, .btn.ghost) {
+  background: rgba(255, 255, 255, 0.04); border-color: rgba(234, 220, 188, 0.4); color: #fff;
+}
+:is(.surface-cta, .outdoor-section, footer) :is(.btn.secondary, .btn.ghost):hover {
+  background: rgba(234, 220, 188, 0.14); border-color: var(--accent-soft); color: #fff;
+}
+
+/* ---- Fix #2 · nav active state also for class="active" ---------------- */
+nav a.active, .nav-links a.active { color: var(--text); }
+nav a.active::after, .nav-links a.active::after { transform: scaleX(1); }
+
+/* ---- Fix #3 · multi-column tables: real columns + smooth h-scroll ----- */
+:is(.cert-table-wrap, .table-wrap, .matrix-table-wrap, [style*="overflow-x"]) {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+  scrollbar-width: thin;
+  max-width: 100%;
+}
+:is(.cert-table-wrap, .table-wrap, .matrix-table-wrap, [style*="overflow-x"]) > table,
+.cert-table { overflow-wrap: normal; word-break: normal; hyphens: manual; }
+:is(.cert-table-wrap, .table-wrap, .matrix-table-wrap, [style*="overflow-x"]) > table :is(th, td),
+.cert-table :is(th, td) { overflow-wrap: normal; word-break: normal; }
+.cert-table,
+:is(.cert-table-wrap, .table-wrap, .matrix-table-wrap, [style*="overflow-x"]) > table:has(tr > :nth-child(5)) { min-width: 680px; }
+:is(.cert-table-wrap, .table-wrap, .matrix-table-wrap, [style*="overflow-x"]) > table:has(tr > :nth-child(4)):not(:has(tr > :nth-child(5))) { min-width: 520px; }
+.cert-table thead th, thead th { letter-spacing: 0.04em; }
+.cert-table-wrap > table, .table-wrap > table { margin: 0; border: 0; border-radius: 0; box-shadow: none; }
+@media (max-width: 768px) {
+  /* unwrapped tables must still fit 390px: soften the header treatment */
+  thead tr:not([style]) > th:not([style]) { text-transform: none; letter-spacing: 0; font-family: var(--font-sans); font-size: 0.8rem; }
+}
+
+/* ---- Fix #5 · floating dock with .dock-content (had no styles at all) - */
+.dock-content { display: flex; align-items: center; gap: 18px; min-width: 0; }
+.dock-info {
+  display: grid; grid-template-columns: auto minmax(0, 1fr);
+  column-gap: 10px; row-gap: 1px; align-items: center; min-width: 0;
+}
+.dock-pulse {
+  grid-row: 1 / span 2; position: relative;
+  width: 8px; height: 8px; border-radius: 50%; background: #22a55a;
+  box-shadow: 0 0 0 3px rgba(34, 165, 90, 0.16);
+}
+.dock-title { color: var(--text); font-size: 0.86rem; font-weight: 700; line-height: 1.3; }
+.dock-desc { color: var(--muted); font-size: 0.76rem; line-height: 1.35; }
+.dock-actions { display: flex; gap: 8px; flex: 0 0 auto; }
+@media (min-width: 769px) {
+  .floating-dock:has(.dock-content) {
+    left: auto; right: 24px; bottom: 24px;
+    max-width: min(660px, calc(100vw - 48px));
+    padding: 12px 12px 12px 18px;
+    background: rgba(255, 255, 255, 0.94);
+    -webkit-backdrop-filter: saturate(1.4) blur(14px);
+    backdrop-filter: saturate(1.4) blur(14px);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    box-shadow: var(--shadow-lg);
+    filter: none;
+  }
+  .floating-dock:has(.dock-content) .dock-actions a { padding: 10px 14px; border-radius: 10px; }
+}
+@media (max-width: 768px) {
+  .floating-dock:has(.dock-content) { padding: 8px 12px calc(8px + env(safe-area-inset-bottom, 0px)); }
+  .floating-dock .dock-content { flex: 1 1 auto; flex-direction: column; align-items: stretch; gap: 6px; }
+  .floating-dock :is(.dock-title, .dock-desc) { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .floating-dock .dock-actions { width: 100%; }
+  .floating-dock .dock-actions a { flex: 1 1 0; justify-content: center; padding: 10px 8px; }
+  body:has(.dock-content) { padding-bottom: 128px; }
+}
+
+/* ---- Fix #6 · chat widget clears the mobile dock ---------------------- */
+:root, #contact-widget-auto { --contact-widget-bottom: 136px; --contact-widget-right: 24px; }
+@media (max-width: 768px) {
+  :root, #contact-widget-auto { --contact-widget-bottom: 112px; --contact-widget-right: 16px; }
+  :root:has(.dock-content), :root:has(.dock-content) #contact-widget-auto { --contact-widget-bottom: 150px; }
+}
+
+/* ---- Hero zoom container guard (must clip the 1.06 scale) ------------- */
+.image-frame, .hero-media { overflow: hidden; }
+.hero-media { border-radius: var(--radius-lg); }
+
+/* ---- Hover sheen surfaces (static setup; motion below) ---------------- */
+.btn.primary, .floating-dock .dock-btn { position: relative; overflow: hidden; isolation: isolate; }
+
+/* ==========================================================================
+   MOTION · only for users who allow it
+   ========================================================================== */
+@keyframes jzz-hero-zoom { from { transform: scale(1.06); } }
+@keyframes jzz-rise      { from { transform: translateY(14px); } }
+@keyframes jzz-rise-soft { from { transform: translateY(14px); opacity: 0.45; } }
+@keyframes jzz-reveal    { from { opacity: 0.3; transform: translateY(26px) scale(0.985); } }
+@keyframes jzz-line      { from { transform: scaleX(0); } }
+@keyframes jzz-progress  { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@keyframes jzz-header    { to { background-color: rgba(250, 249, 247, 0.97); border-bottom-color: rgba(18, 20, 22, 0.14); box-shadow: 0 6px 24px rgba(18, 20, 22, 0.07); } }
+@keyframes jzz-pulse     { from { transform: scale(1); opacity: 0.55; } to { transform: scale(2.6); opacity: 0; } }
+
+@media (prefers-reduced-motion: no-preference) {
+
+  /* A1 · cinematic hero image settle (opacity untouched → no LCP delay) */
+  .home-hero .image-frame img,
+  .hero .hero-media img { animation: jzz-hero-zoom 1600ms var(--ease-out) backwards; }
+
+  /* A2 · hero copy rises in sequence; H1 & paragraphs never fade */
+  .home-hero .hero-copy > *,
+  .hero .hero-grid > div:first-child > * { animation: jzz-rise 720ms var(--ease-out) backwards; }
+  .home-hero .hero-copy > :not(h1):not(p),
+  .hero .hero-grid > div:first-child > :not(h1):not(p) { animation-name: jzz-rise-soft; }
+  :is(.home-hero .hero-copy, .hero .hero-grid > div:first-child) > :nth-child(2) { animation-delay: 80ms; }
+  :is(.home-hero .hero-copy, .hero .hero-grid > div:first-child) > :nth-child(3) { animation-delay: 160ms; }
+  :is(.home-hero .hero-copy, .hero .hero-grid > div:first-child) > :nth-child(4) { animation-delay: 240ms; }
+  :is(.home-hero .hero-copy, .hero .hero-grid > div:first-child) > :nth-child(n+5) { animation-delay: 320ms; }
+
+  /* A6 · metallic sheen on hover (pointer devices only) */
+  @media (hover: hover) {
+    .btn.primary::after, .floating-dock .dock-btn::after {
+      content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+      background: linear-gradient(105deg, transparent 35%, rgba(255, 255, 255, 0.22) 50%, transparent 65%);
+      transform: translateX(-110%);
+    }
+    .btn.primary:hover::after, .floating-dock .dock-btn:hover::after {
+      transform: translateX(110%); transition: transform 800ms var(--ease-out);
+    }
+  }
+
+  /* dock live-dot pulse */
+  .dock-pulse::after {
+    content: ""; position: absolute; inset: 0; border-radius: 50%; background: inherit;
+    animation: jzz-pulse 2.2s ease-out infinite;
+  }
+
+  @supports (animation-timeline: scroll()) {
+    /* A4 · header only deepens colour/border on scroll; height & padding never change */
+    header { animation: jzz-header linear both; animation-timeline: scroll(root block); animation-range: 0 180px; }
+
+    /* A7 · reading progress bar on guides & knowledge-base pages */
+    body:has(.breadcrumbs a[href="/guides/"])::before,
+    body:has(.breadcrumbs a[href="/knowledge-base/"])::before {
+      content: ""; position: fixed; inset: 0 0 auto 0; height: 3px; z-index: 1000; pointer-events: none;
+      background: linear-gradient(90deg, var(--accent-dark), var(--accent), var(--accent-soft));
+      transform-origin: 0 50%;
+      animation: jzz-progress linear both; animation-timeline: scroll(root block);
+    }
+  }
+}
+
+/* ---- product.css · dark footer spacing ------------------------------- */
+footer { padding: 28px 0 32px; }
+
+/* ---- product.css · Fix #6 · tighter mobile header -------------------- */
+@media (max-width: 768px) {
+  .header-bar { padding: 10px 0 8px; gap: 8px; }
+  .brand img { height: 34px; width: auto; }
+  nav { scrollbar-width: none; -webkit-overflow-scrolling: touch; overscroll-behavior-x: contain;
+        -webkit-mask-image: linear-gradient(90deg, #000 85%, transparent);
+        mask-image: linear-gradient(90deg, #000 85%, transparent); padding-right: 24px; }
+  nav::-webkit-scrollbar { height: 0; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: view()) {
+    /* A3 · scroll reveal for detail-page blocks (skips breadcrumbs, hero, first block) */
+    main > :is(.card, .grid-2, .spec-summary-block, .quick-rfq-block, .rfq-card,
+               .media-gallery, .faq-list, .note-strip, .product-route-grid, .spec-grid):nth-child(n+4) {
+      animation: jzz-reveal linear backwards;
+      animation-timeline: view();
+      animation-range: entry 0% entry 60%;
+    }
+  }
+}
+
+
+/* ==========================================================================
+   JZZ1 ENTERPRISE FLAGSHIP v4 · 2026-11 · visual polish + final 3 QA fixes
+   Pure CSS. No HTML/JS/font/image changes. No forced overrides.
+   Rollback: delete from this banner to end of file (v3 stays intact).
+   ========================================================================== */
+
+/* ---- V4.1 · Refined Product & Guide Hero Framing ------------------------- */
+.hero {
+  padding: clamp(28px, 3vw, 44px) 0 28px;
+}
+.hero-media img {
+  box-shadow: 0 20px 48px rgba(18, 20, 22, 0.12), 0 0 0 1px rgba(18, 20, 22, 0.05);
+}
+@media (hover: hover) {
+  .link-list a:hover {
+    border-color: var(--accent);
+    box-shadow: inset 0 2px 0 var(--accent), var(--shadow-sm);
+  }
+}
+
+/* ---- V4.2 · Footer Breathing Room (links clear bottom-right dock) ------- */
+footer {
+  padding: 36px 0 132px;
+}
+@media (max-width: 768px) {
+  footer {
+    padding: 32px 0 48px;
+  }
+}
+
+/* ---- V4.3 · QA Fix: Desktop Chat Clearance + Mobile Dock & Tables ------- */
+:root,
+#contact-widget-auto {
+  --contact-widget-bottom: 162px;
+  --contact-widget-right: 24px;
+}
+@media (min-width: 769px) {
+  :root:has(.dock-content),
+  :root:has(.dock-content) #contact-widget-auto {
+    --contact-widget-bottom: 136px;
+  }
+}
+@media (max-width: 768px) {
+  :root,
+  #contact-widget-auto {
+    --contact-widget-bottom: 112px;
+    --contact-widget-right: 16px;
+  }
+  :root:has(.dock-content),
+  :root:has(.dock-content) #contact-widget-auto {
+    --contact-widget-bottom: 150px;
+  }
+  .floating-dock a,
+  .floating-dock button,
+  .floating-dock:has(.dock-content) .dock-actions a {
+    font-size: 0.82rem;
+    padding: 11px 8px;
+    white-space: nowrap;
+    gap: 6px;
+  }
+  .card > table,
+  main > table,
+  section > table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+  }
+}
+
+/* ---- V4.4 · QA Fix: A7 Reading Progress Bar on All Breadcrumb Pages ----- */
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: scroll()) {
+    body:has(.breadcrumbs)::before {
+      content: "";
+      position: fixed;
+      inset: 0 0 auto 0;
+      height: 3px;
+      z-index: 1000;
+      pointer-events: none;
+      background: linear-gradient(90deg, var(--accent-dark), var(--accent), var(--accent-soft));
+      transform-origin: 0 50%;
+      animation: jzz-progress linear both;
+      animation-timeline: scroll(root block);
+    }
+  }
+}
